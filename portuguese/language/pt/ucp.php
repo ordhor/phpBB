@@ -4,7 +4,7 @@
 * ucp [Português]
 *
 * @package language
-* @version 1.0.2
+* @version 1.0.3
 * @Traduzido por: http://phpbbportugal.com - segundo as normas do Acordo Ortográfico
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
@@ -202,7 +202,7 @@ $lang = array_merge($lang, array(
 	'DELETE_MESSAGES_IN_FOLDER'			=> 'Apagar todas as Mensagens dentro de pasta removida',
 	'DELETE_RULE'						=> 'Apagar Regra',
 	'DELETE_RULE_CONFIRM'				=> 'Tem a certeza de que deseja Apagar está regra?',
-	'DEMOTE_SELECTED'					=> 'Demitir do selecionado',
+	'DEMOTE_SELECTED'					=> 'Remover o selecionado',
 	'DISABLE_CENSORS'					=> 'Permitir Palavras Censuradas',
 	'DISPLAY_GALLERY'					=> 'Mostrar Galeria',
 	'DOMAIN_NO_MX_RECORD_EMAIL'			=> 'O Domínio do endereço de email indicado é inválido.',
@@ -227,7 +227,7 @@ $lang = array_merge($lang, array(
 
 	'FIELD_REQUIRED'					=> 'O Campo "% s" deve ser preenchido.',
 	'FIELD_TOO_SHORT'					=> 'O Campo "%1$s" é muito curto. O mínimo de caracteres é de %2$d.',
-	'FIELD_TOO_LONG'					=> 'O Campo "%1$s" é muito longo. O máximo de caratceres permitidos são %2$d.',
+	'FIELD_TOO_LONG'					=> 'O Campo "%1$s" é muito longo. O máximo de caracteres permitidos são %2$d.',
 	'FIELD_TOO_SMALL'					=> 'O Valor de "%1$s" é muito pequeno. O valor mínimo é de %2$d.',
 	'FIELD_TOO_LARGE'					=> 'O Valor de "%1$s" é muito grande. O valor máximo é de %2$d.',
 	'FIELD_INVALID_CHARS_NUMBERS_ONLY'	=> 'O Campo "% s" tem caracteres inválidos. São permitidos somente números.',
@@ -252,8 +252,8 @@ $lang = array_merge($lang, array(
 	'FRIEND_MESSAGE'					=> 'Mensagem de um Amigo',
 	'FRIENDS'							=> 'Amigos',
 	'FRIENDS_EXPLAIN'					=> 'Os <b>Amigos</b> permitem o acesso rápido aos Utilizadores com quem comunica frequentemente.<br /> As Mensagens dos <b>Amigos</b> só serão destacadas se o Template do Fórum o permitir.',
-	'FRIENDS_OFFLINE'					=> 'Offline',
-	'FRIENDS_ONLINE'					=> 'Online',
+	'FRIENDS_OFFLINE'					=> 'Desligado',
+	'FRIENDS_ONLINE'					=> 'Ligado',
 	'FRIENDS_UPDATED'					=> 'A sua Lista de Amigos foi atualizada com sucesso.',
 	'FULL_FOLDER_OPTION_CHANGED'		=> 'Opções de Pasta cheia alteradas com sucesso.',
 	'FWD_ORIGINAL_MESSAGE'				=> '-------- Mensagem Original --------',
@@ -264,7 +264,7 @@ $lang = array_merge($lang, array(
 
 	'GLOBAL_ANNOUNCEMENT'				=> 'Anúncio Global',
 
-	'HIDE_ONLINE'						=> 'Ocultar o meu Status Online',
+	'HIDE_ONLINE'						=> 'Ocultar o meu Status Ligado',
 	'HIDE_ONLINE_EXPLAIN'				=> 'Ficará invisível na próxima visita ao Fórum.',
 	'HOLD_NEW_MESSAGES'					=> 'Não serão aceitas novas Mensagens (As Mensagens novas serão mantidas até haver espaço disponível)',
 	'HOLD_NEW_MESSAGES_SHORT'			=> 'Manter as Mensagens novas',
@@ -320,12 +320,12 @@ $lang = array_merge($lang, array(
 	'NOTIFY_METHOD_IM'					=> 'Apenas Jabber',
 	'NOTIFY_ON_PM'						=> 'Avisar-me por email de novas Mensagens Privadas',
 	'NOT_ADDED_FRIENDS_ANONYMOUS'		=> 'Não pode adicionar um Visitante à sua Lista de Amigos.',
-	'NOT_ADDED_FRIENDS_BOTS'			=> 'Não pode adicionar bots à sua lista de amigos.',
+	'NOT_ADDED_FRIENDS_BOTS'			=> 'Não pode adicionar Motores de Busca à sua lista de amigos.',
 	'NOT_ADDED_FRIENDS_FOES'			=> 'Não pode adicionar Inimigos à sua Lista de Amigos.',
 	'NOT_ADDED_FRIENDS_SELF'			=> 'Não pode auto adicionar-se à sua Lista de Amigos.',
 	'NOT_ADDED_FOES_MOD_ADMIN'			=> 'Não pode adicionar Administradores ou Moderadores à sua Lista de Inimigos.',
 	'NOT_ADDED_FOES_ANONYMOUS'			=> 'Não pode adicionar um Visitante à sua Lista de Inimigos.',
-	'NOT_ADDED_FOES_BOTS'				=> 'Não pode adicionar bots à sua lista de inimigos.',
+	'NOT_ADDED_FOES_BOTS'				=> 'Não pode adicionar Motores de Busca à sua lista de inimigos.',
 	'NOT_ADDED_FOES_FRIENDS'			=> 'Não pode adicionar Amigos à sua Lista de Inimigos.',
 	'NOT_ADDED_FOES_SELF'				=> 'Não pode auto adicionar-se à sua Lista de Inimigos.',
 	'NOT_AGREE'							=> 'Li e não concordo com estas condições',
@@ -354,8 +354,8 @@ $lang = array_merge($lang, array(
 	'NO_EMAIL_USER'						=> 'O Nome de Utilizador/Endereço de email indicados não foram encontrados.',
 	'NO_FOES'							=> 'Não tem Inimigos definidos.',
 	'NO_FRIENDS'						=> 'Não tem Amigos definidos.',
-	'NO_FRIENDS_OFFLINE'				=> 'Nenhum Amigo Offline',
-	'NO_FRIENDS_ONLINE'					=> 'Nenhum Amigo Online',
+	'NO_FRIENDS_OFFLINE'				=> 'Nenhum Amigo Desligado',
+	'NO_FRIENDS_ONLINE'					=> 'Nenhum Amigo Ligado',
 	'NO_GROUP_SELECTED'					=> 'Nenhum Grupo especificado.',
 	'NO_IMPORTANT_NEWS'					=> 'Nenhum Anúncio importante atual.',
 	'NO_MESSAGE'						=> 'A Mensagem Privada selecionada não existe.',
@@ -510,7 +510,7 @@ $lang = array_merge($lang, array(
 	'UPLOAD_AVATAR_URL'					=> 'Enviar de uma URL',
 	'UPLOAD_AVATAR_URL_EXPLAIN'			=> 'Insira a URL da imagem que pretende usar no Fórum.',
 	'USERNAME_ALPHA_ONLY_EXPLAIN'		=> 'O Nome de Utilizador deve ser constituído por %1$d a %2$d caracteres e usar somente caracteres alfanuméricos.',
-	'USERNAME_ALPHA_SPACERS_EXPLAIN'	=> 'O Nome de Utilizador ddeve ser constituído por %1$d a %2$d caracteres e usar caracteres alfanuméricos, espaço ou -+_[].',
+	'USERNAME_ALPHA_SPACERS_EXPLAIN'	=> 'O Nome de Utilizador deve ser constituído por %1$d a %2$d caracteres e usar caracteres alfanuméricos, espaço ou -+_[].',
 	'USERNAME_ASCII_EXPLAIN'			=> 'O Nome de Utilizador deve ser constituído por %1$d a %2$d caracteres e deve conter somente caracteres ASCII, sendo assim, sem símbolos especiais.',
 	'USERNAME_LETTER_NUM_EXPLAIN'		=> 'O Nome de Utilizador deve ser constituído por %1$d a %2$d caracteres e deve conter somente letras ou números.',
 	'USERNAME_LETTER_NUM_SPACERS_EXPLAIN'	=> 'O Nome de utilizador deve ser constituído por %1$d a %2$d caracteres e deve conter letras, números, espaço ou +-[].',
@@ -547,9 +547,9 @@ $lang = array_merge($lang, array(
 
 	'YOUR_DETAILS'						=> 'A sua Atividade',
 	'YOUR_FOES'							=> 'Os Seus Inimigos',
-	'YOUR_FOES_EXPLAIN'					=> 'Para apagar Utilizadores, selecione-os e o clique em enviar.',
+	'YOUR_FOES_EXPLAIN'					=> 'Para apagar Utilizadores, selecione-os e clique em enviar.',
 	'YOUR_FRIENDS'						=> 'Os Seus Amigos',
-	'YOUR_FRIENDS_EXPLAIN'				=> 'Para apagar os Utilizadores, selecione-os e o clique em enviar.',
+	'YOUR_FRIENDS_EXPLAIN'				=> 'Para apagar os Utilizadores, selecione-os e clique em enviar.',
 	'YOUR_WARNINGS'						=> 'Seu Nível de Advertência',
 
 	'PM_ACTION'	=> array(

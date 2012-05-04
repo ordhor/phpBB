@@ -4,7 +4,7 @@
 * mcp [Português]
 *
 * @package language
-* @version 1.0.2
+* @version 1.0.3
 * @Traduzido por: http://phpbbportugal.com - segundo as normas do Acordo Ortográfico
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
@@ -41,8 +41,8 @@ $lang = array_merge($lang, array(
 	'ACTION_NOTE'						=> 'Ação/Nota',
 	'ADD_FEEDBACK'						=> 'Adicionar relatório',
 	'ADD_FEEDBACK_EXPLAIN'				=> 'Utilize o campo abaixo para escrever o relatório.<br />Não é permitida a utlilização de HTML, BBCode, etc.',
-	'ADD_WARNING'						=> 'Adicionar aviso',
-	'ADD_WARNING_EXPLAIN'				=> 'Para enviar um aviso para este Utilizador por favor preencha os seguintes campos. Use apenas texto; HTML, BBCode, etc. não são permitidos.',
+	'ADD_WARNING'						=> 'Adicionar Explicação',
+	'ADD_WARNING_EXPLAIN'				=> 'Pode enviar este aviso para o utilizador em questão com a opção em baixo selecionada. Se acrescentar texto tenha em atenção que HTML, BBCode, etc. não são permitidos.',
 	'ALL_ENTRIES'						=> 'Todas as entradas',
 	'ALL_NOTES_DELETED'					=> 'Todas as notas do Utilizador foram apagadas com sucesso.',
 	'ALL_REPORTS'						=> 'Todas as denúncias.',
@@ -67,7 +67,7 @@ $lang = array_merge($lang, array(
 	'CLOSE_REPORT'						=> 'Fechar a denúncia',
 	'CLOSE_REPORT_CONFIRM'				=> 'Tem a certeza que deseja fechar a denúncia selecionada?',
 	'CLOSE_REPORTS'						=> 'Fechar denúncias',
-	'CLOSE_REPORTS_CONFIRM'				=> 'Tem a certeza que deseja fechar as denúncis selecionadas?',
+	'CLOSE_REPORTS_CONFIRM'				=> 'Tem a certeza que deseja fechar as denúncias selecionadas?',
 
 	'DELETE_PM_REPORT'					=> 'Apagar denúncia de MP',
 	'DELETE_PM_REPORT_CONFIRM'			=> 'Tem a certeza que deseja apagar a denúncia da MP?',
@@ -114,7 +114,7 @@ $lang = array_merge($lang, array(
 	'IP_INFO'							=> 'Informação do Endereço IP',
 	'IPS_POSTED_FROM'					=> 'Endereço de IP utilizado pelo Utilizador ao enviar esta Mensagem',
 
-	'LATEST_LOGS'						=> 'Últimas 5 ações registradas',
+	'LATEST_LOGS'						=> 'Últimas 5 ações registadas',
 	'LATEST_REPORTED'					=> 'Últimas 5 denúncias',
 	'LATEST_REPORTED_PMS'				=> 'Últimas 5 Mensagens Privadas denunciadas',
 	'LATEST_UNAPPROVED'					=> 'Últimos 5 Tópicos a aguardar aprovação',
@@ -175,11 +175,11 @@ $lang = array_merge($lang, array(
 	'MCP_MAKE_NORMALS'					=> 'Deixar como Tópicos normais',
 	'MCP_MAKE_NORMALS_CONFIRM'			=> 'Tem a certeza de que deseja deixar estes Tópicos como Tópicos normais?',
 
-	'MCP_NOTES'							=> 'Cadastro do Utilizador',
+	'MCP_NOTES'							=> 'Detalhes dos Utilizadores',
 	'MCP_NOTES_FRONT'					=> 'Painel Principal',
 	'MCP_NOTES_USER'					=> 'Detalhes do Utilizador',
 
-	'MCP_POST_REPORTS'					=> 'Denúncias emitidas apartir desta Mensagem',
+	'MCP_POST_REPORTS'					=> 'Denúncias emitidas a partir desta Mensagem',
 
 	'MCP_PM_REPORTS'					=> 'MPs denunciadas',
 	'MCP_PM_REPORT_DETAILS'				=> 'Detalhes da denúncia da MP',
@@ -207,7 +207,7 @@ $lang = array_merge($lang, array(
 	'MCP_WARN'							=> 'Avisos',
 	'MCP_WARN_FRONT'					=> 'Painel Principal',
 	'MCP_WARN_LIST'						=> 'Lista de avisos',
-	'MCP_WARN_POST'						=> 'Avisar uma Mensagem',
+	'MCP_WARN_POST'						=> 'Mensagem de Aviso',
 	'MCP_WARN_USER'						=> 'Avisar Utilizador',
 
 	'MERGE_POSTS_CONFIRM'				=> 'Deseja fundir as Mensagens selecionadas?',
@@ -231,7 +231,7 @@ $lang = array_merge($lang, array(
 	'NOT_MODERATOR'						=> 'Não é um Moderador deste Fórum.',
 	'NO_DESTINATION_FORUM'				=> 'Por Favor, Selecione um Fórum para destino.',
 	'NO_DESTINATION_FORUM_FOUND'		=> 'Não há Fórum de destino disponível.',
-	'NO_ENTRIES'						=> 'Não há LOGs para este período.',
+	'NO_ENTRIES'						=> 'Não há registo para este período.',
 	'NO_FEEDBACK'						=> 'Não existe denúncia deste Utilizador.',
 	'NO_FINAL_TOPIC_SELECTED'			=> 'Selecione o Tópico de destino das Mensagens.',
 	'NO_MATCHES_FOUND'					=> 'Nenhum resultado encontrado.',
@@ -339,7 +339,7 @@ $lang = array_merge($lang, array(
 	'TOPICS_MOVED_SUCCESS'				=> 'Os Tópicos selecionados foram movidos com sucesso.',
 	'TOPICS_RESYNC_SUCCESS'				=> 'Os Tópicos selecionados foram resincronizados com sucesso.',
 	'TOPICS_TYPE_CHANGED'				=> 'Típos dos Tópicos alterados com sucesso.',
-	'TOPICS_UNLOCKED_SUCCESS'				=> 'Os Tópicos selecionados foram desbloquados com sucesso.',
+	'TOPICS_UNLOCKED_SUCCESS'				=> 'Os Tópicos selecionados foram desbloqueados com sucesso.',
 	'TOPIC_APPROVED_SUCCESS'				=> 'O Tópico selecionado foi aprovado com sucesso.',
 	'TOPIC_DELETED_SUCCESS'				=> 'O Tópico selecionado foi removido da base de dados com sucesso.',
 	'TOPIC_DISAPPROVED_SUCCESS'			=> 'O Tópico selecionado foi desaprovado com sucesso.',

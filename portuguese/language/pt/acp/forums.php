@@ -4,7 +4,7 @@
 * acp_forums [Português]
 *
 * @package language
-* @version 1.0.2
+* @version 1.0.3
 * @Traduzido por: http://phpbbportugal.com - segundo as normas do Acordo Ortográfico
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
@@ -67,7 +67,7 @@ $lang = array_merge($lang, array(
 	'ENABLE_POST_REVIEW'			=> 'Revisão de Mensagens',
 	'ENABLE_POST_REVIEW_EXPLAIN'	=> 'Se definido como <strong>sim</strong>, as Mensagens podem ser sempre editadas pelos seus autores.',
 	'ENABLE_QUICK_REPLY'			=> 'Resposta Rápida',
-	'ENABLE_QUICK_REPLY_EXPLAIN'	=> 'Se definido como <strong>sim</strong>, ativa a <strong>Resposta Rápida</strong> neste Fórum. No entando esta tem que estar globalmente ativada. A <strong>Resposta Rápida</strong> só é permitida aos Utilizadores com Permissão para enviar Mensagens neste Fórum.',
+	'ENABLE_QUICK_REPLY_EXPLAIN'	=> 'Se definido como <strong>sim</strong>, ativa a <strong>Resposta Rápida</strong> neste Fórum. No entanto esta tem que estar globalmente ativada. A <strong>Resposta Rápida</strong> só é permitida aos Utilizadores com Permissão para enviar Mensagens neste Fórum.',
 	'ENABLE_RECENT'					=> 'Mostrar Tópicos ativos',
 	'ENABLE_RECENT_EXPLAIN'			=> 'Se definido como <strong>sim</strong>, inclui os Tópicos deste Fórum na lista de Tópicos ativos.',
 	'ENABLE_TOPIC_ICONS'			=> 'Ativar Ícones de Tópicos',
@@ -149,7 +149,7 @@ $lang = array_merge($lang, array(
 	'REDIRECT_ACL'					=> 'Aqui pode %sconfigurar as Permissões%s deste Fórum.',
 
 	'SYNC_IN_PROGRESS'				=> 'Sincronizando Fórum',
-	'SYNC_IN_PROGRESS_EXPLAIN'		=> 'A resincronizando a ordem dos Tópicos %1$d/%2$d.',
+	'SYNC_IN_PROGRESS_EXPLAIN'		=> 'Resincronização em progresso da ordem dos Tópicos %1$d/%2$d.',
 
 	'TYPE_CAT'						=> 'Categoria',
 	'TYPE_FORUM'					=> 'Fórum',

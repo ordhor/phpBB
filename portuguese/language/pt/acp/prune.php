@@ -4,7 +4,7 @@
 * acp_prune [Português]
 *
 * @package language
-* @version 1.0.2
+* @version 1.0.3
 * @Traduzido por: http://phpbbportugal.com - segundo as normas do Acordo Ortográfico
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
@@ -50,7 +50,7 @@ $lang = array_merge($lang, array(
 
 	'LAST_ACTIVE_EXPLAIN'		=> 'Introduza a data no formato <kbd>YYYY-MM-DD</kbd>. Introduza <kbd>0000-00-00</kbd> para selecionar Utilizadores que nunca entraram, as condições <em>Antes</em> e <em>Depois</em> serão ignoradas.',
 
-	'PRUNE_USERS_LIST'				=> 'Limpeza automatica dee Utilizadores',
+	'PRUNE_USERS_LIST'				=> 'Limpeza automatica de Utilizadores',
 	'PRUNE_USERS_LIST_DELETE'		=> 'Se selecionar este critério, os Utilizadores terão as suas contas removidas.',
 	'PRUNE_USERS_LIST_DEACTIVATE'	=> 'Se selecionar este critério, os Utilizadores terão as suas contas desativadas.',
 

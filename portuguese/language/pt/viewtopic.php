@@ -4,7 +4,7 @@
 * viewtopic [Português]
 *
 * @package language
-* @version 1.0.2
+* @version 1.0.3
 * @Traduzido por: http://phpbbportugal.com - segundo as normas do Acordo Ortográfico
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
@@ -108,7 +108,7 @@ $lang = array_merge($lang, array(
 	'VIEW_RESULTS'						=> 'Ver Resultado',
 	'VIEW_TOPIC_POST'					=> '1 Mensagem',
 	'VIEW_TOPIC_POSTS'					=> '%d mensagens',
-	'VIEW_UNREAD_POST'					=> 'Primeira Mensagem não lida',
+	'VIEW_UNREAD_POST'					=> 'Mensagens por ler',
 	'VISIT_WEBSITE'						=> 'Visitar o sítio web do Utilizador',
 	'VOTE_SUBMITTED'					=> 'O seu voto foi registado.',
 	'VOTE_CONVERTED'					=> 'Não é possível alterar votos .',

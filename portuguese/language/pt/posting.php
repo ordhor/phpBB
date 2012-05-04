@@ -4,7 +4,7 @@
 * posting [Português]
 *
 * @package language
-* @version 1.0.2
+* @version 1.0.3
 * @Traduzido por: http://phpbbportugal.com - segundo as normas do Acordo Ortográfico
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
@@ -83,7 +83,7 @@ $lang = array_merge($lang, array(
 	'DISABLE_BBCODE'				=> 'Desativar o BBCode',
 	'DISABLE_MAGIC_URL'				=> 'Não processar as URLs automaticamente',
 	'DISABLE_SMILIES'				=> 'Desativar as Emoções',
-	'DISALLOWED_CONTENT'			=> 'O envio foi rejeitado porque o Ficheiro enviado foi indentificado como provavelmente malicioso.',
+	'DISALLOWED_CONTENT'			=> 'O envio foi rejeitado porque o Ficheiro enviado foi identificado como provavelmente malicioso.',
 	'DISALLOWED_EXTENSION'			=> 'A extensão %s não é permitida.',
 	'DRAFT_LOADED'					=> 'Rascunho carregado, pode terminar sua Mensagem. O rascunho será apagado ao enviar a Mensagem.',
 	'DRAFT_LOADED_PM'				=> 'Rascunho carregado, pode terminar a sua Mensagem Privada. O seu rascunho será apagado ao enviar a Mensagem Privada.',
@@ -123,10 +123,10 @@ $lang = array_merge($lang, array(
 	'LOGIN_EXPLAIN_REPLY'			=> 'Tem que ligar-se para responder Tópicos neste Fórum.',
 
 	'MAX_FONT_SIZE_EXCEEDED'		=> 'Só pode usar fonte até %1$d.',
-	'MAX_FLASH_HEIGHT_EXCEEDED'		=> 'Só pode usar Ficheiros flash com o máximo de %1$d pixels de altura.',
-	'MAX_FLASH_WIDTH_EXCEEDED'		=> 'Só pode usar Ficheiros flash com o máximo de %1$d pixels de largura.',
-	'MAX_IMG_HEIGHT_EXCEEDED'		=> 'Só pode usar imagens com o máximo de %1$d pixels de altura.',
-	'MAX_IMG_WIDTH_EXCEEDED'		=> 'Só pode usar imagens com o máximo de %1$d pixels de largura.',
+	'MAX_FLASH_HEIGHT_EXCEEDED'		=> 'Só pode usar Ficheiros flash com o máximo de %1$d pixeis de altura.',
+	'MAX_FLASH_WIDTH_EXCEEDED'		=> 'Só pode usar Ficheiros flash com o máximo de %1$d pixeis de largura.',
+	'MAX_IMG_HEIGHT_EXCEEDED'		=> 'Só pode usar imagens com o máximo de %1$d pixeis de altura.',
+	'MAX_IMG_WIDTH_EXCEEDED'		=> 'Só pode usar imagens com o máximo de %1$d pixeis de largura.',
 
 	'MESSAGE_BODY_EXPLAIN'			=> 'Insira aqui a Mensagem. Não pode ultrapassar os  <strong>%d</strong> caracteres.',
 	'MESSAGE_DELETED'				=> 'A Mensagem foi apagada com sucesso.',
@@ -187,7 +187,7 @@ $lang = array_merge($lang, array(
 	'SMILIES_ARE_ON'				=> 'Emoções estão <em>Ligadas</em>',
 	'STICKY_ANNOUNCE_TIME_LIMIT'	=> 'Tempo limite do Fixo/Anúncio',
 	'STICK_TOPIC_FOR'				=> 'Fixar Tópico por',
-	'STICK_TOPIC_FOR_EXPLAIN'		=> 'Digite 0 ou deixe em branco para manter Fixo/Anúncio por tempo indetermindado. Por favor note que este número é relativo à data da postagem.',
+	'STICK_TOPIC_FOR_EXPLAIN'		=> 'Digite 0 ou deixe em branco para manter Fixo/Anúncio por tempo indeterminado. Por favor note que este número é relativo à data da colocação da mensagem.',
 	'STYLES_TIP'					=> 'Dica: Estilos podem ser aplicados a textos selecionados.',
 
 	'TOO_FEW_CHARS'					=> 'A Mensagem contém poucos caracteres.',
@@ -220,7 +220,7 @@ $lang = array_merge($lang, array(
 	'VIEW_PRIVATE_MESSAGE'			=> '%sVer a Mensagem Privada enviada%s',
 
 	'WRONG_FILESIZE'				=> 'O Ficheiro é muito grande. O máximo permitido é %1d %2s.',
-	'WRONG_SIZE'					=> 'A imagem deve ter pelo menos %1$d pixels de largura, %2$d pixels de altura e no máximo %3$d pixels de largura e %4$d pixels de altura. A imagem enviada tem %5$d pixels de largura e %6$d pixels de altura.',
+	'WRONG_SIZE'					=> 'A imagem deve ter pelo menos %1$d pixeis de largura, %2$d pixeis de altura e no máximo %3$d pixeis de largura e %4$d pixeis de altura. A imagem enviada tem %5$d pixeis de largura e %6$d pixeis de altura.',
 ));
 
 ?>

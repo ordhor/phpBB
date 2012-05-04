@@ -4,7 +4,7 @@
 * acp_language [Português]
 *
 * @package language
-* @version 1.0.2
+* @version 1.0.3
 * @Traduzido por: http://phpbbportugal.com - segundo as normas do Acordo Ortográfico
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
@@ -60,7 +60,7 @@ $lang = array_merge($lang, array(
 	'LANGUAGE_PACK_DELETED'			=> 'O Pacote de idiomas <strong>%s</strong> foi apagado com sucesso. O idiomas Oficial do Fórum foi atualizado para todos os Membros que estão a usá-lo.',
 	'LANGUAGE_PACK_DETAILS'			=> 'Detalhes do Pacote de idiomas',
 	'LANGUAGE_PACK_INSTALLED'		=> 'O Pacote de idiomas <strong>%s</strong> foi instalado com sucesso.',
-	'LANGUAGE_PACK_CPF_UPDATE'		=> 'Os caracteres dos campos do perfil personalizado foram copiados do idioma padrão. Por favor, altere-os se necessário.. Altere-o se necessário.',
+	'LANGUAGE_PACK_CPF_UPDATE'		=> 'A informação dos campos do perfil personalizado foi copiada do idioma padrão. Altere se necessário.',
 	'LANGUAGE_PACK_ISO'				=> 'ISO',
 	'LANGUAGE_PACK_LOCALNAME'		=> 'Nome do Local',
 	'LANGUAGE_PACK_NAME'			=> 'Nome',

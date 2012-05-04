@@ -4,7 +4,7 @@
 * acp_users [Português]
 *
 * @package language
-* @version 1.0.2
+* @version 1.0.3
 * @Traduzido por: http://phpbbportugal.com - segundo as normas do Acordo Ortográfico
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
@@ -46,10 +46,10 @@ $lang = array_merge($lang, array(
 	'CANNOT_BAN_ANONYMOUS'			=> 'Não tem permissão para eliminar a conta Visitantes. As Permissões dos Visitantes podem ser definidas no separador Permissões.',
 	'CANNOT_BAN_FOUNDER'			=> 'Não pode expulsar Fundadores.',
 	'CANNOT_BAN_YOURSELF'			=> 'Não pode auto expulsar-se.',
-	'CANNOT_DEACTIVATE_BOT'			=> 'Não pode desativar contas de bots. Desative o bot.',
-	'CANNOT_DEACTIVATE_FOUNDER'		=> 'Não pode desativer contas de Fundador.',
+	'CANNOT_DEACTIVATE_BOT'			=> 'Não pode desativar contas de Motores de Busca. Desative o Motor de Busca.',
+	'CANNOT_DEACTIVATE_FOUNDER'		=> 'Não pode desativar contas de Fundador.',
 	'CANNOT_DEACTIVATE_YOURSELF'	=> 'Não pode desativar sua própria conta.',
-	'CANNOT_FORCE_REACT_BOT'		=> 'Não pode forçar a Reativação de contas de bots. Desative o bot.',
+	'CANNOT_FORCE_REACT_BOT'		=> 'Não pode forçar a Reativação de contas de Motores de Busca. Desative o Motor de Busca.',
 	'CANNOT_FORCE_REACT_FOUNDER'	=> 'Não pode forçar a Reativação de uma conta de Fundador.',
 	'CANNOT_FORCE_REACT_YOURSELF'	=> 'Não pode forçar a Reativação da sua própria conta.',
 	'CANNOT_REMOVE_ANONYMOUS'		=> 'Não pode remover a conta de Utilizador convidado.',

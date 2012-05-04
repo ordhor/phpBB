@@ -4,7 +4,7 @@
 * acp_modules [Português]
 *
 * @package language
-* @version 1.0.2
+* @version 1.0.3
 * @Traduzido por: http://phpbbportugal.com - segundo as normas do Acordo Ortográfico
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
@@ -42,7 +42,7 @@ $lang = array_merge($lang, array(
 	'ADD_MODULE_CONFIRM'			=> 'Deseja realmente ADICIONAR este Módulo com o modo selecionado?',
 	'ADD_MODULE_TITLE'				=> 'Adicionar Módulos',
 
-	'CANNOT_REMOVE_MODULE'			=> 'Não é possível apagar este Módulo, pois ele está assinalado como Criança. Por Favor, exclua ou mova todas as Crianças antes de efetivar esta ação.',
+	'CANNOT_REMOVE_MODULE'			=> 'Não é possível apagar este Módulo porque tem outros módulos agregados. Mova ou elimine os módulos agregados e então apague-o.',
 	'CATEGORY'						=> 'Categoria',
 	'CHOOSE_MODE'					=> 'Escolher Modo de Módulo',
 	'CHOOSE_MODE_EXPLAIN'			=> 'Escolher o modo dos módulos a ser utilizado.',

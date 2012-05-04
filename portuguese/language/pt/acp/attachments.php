@@ -4,7 +4,7 @@
 * acp_attachments [Português]
 *
 * @package language
-* @version 1.0.2
+* @version 1.0.3
 * @Traduzido por: http://phpbbportugal.com - segundo as normas do Acordo Ortográfico
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
@@ -76,12 +76,12 @@ $lang = array_merge($lang, array(
 	'CHECK_CONTENT_EXPLAIN'				=> 'Alguns Ficheiros podem obrigar os navegadores e executar funções incorretas. Esta opção permite recusar esses Ficheiros.',
 	'CREATE_GROUP'						=> 'Criar um novo Grupo',
 	'CREATE_THUMBNAIL'					=> 'Criar uma Imagem reduzida',
-	'CREATE_THUMBNAIL_EXPLAIN'			=> 'Criar uma Imagem reduzida em todas as situções possíveis.',
+	'CREATE_THUMBNAIL_EXPLAIN'			=> 'Criar uma Imagem reduzida em todas as situações possíveis.',
 
 	'DEFINE_ALLOWED_IPS'				=> 'Definir IPs/Servidores autorizados',
 	'DEFINE_DISALLOWED_IPS'				=> 'Definir IPs/Servidores proibidos',
 	'DOWNLOAD_ADD_IPS_EXPLAIN'			=> 'Para definir vários IPs ou Servidores diferentes, introduza cada um numa nova linha. Para definir uma faixa de endereços de IP separe o início e o fim com um hífen (-). Pode utilizar asteríscos (*)',
-	'DOWNLOAD_REMOVE_IPS_EXPLAIN'		=> 'Pode remover (ou não-excluir) múltiplos endereços de IPs de uma única vez usando a combinação apropriada de mouse e teclado para seu computador e navegador. IPs apagados têm um fundo em azul.',
+	'DOWNLOAD_REMOVE_IPS_EXPLAIN'		=> 'Pode remover (ou não-excluir) múltiplos endereços de IPs de uma única vez usando a combinação apropriada de rato e teclado para seu computador e navegador. IPs apagados têm um fundo em azul.',
 	'DISPLAY_INLINED'					=> 'Mostrar Imagens',
 	'DISPLAY_INLINED_EXPLAIN'			=> 'Se escolher <b>Não</b> as imagens anexadas serão mostradas como atalhos.',
 	'DISPLAY_ORDER'						=> 'Ordem de visualização dos Anexos',
@@ -121,7 +121,7 @@ $lang = array_merge($lang, array(
 	'MAX_EXTGROUP_FILESIZE'				=> 'Tamanho Máximo dos Ficheiros',
 	'MAX_IMAGE_SIZE'					=> 'Dimensão Máxima das Imagens',
 	'MAX_IMAGE_SIZE_EXPLAIN'			=> 'Tamanho Máximo das imagens anexadas, 0 px por 0 px impede anexo de imagens.',
-	'MAX_THUMB_WIDTH'					=> 'Largura máxima das imagens em miniaturas em pixels',
+	'MAX_THUMB_WIDTH'					=> 'Largura máxima das imagens em miniaturas em pixeis',
 	'MAX_THUMB_WIDTH_EXPLAIN'			=> 'A largura das miniaturas geradas não ultrapassará a selecionada.',
 	'MIN_THUMB_FILESIZE'				=> 'Tamanho Mínimo de imagem reduzida',
 	'MIN_THUMB_FILESIZE_EXPLAIN'		=> 'Não criar imagem reduzida para imagens menores do que o selecionado.',
@@ -136,7 +136,7 @@ $lang = array_merge($lang, array(
 	'NO_EXT_GROUP_SPECIFIED'			=> 'Grupo de Extensão não especificado.',
 	'NO_FILE_CAT'						=> 'Nenhum',
 	'NO_IMAGE'							=> 'Sem imagem',
-	'NO_THUMBNAIL_SUPPORT'				=> 'O suporte às miniaturas (imagem reduzida) foi desabilitado. Para ativar esta funcionalidade é nexessario a extensão GD ou imagemagick instalado. Nenhum dos dois foi encontrado.',
+	'NO_THUMBNAIL_SUPPORT'				=> 'O suporte às miniaturas (imagem reduzida) encontra-se desativado. Para ativar esta funcionalidade é necessario a extensão GD ou imagemagick instalado. Nenhum dos dois foi encontrado.',
 	'NO_UPLOAD_DIR'						=> 'A diretoria de envio (upload) que indicou não existe.',
 	'NO_WRITE_UPLOAD'					=> 'A diretoria que indicou não permite gravação. Por favor, altere as permissões para permitir a escrita nele.',
 
@@ -167,7 +167,7 @@ $lang = array_merge($lang, array(
 	'UPLOADING_FILE_TO'					=> 'A Enviar Ficheiro "%1$s" à Mensagem Nº %2$d...',
 	'UPLOAD_DENIED_FORUM'				=> 'Não tem Permissão para enviar Ficheiros para o Fórum "%s".',
 	'UPLOAD_DIR'						=> 'Diretoria de Anexos',
-	'UPLOAD_DIR_EXPLAIN'				=> 'Diretoria de arquivo dos anexos.<br /> Se algum anexo for enviado enquanto esta alteração é feita, deve mudar manualmente esse anexo para o novo local.',
+	'UPLOAD_DIR_EXPLAIN'				=> 'Diretoria de arquivo dos anexos.<br /> Se mudar esta diretoria tendo já anexos nela, deve mudar manualmente esses anexos para o novo local.',
 	'UPLOAD_ICON'						=> 'Ícone de envio',
 	'UPLOAD_NOT_DIR'					=> 'O local para envio de Ficheiros que indicou não parece ser uma diretoria.',
 ));

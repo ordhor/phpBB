@@ -4,7 +4,7 @@
 * acp_board [Português]
 *
 * @package language
-* @version 1.0.2
+* @version 1.0.3
 * @Traduzido por: http://phpbbportugal.com - segundo as normas do Acordo Ortográfico
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
@@ -79,10 +79,10 @@ $lang = array_merge($lang, array(
 	'ALLOW_QUICK_REPLY_BUTTON'		=> 'Ativar a Resposta Rápida em todos os Fóruns',
 	'ALLOW_SIG'						=> 'Permitir Assinaturas',
 	'ALLOW_SIG_BBCODE'				=> 'Permitir aos Utilizadores usar BBCode na Assinatura',
-	'ALLOW_SIG_FLASH'				=> 'Permitir aos Utilizadores usar BBCode <code>FLASH</code> na Assinatura',
-	'ALLOW_SIG_IMG'					=> 'Permitir aos Utilizadores usar BBCode <code>IMG</code> na Assinatura',
+	'ALLOW_SIG_FLASH'				=> 'Permitir aos Utilizadores usar BBCode <code>[FLASH]</code> na Assinatura',
+	'ALLOW_SIG_IMG'					=> 'Permitir aos Utilizadores usar BBCode <code>[IMG]</code> na Assinatura',
 	'ALLOW_SIG_LINKS'				=> 'Permitir aos Utilizadores usar Links na Assinatura',
-	'ALLOW_SIG_LINKS_EXPLAIN'		=> 'Se desativado o BBCode <code>URL</code> e o processamento automatico de URLs é desativado.',
+	'ALLOW_SIG_LINKS_EXPLAIN'		=> 'Se desativado o BBCode <code>[URL]</code> e o processamento automatico de URLs é desativado.',
 	'ALLOW_SIG_SMILIES'				=> 'Permitir aos Utilizadores usar Emoções na Assinatura',
 	'ALLOW_SMILIES'					=> 'Permitir Emoções (Ícones de Emoções)',
 	'ALLOW_TOPIC_NOTIFY'			=> 'Permitir a vigilância dos Tópicos',
@@ -107,11 +107,11 @@ $lang = array_merge($lang, array(
 	'AVATAR_STORAGE_PATH'			=> 'Diretoria de arquivo dos Avatares',
 	'AVATAR_STORAGE_PATH_EXPLAIN'	=> 'Diretoria dependendo da raiz do phpBB para Upload de Avatares  Exemplo: <b>\images\avatars\upload</b>.',
 	'MAX_AVATAR_SIZE'				=> 'Dimensões Máximas do Avatar',
-	'MAX_AVATAR_SIZE_EXPLAIN'		=> '(Altura x Largura em pixels).',
+	'MAX_AVATAR_SIZE_EXPLAIN'		=> '(Altura x Largura em pixeis).',
 	'MAX_FILESIZE'					=> 'Tamanho Máximo do Ficheiro Avatar',
 	'MAX_FILESIZE_EXPLAIN'			=> 'Dos Ficheiros de Avatar enviados.',
 	'MIN_AVATAR_SIZE'				=> 'Dimensões Mínimas do Avatar',
-	'MIN_AVATAR_SIZE_EXPLAIN'		=> '(Altura x Largura em pixels).',
+	'MIN_AVATAR_SIZE_EXPLAIN'		=> '(Altura x Largura em pixeis).',
 )); 
 
 // Message Settings 
@@ -130,7 +130,7 @@ $lang = array_merge($lang, array(
 	'ALLOW_SIG_PM'					=> 'Permitir assinaturas nas Mensagens Privadas',
 	'ALLOW_SMILIES_PM'				=> 'Permitir Emoções nas Mensagens Privadas',
 	'BOXES_LIMIT'					=> 'Máximo de Mensagens Privadas por pasta',
-	'BOXES_LIMIT_EXPLAIN'			=> 'Número máximo de Messagens Privadas que os Utilizadores podem receber em cada uma das suas Pastas Pessoais (0 = ilimitado).',
+	'BOXES_LIMIT_EXPLAIN'			=> 'Número máximo de Mensagens Privadas que os Utilizadores podem receber em cada uma das suas Pastas Pessoais (0 = ilimitado).',
 	'BOXES_MAX'						=> 'Máximo de pastas de Mensagens Privadas',
 	'BOXES_MAX_EXPLAIN'				=> 'Número máximo de Pastas Pessoais que os Utilizadores podem criar para as Mensagens Privadas.',
 	'ENABLE_PM_ICONS'				=> 'Ativa o uso de ícones de Tópico nas Mensagens Privadas',
@@ -161,13 +161,13 @@ $lang = array_merge($lang, array(
 	'DISPLAY_LAST_EDITED_EXPLAIN'	=> 'Se ativo mostra a data e a hora da última edição da Mensagem.',
 	'EDIT_TIME'						=> 'Tempo limite de edição',
 	'EDIT_TIME_EXPLAIN'				=> 'Limita o tempo disponível para editar uma nova Mensagem (0 = ilimitado).',
-	'FLOOD_INTERVAL'				=> 'Intervalo de Segurança.',
+	'FLOOD_INTERVAL'				=> 'Intervalo de Segurança',
 	'FLOOD_INTERVAL_EXPLAIN'		=> 'Número de segundos que o Utilizador tem de esperar para criar nova Mensagem.',
 	'HOT_THRESHOLD'					=> 'Mensagens para se tornar um Tópico Popular',
 	'HOT_THRESHOLD_EXPLAIN'			=> 'Número de Mensagens para tornar um Tópico Popular. <strong>0 para desativar</strong>',
 	'MAX_POLL_OPTIONS'				=> 'Número máximo de opções em votações',
 	'MAX_POST_FONT_SIZE'			=> 'Tamanho máximo da fonte nas Mensagens',
-	'MAX_POST_FONT_SIZE_EXPLAIN'	=> 'Tamanho máximo da letra numa mensahem. 0 = ilimitado.',
+	'MAX_POST_FONT_SIZE_EXPLAIN'	=> 'Tamanho máximo da letra numa mensagem. 0 = ilimitado.',
 	'MAX_POST_IMG_HEIGHT'			=> 'Altura máxima das imagens por Mensagem',
 	'MAX_POST_IMG_HEIGHT_EXPLAIN'	=> 'Altura máxima das imagens/flash nas Mensagens. 0 = ilimitado.',
 	'MAX_POST_IMG_WIDTH'			=> 'Largura máxima das imagens por Mensagem',
@@ -176,10 +176,10 @@ $lang = array_merge($lang, array(
 	'MAX_POST_URLS_EXPLAIN'			=> 'Número máximo de URLs que podem ser inseridas numa mensagem. 0 = Ilimitadas.',
 	'MIN_CHAR_LIMIT'				=> 'Mínimo de caracteres por Mensagem',
 	'MIN_CHAR_LIMIT_EXPLAIN'		=> 'O número mínimo de caracteres que o Utilizador tem de usar numa Mensagem. 1 é o valor mínimo admitido nesta configuração.',
-	'POSTING'						=> 'Postando',
+	'POSTING'						=> 'Publicação de mensagens',
 	'POSTS_PER_PAGE'				=> 'Mensagens por página',
 	'QUOTE_DEPTH_LIMIT'				=> 'Tamanho máximo das citações',
-	'QUOTE_DEPTH_LIMIT_EXPLAIN'		=> 'Tamanho máximo das citações permitido nas mensagens. 0 para desativar.',
+	'QUOTE_DEPTH_LIMIT_EXPLAIN'		=> 'Número máximo de citações por mensagem. <strong>0 = Ilimitadas</strong>.',
 	'SMILIES_LIMIT'					=> 'Máximo de Emoções por Mensagem',
 	'SMILIES_LIMIT_EXPLAIN'			=> 'Número máximo de Emoções que podem ser inseridas numa mensagem. 0 = Ilimitadas.',
 	'SMILIES_PER_PAGE'				=> 'Emoções por página',
@@ -208,7 +208,7 @@ $lang = array_merge($lang, array(
 $lang = array_merge($lang, array( 
 	'ACP_REGISTER_SETTINGS_EXPLAIN'		=> 'Aqui são definidas as opções de Registo e Perfil do Utilizador.',
 
-	'ACC_ACTIVATION'					=> 'Métodos de ativação da Conta',
+	'ACC_ACTIVATION'					=> 'Ativação de Conta',
 	'ACC_ACTIVATION_EXPLAIN'			=> 'Pode desativar os Registos ou definir se o novo Utilizador tem acesso imediato ao Fórum ou se é necessária uma confirmação.',
 	'NEW_MEMBER_POST_LIMIT'				=> 'Mensagens dos Utilizadores Registados Recentemente',
 	'NEW_MEMBER_POST_LIMIT_EXPLAIN'		=> 'Os novos utilizadores entram para o Grupo <em>Utilizadores Registados Recentemente</em> até atingirem este número de mensagens. Pode usar este Grupo para impedir que usem as mensagens privadas ou para rever as suas mensagens. <strong>0 para desativar.</strong>',
@@ -222,7 +222,7 @@ $lang = array_merge($lang, array(
 //	'ACC_USER_ADMIN'					=> 'User + Admin',
 	'ALLOW_EMAIL_REUSE'					=> 'Ativar duplicação de emails',
 	'ALLOW_EMAIL_REUSE_EXPLAIN'			=> 'O mesmo email pode ser usado no Registo de vários Utilizadores.',
-	'COPPA'								=> '<a href="http://www.coppa.org/coppa.htm" target="_blank";" title="Abrir numa janela nova"><i><b>COPPA</b> (Childrens Online Privacy Protetion At)</i></a>',
+	'COPPA'								=> '<a href="http://www.coppa.org/coppa.htm" target="_blank";" title="Abrir numa janela nova"><i><b>COPPA</b> (Childrens Online Privacy Protection Act)</i></a>',
 	'COPPA_FAX'							=> 'Número de Fax do COPPA',
 	'COPPA_MAIL'						=> 'Email do COPPA',
 	'COPPA_MAIL_EXPLAIN'				=> 'Email para os <b>Encarregados de Educação</b>, enviarem a Autorização de Registo dos menores de 13 anos.',
@@ -241,16 +241,16 @@ $lang = array_merge($lang, array(
 	'USERNAME_LETTER_NUM'				=> 'Qualquer letra ou número',
 	'USERNAME_LETTER_NUM_SPACERS'		=> 'Qualquer letra, número, ou espaço',
 	'USERNAME_CHARS'					=> 'Limite de caracteres para o nome do Utilizador',
-	'USERNAME_CHARS_ANY'				=> 'Qualquer caractere',
+	'USERNAME_CHARS_ANY'				=> 'Qualquer carácter',
 	'USERNAME_CHARS_EXPLAIN'			=> 'Tipo restrito de caracteres aceites no nome do Utilizador; espaço, -, +, _, [ e ].',
 	'USERNAME_LENGTH'					=> 'Tamanho do nome do Utilizador',
-	'USERNAME_LENGTH_EXPLAIN'			=> 'Número Mínimo e Máximo de caracteres nos nomes dos Utilizadors.',
+	'USERNAME_LENGTH_EXPLAIN'			=> 'Número Mínimo e Máximo de caracteres nos nomes dos Utilizadores.',
 )); 
 
 // Feeds
 $lang = array_merge($lang, array(
 	'ACP_FEED_MANAGEMENT'				=> 'Configurações Gerais de Feeds',
-	'ACP_FEED_MANAGEMENT_EXPLAIN'		=> 'Este Módulo disponibiliza vários ATOM Feeds, qualquer BBCode utilizado em posts fá-los serem legíveis em qualquer feed externo.',
+	'ACP_FEED_MANAGEMENT_EXPLAIN'		=> 'Este Módulo disponibiliza vários ATOM Feeds, qualquer BBCode utilizado em mensagens fá-los serem legíveis em qualquer feed externo.',
 
 	'ACP_FEED_GENERAL'					=> 'Configurações Gerais de Feed',
 	'ACP_FEED_POST_BASED'				=> 'Configurações dos Feeds baseadas nas mensagens',
@@ -265,19 +265,19 @@ $lang = array_merge($lang, array(
 	'ACP_FEED_OVERALL'					=> 'Ativar Feeds em todo o Fórum',
 	'ACP_FEED_OVERALL_EXPLAIN'			=> 'Novas mensagens em todo o Fórum.',
 	'ACP_FEED_FORUM'					=> 'Ativa os Feeds por Fórum',
-	'ACP_FEED_FORUM_EXPLAIN'			=> 'Fórum e Subfórum de novos posts.',
+	'ACP_FEED_FORUM_EXPLAIN'			=> 'Fórum e Subfórum de novas mensagens.',
 	'ACP_FEED_TOPIC'					=> 'Ativa os Feeds por Tópico',
-	'ACP_FEED_TOPIC_EXPLAIN'			=> 'Tópicos únicos de novos posts.',
+	'ACP_FEED_TOPIC_EXPLAIN'			=> 'Tópicos únicos de novas mensagens.',
 
 	'ACP_FEED_TOPICS_NEW'				=> 'Ativar Feeds nos Tópicos novos',
 	'ACP_FEED_TOPICS_NEW_EXPLAIN'		=> 'Ativa Feeds nos "Tópicos Novos", exibindo os últimos Tópicos criados, incluindo a primeira mensagem.',
 	'ACP_FEED_TOPICS_ACTIVE'			=> 'Ativar Feeds nos Tópicos ativos',
 	'ACP_FEED_TOPICS_ACTIVE_EXPLAIN'	=> 'Ativa Feeds nos "Tópicos ativos”, exibindo os últimos Tópicos ativos, incluindo as últimas mensagens.',
 	'ACP_FEED_NEWS'						=> 'Notícias Feed',
-	'ACP_FEED_NEWS_EXPLAIN'				=> 'Selecione a primeira mensagem destes Fóruns. Não selecione nenhum Fórum para desativar o Feed de notícias.<br />Selecione múltiplos Fóruns clicando na tecla <samp>CTRL</samp> e clicando no Fórum.',
+	'ACP_FEED_NEWS_EXPLAIN'				=> 'Selecione a primeira mensagem destes Fóruns. Selecione nenhum Fórum para desativar o Feed de notícias.<br />Selecione múltiplos Fóruns clicando na tecla <samp>CTRL</samp> e clicando no Fórum.',
 
 	'ACP_FEED_OVERALL_FORUMS'			=> 'Ativar Feed nos Fóruns',
-	'ACP_FEED_OVERALL_FORUMS_EXPLAIN'	=> 'Permite mostrar a lista de <strong>todos os Fórums</strong> com Feed.',
+	'ACP_FEED_OVERALL_FORUMS_EXPLAIN'	=> 'Permite mostrar a lista de <strong>todos os Fóruns</strong> com Feed.',
 
 	'ACP_FEED_HTTP_AUTH'				=> 'Permitir Autenticação HTTP',
 	'ACP_FEED_HTTP_AUTH_EXPLAIN'		=> 'Permite aos utilizadores receber o conteúdo oculto para visitantes adicionando o parâmetro <samp>auth=http</samp> ao URL do feed. Note por favor que algumas configurações do PHP exigem mudanças adicionais no ficheiro <b>.htacess</b>. As instruções podem ser encontradas no ficheiro.',
@@ -388,14 +388,14 @@ $lang = array_merge($lang, array(
 	'APACHE_SETUP_BEFORE_USE'				=> 'Tem que configurar a autenticação no Apache antes de mudar para este método de autenticação. Certifique-se de que o nome do Utilizador usado para a autenticação Apache seja a mesma que o seu nome de Utilizador no phpBB. A autenticação Apache apenas pode ser utilizada com o mod_php (com uma versão CGI não funciona) e o safe_mode desativados.',
 
 	'LDAP_DN'								=> 'LDAP base <var>dn</var>',
-	'LDAP_DN_EXPLAIN'						=> 'Este é o Nome Distinto (dn), determinando a informação do Utilizador, Exemplo: <b>o=My Company, c=US</b>.',
+	'LDAP_DN_EXPLAIN'						=> 'Este é o Nome Distinto (dn), determinando a informação do Utilizador, Exemplo: <b>o=Minha Companhia, c=EU</b>.',
 	'LDAP_EMAIL'							=> 'Atributo do email LDAP',
 	'LDAP_EMAIL_EXPLAIN'					=> 'Atribui automaticamente ao nome de seu atributo de entrada de email do Utilizador (se existir um) o email ao novo Utilizador. Se deixar em branco, resulta num endereço de email vazio para os Utilizadores que entrem pela primeira vez ao Fórum.',
 	'LDAP_INCORRECT_USER_PASSWORD'			=> 'As ligações para o Servidor LDAP falharam com nome de Utilizador e senha indicados.',
 	'LDAP_NO_EMAIL'							=> 'O Atributo de email especificado não existe.',
 	'LDAP_NO_IDENTITY'						=> 'Não foi possível encontrar uma identificação de Acesso para %s.',
 	'LDAP_PASSWORD'							=> 'Senha LDAP',
-	'LDAP_PASSWORD_EXPLAIN'					=> 'Deixe este campo em branco para acesso anónimo. Caso contrário preencha com a senha do Utilizador indicado. Necessário para Ative Diretory Servers.<br /><em><strong>Aviso:</strong> Esta senha será armazenada como texto simples na Base de Dados, visível a todos que podem aceder à Base de Dados ou a quem pode ver esta página de configuração.</em>',
+	'LDAP_PASSWORD_EXPLAIN'					=> 'Deixe este campo em branco para acesso anónimo. Caso contrário preencha com a senha do Utilizador indicado. Necessário para Active Directory Servers.<br /><em><strong>Aviso:</strong> Esta senha será armazenada como texto simples na Base de Dados, visível a todos que podem aceder à Base de Dados ou a quem pode ver esta página de configuração.</em>',
 	'LDAP_PORT'								=> 'Porta LDAP do Servidor',
 	'LDAP_PORT_EXPLAIN'						=> 'Opcionalmente pode definir uma porta para o Servidor LDAP que tem como padrão a porta 389.',
 	'LDAP_SERVER'							=> 'Nome do Servidor de LDAP',
@@ -405,7 +405,7 @@ $lang = array_merge($lang, array(
 	'LDAP_USER'								=> 'Nome de Utilizador LDAP',
 	'LDAP_USER_EXPLAIN'						=> 'Deixe em branco para acesso anónimo. Se preenchido o phpBB irá ligar ao Servidor LDAP com o nome de Utilizador indicado.',
 	'LDAP_USER_FILTER'						=> 'Filtro do Utilizador LDAP',
-	'LDAP_USER_FILTER_EXPLAIN'				=> 'Pode optar por aumentar o limite de objetos pesquisados com filtros adicionais. Por exemplo, <samp>objetClass=posixGroup</samp> deve resultar na utilização de <samp>(&amp;(uid=$username)(objetClass=posixGroup))</samp>.',
+	'LDAP_USER_FILTER_EXPLAIN'				=> 'Pode optar por aumentar o limite de objetos pesquisados com filtros adicionais. Por exemplo, <samp>objectClass=posixGroup</samp> deve resultar na utilização de <samp>(&amp;(uid=$username)(objectClass=posixGroup))</samp>.',
 )); 
 
 // Server Settings 
@@ -470,7 +470,7 @@ $lang = array_merge($lang, array(
 	'IP_LOGIN_LIMIT_USE_FORWARDED'			=> 'Tentativas de acesso limitadas a valores <var>X_FORWARDED_FOR</var>',
 	'IP_LOGIN_LIMIT_USE_FORWARDED_EXPLAIN'	=> 'Em vez de limitar as tentativas de acesso pelo endereço IP, são limitadas por valores <var>X_FORWARDED_FOR</var>. <br /><em><strong>Aviso:</strong> Só ative esta opção se o servidor proxy fornecer valores <var>X_FORWARDED_FOR</var> confiáveis.</em>',
 	'MAX_LOGIN_ATTEMPTS'					=> 'Número máximo de tentativas de acesso',
-	'MAX_LOGIN_ATTEMPTS_EXPLAIN'			=> 'Após este número de acessos inválidos, o Utilizador terá fazer a tarefa anti-spambot. Digite 0 para impedir que a tarefa anti-spambot seja acionada para contas de utilizador distintas.',
+	'MAX_LOGIN_ATTEMPTS_EXPLAIN'			=> 'Após este número de acessos inválidos, o Utilizador terá que fazer a tarefa anti-spambot. Digite 0 para impedir que a tarefa anti-spambot seja acionada para contas de utilizador distintas.',
 	'NO_IP_VALIDATION'						=> 'Nenhum',
 	'NO_REF_VALIDATION'						=> 'Nenhum',
 	'PASSWORD_TYPE'							=> 'Complexidade da Senha',
@@ -482,7 +482,7 @@ $lang = array_merge($lang, array(
 	'REF_HOST'								=> 'Apenas hosts válidos',
 	'REF_PATH'								=> 'Também validar pasta',
 	'REFERER_VALID'							=> 'Validar Referência',
-	'REFERER_VALID_EXPLAIN'					=> 'Se ativado, a referência do POST vai verificar a path do Fórum. Isto pode causar problemas em Fóruns que usem muitos domínios ou acessos externos.',
+	'REFERER_VALID_EXPLAIN'					=> 'Se ativado, a referência do POST vai verificar o local onde se encontra o Fórum no servidor. Isto pode causar problemas em Fóruns que usem muitos domínios ou acessos externos.',
 	'TPL_ALLOW_PHP'							=> 'Permitir php nos Modelos (Templates)',
 	'TPL_ALLOW_PHP_EXPLAIN'					=> 'Se ativado, os comandos PHP e INCLUDEPHP serão reconhecidos e inseridos nos Templates.',
 )); 
@@ -511,7 +511,7 @@ $lang = array_merge($lang, array(
 	'SMTP_AUTH_METHOD_EXPLAIN'				=> 'Apenas usado se um Nome/Senha é atribuído, pergunte ao seu ISP se não sabe que método usa.',
 	'SMTP_CRAM_MD5'							=> 'CRAM-MD5',
 	'SMTP_DIGEST_MD5'						=> 'DIGEST-MD5',
-	'SMTP_LOGIN'							=> 'LOGIN',
+	'SMTP_LOGIN'							=> 'ENTRAR',
 	'SMTP_PASSWORD'							=> 'Senha do SMTP',
 	'SMTP_PASSWORD_EXPLAIN'					=> 'Só introduza a Senha se o Servidor de SMTP a pedir.<br /><em><strong>Aviso:</strong> Esta senha será armazenada como texto simples na Base de Dados, visível a todos que podem aceder à Base de Dados ou a quem pode ver esta página de configuração.</em>',
 	'SMTP_PLAIN'							=> 'PLAIN',

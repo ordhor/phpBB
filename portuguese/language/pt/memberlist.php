@@ -4,7 +4,7 @@
 * memberlist [Português]
 *
 * @package language
-* @version 1.0.2
+* @version 1.0.3
 * @Traduzido por: http://phpbbportugal.com - segundo as normas do Acordo Ortográfico
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
@@ -57,7 +57,7 @@ $lang = array_merge($lang, array(
 	'EMAIL_BODY_EXPLAIN'		=> 'Esta mensagem será enviada como texto puro, não inclua qualquer código HTML ou BBCODE. O endereço de resposta desta mensagem é o seu endereço de email.',
 	'EMAIL_DISABLED'			=> 'Todas as funções de email foram desativadas.',
 	'EMAIL_SENT'				=> 'O email foi enviado.',
-	'EMAIL_TOPIC_EXPLAIN'		=> 'Esta mensagem será enviada como texto puro, não inclua qualquer cdigo HTML ou BBCODE. As informações daquele Tópico serão incluídas na mensagem. O endereço de resposta desta mensagem é o seu endereço de email.',
+	'EMAIL_TOPIC_EXPLAIN'		=> 'Esta mensagem será enviada como texto puro, não inclua qualquer código HTML ou BBCODE. As informações daquele Tópico serão incluídas na mensagem. O endereço de resposta desta mensagem é o seu endereço de email.',
 	'EMPTY_ADDRESS_EMAIL'		=> 'Tem que indicar um endereço de email válido como destinatário.',
 	'EMPTY_MESSAGE_EMAIL'		=> 'Tem que indicar uma mensagem para ser enviada no email.',
 	'EMPTY_MESSAGE_IM'			=> 'Tem que inserir a mensagem para ser enviada.',
@@ -80,12 +80,12 @@ $lang = array_merge($lang, array(
 	'IM_JABBER'					=> 'Os Utilizadores podem ter selecionado não receber mensagens instantâneas não solicitadas.',
 	'IM_JABBER_SUBJECT'			=> 'Esta é uma mensagem automática, por favor, não responda! Mensagem enviada pelo Utilizador %1$s em %2$s.',
 	'IM_MESSAGE'				=> 'Sua mensagem',
-	'IM_MSNM'					=> 'Tem que ter o Windows Messanger instalado para usar essa opção.',
+	'IM_MSNM'					=> 'Tem que ter o Windows Messenger instalado para usar essa opção.',
 	'IM_MSNM_BROWSER'			=> 'Seu navegador não suporta isto.',
 	'IM_MSNM_CONNECT'			=> 'O MSNM não está ligado. \\Tem que conetar o MSNM para continuar.',
 	'IM_NAME'					=> 'Seu nome',
 	'IM_NO_DATA'				=> 'Não existe informação de contato para este Utilizador.',
-	'IM_NO_JABBER'				=> 'Enviar mensagem Jabber não suportado por este Servidor. Tem que ter um cliente Jabber instalado no seu sistema para contatar o destinatário.',
+	'IM_NO_JABBER'				=> 'Enviar mensagens Jabber não é suportado neste Servidor. Tem que ter um cliente Jabber instalado no seu sistema para contatar o destinatário.',
 	'IM_RECIPIENT'				=> 'Destinatário',
 	'IM_SEND'					=> 'Enviar Mensagem',
 	'IM_SEND_MESSAGE'			=> 'Enviar Mensagem',

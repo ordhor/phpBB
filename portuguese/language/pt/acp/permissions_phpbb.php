@@ -3,7 +3,7 @@
 * acp_permissions_phpbb (phpBB Permission Set) [Português]
 *
 * @package language
-* @version 1.0.2
+* @version 1.0.3
 * @Traduzido por: http://phpbbportugal.com - segundo as normas do Acordo Ortográfico
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
@@ -86,9 +86,9 @@ $lang = array_merge($lang, array(
 
 	// With defining 'global' here we are able to specify what is printed out if the permission is within the global scope.
 	'permission_type'	=> array( 
-		'u_'			=> 'Permissões do Utilizador',
-		'a_'			=> 'Permissões do Administrador', 
-		'm_'			=> 'Permissões do Moderador', 
+		'u_'			=> 'Permissões de Utilizador',
+		'a_'			=> 'Permissões de Administrador', 
+		'm_'			=> 'Permissões de Moderador', 
 		'f_'			=> 'Permissões do Fórum',
 		'global'		=> array(
 			'm_'		=> 'Permissões do Moderador Global',
@@ -129,7 +129,7 @@ $lang = array_merge($lang, array(
 
 	'acl_u_sendemail'	=> array('lang' => 'Pode enviar emails', 'cat' => 'misc'), 
 	'acl_u_sendim'		=> array('lang' => 'Pode enviar Mensagens Urgentes', 'cat' => 'misc'), 
-	'acl_u_ignoreflood'	=> array('lang' => 'Pode enviar mensagens sem intervalo de segurança', 'cat' => 'misc'), 
+	'acl_u_ignoreflood'	=> array('lang' => 'Pode ignorar limite de mensagens', 'cat' => 'misc'), 
 	'acl_u_hideonline'	=> array('lang' => 'Pode ficar invisível', 'cat' => 'misc'), 
 	'acl_u_viewonline'	=> array('lang' => 'Pode ver todos os Utilizadores online', 'cat' => 'misc'),
 	'acl_u_search'		=> array('lang' => 'Pode pesquisar no Fórum', 'cat' => 'misc'), 
@@ -187,7 +187,7 @@ $lang = array_merge($lang, array(
 
 	'acl_m_info'		=> array('lang' => 'Pode ver detalhes da Mensagem', 'cat' => 'misc'), 
 	'acl_m_warn'		=> array('lang' => 'Pode fazer Advertências', 'cat' => 'misc'), 
-	'acl_m_ban'			=> array('lang' => 'Pode administrar Explusões', 'cat' => 'misc'), // This moderator setting is only global (and not local) 
+	'acl_m_ban'			=> array('lang' => 'Pode administrar Expulsões', 'cat' => 'misc'), // This moderator setting is only global (and not local) 
 )); 
 
 // Admin Permissions 
@@ -215,7 +215,7 @@ $lang = array_merge($lang, array(
 	'acl_a_ranks'		=> array('lang' => 'Pode administrar Ranks', 'cat' => 'user_group'), 
 	'acl_a_profile'		=> array('lang' => 'Pode administrar campos do Perfil', 'cat' => 'user_group'), 
 	'acl_a_names'		=> array('lang' => 'Pode administrar nomes Proibidos', 'cat' => 'user_group'), 
-	'acl_a_ban'			=> array('lang' => 'Pode administrar Explusões', 'cat' => 'user_group'), 
+	'acl_a_ban'			=> array('lang' => 'Pode administrar Expulsões', 'cat' => 'user_group'), 
 
 	'acl_a_viewauth'	=> array('lang' => 'Pode ver máscaras de Permissões', 'cat' => 'permissions'), 
 	'acl_a_authgroups'	=> array('lang' => 'Pode alterar Permissões para Grupos individuais', 'cat' => 'permissions'), 
@@ -233,7 +233,7 @@ $lang = array_merge($lang, array(
 	'acl_a_modules'		=> array('lang' => 'Pode administrar Módulos', 'cat' => 'misc'), 
 	'acl_a_language'	=> array('lang' => 'Pode administrar Idiomas', 'cat' => 'misc'), 
 	'acl_a_email'		=> array('lang' => 'Pode enviar emails em massa', 'cat' => 'misc'), 
-	'acl_a_bots'		=> array('lang' => 'Pode administrar BOTs', 'cat' => 'misc'), 
+	'acl_a_bots'		=> array('lang' => 'Pode administrar Motores de Busca', 'cat' => 'misc'), 
 	'acl_a_reasons'		=> array('lang' => 'Pode administrar motivos de denúncias/negações', 'cat' => 'misc'), 
 	'acl_a_backup'		=> array('lang' => 'Pode copiar/restaurar a Base de Dados', 'cat' => 'misc'), 
 	'acl_a_search'		=> array('lang' => 'Pode administrar backends de pesquisas e configurações', 'cat' => 'misc'), 

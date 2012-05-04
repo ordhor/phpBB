@@ -4,7 +4,7 @@
 * help_bbcode [Português]
 *
 * @package language
-* @version 1.0.2
+* @version 1.0.3
 * @Traduzido por: http://phpbbportugal.com - segundo as normas do Acordo Ortográfico
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
@@ -37,7 +37,7 @@ $help = array(
    ), 
    array( 
       0 => 'O que significa BBCode?', 
-      1 => 'O BBCode é uma implementação especial do HTML. A possibilidade de usar o BBCode nas mensagens é definida pelo Administrador do Fórum. O Utilizador pode desativar o BBCode individualmente em cada mensagem. O BBCode por si mesmo é identico em estilo ao HTML, as etiquetas (tags) são inseridas dentro de parentises retos "[" e "]" ao contrário de "<" e ">", facilitando a formatação dos textos. A tarefa de adicionar BBCode às mensagens é facilitada pelo uso de um Painel colocado imediatamente acima da caixa principal das mensagens, dependendo do estilo em uso, onde pode escolher os BBCode que pretende usar. <br /><strong>Apesar da existência desse Painel, leia cuidadosamente este guia.</strong>' 
+      1 => 'O BBCode é uma implementação especial do HTML. A possibilidade de usar o BBCode nas mensagens é definida pelo Administrador do Fórum. O Utilizador pode desativar o BBCode individualmente em cada mensagem. O BBCode por si mesmo é identico em estilo ao HTML, as etiquetas (tags) são inseridas dentro de parênteses retos "[" e "]" ao contrário de "<" e ">", facilitando a formatação dos textos. A tarefa de adicionar BBCode às mensagens é facilitada pelo uso de um Painel colocado imediatamente acima da caixa principal das mensagens, dependendo do estilo em uso, onde pode escolher os BBCode que pretende usar. <br /><strong>Apesar da existência desse Painel, leia cuidadosamente este guia.</strong>' 
    ), 
    array( 
       0 => '--', 
@@ -102,7 +102,7 @@ $help = array(
    ), 
    array( 
       0 => 'Anexar ficheiros na mensagem', 
-      1 => 'Esta tag pode ser inserida em qualquer local da mensagem utilizando o <strong>[attachment=][/attachment]</strong>, este o recurso tiver sido ativado pelo Administrador do Fórum e tiver permissão para anexar ficheiros. Neste caso pode anexar ficheiros nas mensagens. Dentro do menú de mensagens terá um bloco para anexar um ou mais ficheiros.' 
+      1 => 'Esta tag pode ser inserida em qualquer local da mensagem utilizando o <strong>[attachment=][/attachment]</strong>, este o recurso tiver sido ativado pelo Administrador do Fórum e tiver permissão para anexar ficheiros. Neste caso pode anexar ficheiros nas mensagens. Dentro do menu de mensagens terá um bloco para anexar um ou mais ficheiros.' 
    ), 
    array( 
       0 => '--', 

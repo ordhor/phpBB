@@ -4,7 +4,7 @@
 * acp_styles [Português]
 *
 * @package language
-* @version 1.0.2
+* @version 1.0.3
 * @Traduzido por: http://phpbbportugal.com - segundo as normas do Acordo Ortográfico
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
@@ -37,12 +37,12 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'ACP_IMAGESETS_EXPLAIN'			=> 'Conjuntos de Imagens são todos os botões, Fórum, folders, etc. e outras imagens não especificamente usadas pelo Estilo do Fórum. Aqui pode editar, exportar ou apagar um Conjunto de Imagens existente e importar ou ativar novos Conjuntos.',
+	'ACP_IMAGESETS_EXPLAIN'			=> 'Conjuntos de Imagens são todos os botões, Fórum, pastas, etc. e outras imagens não especificamente usadas pelo Estilo do Fórum. Aqui pode editar, exportar ou apagar um Conjunto de Imagens existente e importar ou ativar novos Conjuntos.',
 	'ACP_STYLES_EXPLAIN'			=> 'Aqui pode gerir os Estilos do Fórum. Um Estilo é formado por um Template, um Tema e Conjunto de Imagens. Pode alterar os Estilos, apagar, desativar, reativar, criar ou importar novos Estilos. Pode usar a Função Prever para pré-visualizar o novo Estilo. O Estilo Padrão está assinalado com um asterisco (*). Está indicado em cada um dos Estilos instalados o número de Utilizadores que o está a usar.<br />As modificações nos Estilos dos Utilizadores não se reflete aqui no <b>Painel de Administração</b>.',
 	'ACP_TEMPLATES_EXPLAIN'			=> 'Um Template é o código usado para gerar o visual do Fórum. Pode alterar, apagar, desativar, ativar, criar ou importar novos Templates. Também pode modificar o código do Template usado para gerar BBCode.',
 	'ACP_THEMES_EXPLAIN'			=> 'Aqui pode criar, instalar, editar, apagar e exportar Temas. Um Tema é a combinação de cores e imagens que são usadas nos Templates para definir o visual básico do Fórum. As opções disponíveis dependem da configuração do servidor e da instalação do phpBB, consulte o manual para mais informações. Na criação de novos Temas é opcional o uso de um Tema já existente.',
 	'ADD_IMAGESET'					=> 'Criar Conjunto de Imagens',
-	'ADD_IMAGESET_EXPLAIN'			=> 'Aqui pode criar um novo Conjunto de Imagens. As opções adicionais dependem das configuraões do Servidor e das Permissões de Ficheiros. Pode usar um Conjunto existente para criar um novo Conjunto de imagem. Também pode enviar, importar (do sistema de Ficheiros) um Ficheiro do Conjunto de imagens. Se enviar ou importar um Ficheiro o nome do novo Conjunto pode ser o nome do Ficheiro (para isto deixe o nome do Conjunto em branco).',
+	'ADD_IMAGESET_EXPLAIN'			=> 'Aqui pode criar um novo Conjunto de Imagens. As opções adicionais dependem das configurações do Servidor e das Permissões de Ficheiros. Pode usar um Conjunto existente para criar um novo Conjunto de imagem. Também pode enviar, importar (do sistema de Ficheiros) um Ficheiro do Conjunto de imagens. Se enviar ou importar um Ficheiro o nome do novo Conjunto pode ser o nome do Ficheiro (para isto deixe o nome do Conjunto em branco).',
 	'ADD_STYLE'						=> 'Criar Estilo',
 	'ADD_STYLE_EXPLAIN'				=> 'Aqui pode criar um novo Estilo. As opções adicionais dependem da configuração do Servidor e das Permissões de Ficheiros. Pode usar um Estilo existente para criar um novo. Também pode enviar, importar (do sistema de Ficheiros) um Ficheiro de Estilo. Se enviar ou importar um Ficheiro de Estilo o nome do novo Estilo será determinado automaticamente.',
 	'ADD_TEMPLATE'					=> 'Criar Template',
@@ -94,16 +94,16 @@ $lang = array_merge($lang, array(
 	'EDIT_DETAILS_STYLE_EXPLAIN'	=> 'Usando o Formulário seguinte pode modificar um Estilo existente. Pode alterar a combinação do Template, Tema e Conjunto de Imagens que definem o Estilo próprio. Também pode criar um Estilo Padrão.',
 	'EDIT_DETAILS_TEMPLATE'			=> 'Editar detalhes do Template',
 	'EDIT_DETAILS_TEMPLATE_EXPLAIN'	=> 'Aqui pode editar certos detalhes da template, como o seu nome. Também tem a opção de trocar o armazenamento da folha de estilos do Sistema de Ficheiros para a Base de Dados e vice versa. Esta opção depende das configurações do PHP e se o Conjunto de Template pude ser guardado no servidor.',
-	'EDIT_DETAILS_THEME'			=> 'Edit detalhes do Tema',
+	'EDIT_DETAILS_THEME'			=> 'Editar detalhes do Tema',
 	'EDIT_DETAILS_THEME_EXPLAIN'	=> 'Aqui pode editar certos detalhes do Tema, por exemplo o nome. Pode optar por mudar a forma de armazenamento da Folha de Estilos do Sistema de Ficheiros para a Base de Dados e vice versa. Esta opção depende das configurações do PHP e se sua folha de estilos puder ser escrita no servidor.',
 	'EDIT_IMAGESET'					=> 'Editar Conjunto de Imagens',
 	'EDIT_IMAGESET_EXPLAIN'			=> 'Aqui pode editar as imagens individuais no qual define o conjunto de imagens. Também pode especificar dimensões para esta imagem. Dimensões são opcionais, especificá-los pode superar determinadas edições de renderização em alguns navegadores. Não especificando-os reduz um pouco o tamanho do registo na Base de Dados.',
 	'EDIT_TEMPLATE'					=> 'Editar Template',
 	'EDIT_TEMPLATE_EXPLAIN'			=> 'Aqui pode editar seu conjunto Template diretamente. Por favor lembre-se que essas edições são permanentes e não podem serem desfeitas depois de enviadas. Se o PHP puder gravar ficheiros de templates na sua diretoria de estilos algumas alterações aqui serão gravaras diretamente nos ficheiros. Se o PHP não puder gravar estes ficheiros serão copiados para a Base de Dados e todas as alterações serão refletidas apenas lá. Por favor tenha cuidado ao editar o seu template, lembre-se de fechar todas as variáveis de termos de substituição {XXXX} e indicações condicionais.',
-	'EDIT_TEMPLATE_STORED_DB'		=> 'O ficheiro de Template não é gravável porém agora o conjunto Template foi armazenado na Base de Dados contendo o ficheiro modificado.',
+	'EDIT_TEMPLATE_STORED_DB'		=> 'O ficheiro de Template não pode ser gravado mas o conjunto Template foi armazenado na Base de Dados contendo o ficheiro modificado.',
 	'EDIT_THEME'					=> 'Editar Tema',
 	'EDIT_THEME_EXPLAIN'			=> 'Aqui pode editar o Tema selecionado, trocando cores, imagens, etc.',
-	'EDIT_THEME_STORED_DB'			=> 'A folha de estilos não é gravável então agora será armazenado no banco dados contendo sua modificação.',
+	'EDIT_THEME_STORED_DB'			=> 'A folha de estilos não pode ser gravada sendo armazenada na Base de Dados contendo sua modificação.',
 	'EDIT_THEME_STORE_PARSED'		=> 'O Tema requer que o seu stylesheet esteja analisado gramaticalmente. Isto só é possível se estiver armazenado na Base de Dados.',
 	'EDITOR_DISABLED'				=> 'O Editor de Templates encontra-se desativado.',
 	'EXPORT'						=> 'Exportar',
@@ -234,8 +234,8 @@ $lang = array_merge($lang, array(
 	'IMG_ICON_POST_INFO'			=> 'Exibir detalhes da mensagem',
 	'IMG_ICON_POST_QUOTE'			=> 'Citar Mensagem',
 	'IMG_ICON_POST_REPORT'			=> 'Reportar Mensagem',
-	'IMG_ICON_POST_TARGET'			=> 'Minipost',
-	'IMG_ICON_POST_TARGET_UNREAD'	=> 'Novo minipost',
+	'IMG_ICON_POST_TARGET'			=> 'Mini mensagem',
+	'IMG_ICON_POST_TARGET_UNREAD'	=> 'Nova Mini mensagem',
 
 
 	'IMG_ICON_TOPIC_ATTACH'			=> 'Anexo',
@@ -244,8 +244,8 @@ $lang = array_merge($lang, array(
 	'IMG_ICON_TOPIC_REPORTED'		=> 'Mensagem Reportada',
 	'IMG_ICON_TOPIC_UNAPPROVED'		=> 'Mensagem não Aprovada',
 
-	'IMG_ICON_USER_ONLINE'			=> 'Utilizador online',
-	'IMG_ICON_USER_OFFLINE'			=> 'Utilizador offline',
+	'IMG_ICON_USER_ONLINE'			=> 'Utilizador ligado',
+	'IMG_ICON_USER_OFFLINE'			=> 'Utilizador desligado',
 	'IMG_ICON_USER_PROFILE'			=> 'Mostrar Perfil',
 	'IMG_ICON_USER_SEARCH'			=> 'Procurar Mensagem',
 	'IMG_ICON_USER_WARN'			=> 'Avisar Utilizador',
@@ -365,7 +365,7 @@ $lang = array_merge($lang, array(
 	'STYLE_NAME'					=> 'Nome do Estilo',
 	'STYLE_TEMPLATE'				=> 'Template',
 	'STYLE_THEME'					=> 'Tema',
-	'STYLE_USED_BY'					=> 'Usado por (incluindo bots)',
+	'STYLE_USED_BY'					=> 'Usado por (incluindo Motor de Busca)',
 
 	'TEMPLATE_ADDED'				=> 'Conjunto de Template adicionado e armazenado no Sistema de Ficheiros.',
 	'TEMPLATE_ADDED_DB'				=> 'Conjunto de Template adicionado e armazenado na Base de Dados.',

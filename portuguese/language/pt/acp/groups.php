@@ -4,7 +4,7 @@
 * acp_groups [Português]
 *
 * @package language
-* @version 1.0.2
+* @version 1.0.3
 * @Traduzido por: http://phpbbportugal.com - segundo as normas do Acordo Ortográfico
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
@@ -56,7 +56,7 @@ $lang = array_merge($lang, array(
 	'GROUP_COLOR'						=> 'Cor do Grupo',
 	'GROUP_COLOR_EXPLAIN'				=> 'Selecione a cor dos Utilizadores do Grupo. Deixe em branco se não deseja ativar esta opção.',
 	'GROUP_CONFIRM_ADD_USER'			=> 'Tem a certeza de que quer adicionar o Utilizador %1$s para este Grupo?',
-	'GROUP_CONFIRM_ADD_USERS'			=> 'Tem a certeza de que quer adicionar os Utilizadors %1$s para este Grupo?',
+	'GROUP_CONFIRM_ADD_USERS'			=> 'Tem a certeza de que quer adicionar os Utilizadores %1$s para este Grupo?',
 	'GROUP_CREATED'						=> 'O Grupo selecionado foi criado com sucesso.',
 	'GROUP_DEFAULT'						=> 'Selecione este como Grupo Padrão para este Utilizador.',
 	'GROUP_DEFS_UPDATED'				=> 'Grupo Padrão para os Utilizadores selecionados.',

@@ -4,7 +4,7 @@
 * acp_email [Português]
 *
 * @package language
-* @version 1.0.2
+* @version 1.0.3
 * @Traduzido por: http://phpbbportugal.com - segundo as normas do Acordo Ortográfico
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
@@ -54,8 +54,8 @@ $lang = array_merge($lang, array(
 	'SEND_TO_USERS'				=> 'Enviar para Utilizadores',
 	'SEND_TO_USERS_EXPLAIN'		=> 'Escrevendo nomes aqui, sobrescreve qualquer grupo selecionado acima. Escreva apenas um nome de Utilizador por linha.',
 
-	'MAIL_BANNED'				=> 'Mail banned users',
-	'MAIL_BANNED_EXPLAIN'		=> 'When sending a mass e-mail to a group you can select here whether banned users will also receive the e-mail.',
+	'MAIL_BANNED'				=> 'Utilizadores Banidos',
+	'MAIL_BANNED_EXPLAIN'		=> 'Quando envia um email em massa, pode optar por enviar ou não, aos Utilizadores Banidos.',
 	'MAIL_HIGH_PRIORITY'		=> 'Alta',
 	'MAIL_LOW_PRIORITY'			=> 'Baixa',
 	'MAIL_NORMAL_PRIORITY'		=> 'Normal',

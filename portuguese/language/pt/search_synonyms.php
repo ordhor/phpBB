@@ -4,7 +4,7 @@
 * search_synonyms [Português]
 *
 * @package language
-* @version 1.0.2
+* @version 1.0.3
 * @Traduzido por: http://phpbbportugal.com - segundo as normas do Acordo Ortográfico
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
@@ -69,7 +69,7 @@ $synonyms = array(
 	'escritos'				=> 'textos', 
 	'estético'				=> 'visual', 
 	'estrangeiro'			=> 'externo', 
-	'etimologia'			=> 'etimolgico', 
+	'etimologia'			=> 'etimológico', 
 	'executando'			=> 'rodando', 
 	'existência'			=> 'vida', 
 	'exorbitante'			=> 'exagero', 
@@ -105,7 +105,7 @@ $synonyms = array(
 
 	'km'					=> 'quilómetro', 
 
-	'lazer'					=> 'descanço', 
+	'lazer'					=> 'descanso', 
 	'licença'				=> 'autorização', 
 	'limite'				=> 'fronteira', 
 	'liquificar'			=> 'líquido', 

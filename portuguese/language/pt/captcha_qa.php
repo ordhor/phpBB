@@ -4,7 +4,7 @@
 * captcha_qa [Português]
 *
 * @package language
-* @version 1.0.2
+* @version 1.0.3
 * @Traduzido por: http://phpbbportugal.com - segundo as normas do Acordo Ortográfico
 * @copyright (c) 2009 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
@@ -48,7 +48,7 @@ $lang = array_merge($lang, array(
 	'ANSWER'					=> 'Resposta',
 	'EDIT_QUESTION'				=> 'Editar Pergunta',
 	'QUESTIONS'					=> 'Perguntas',
-    'QUESTIONS_EXPLAIN'			=> 'Para cada submissão ao formulário, onde ativou o plugin Q&amp;A, será feita uma das perguntas aqui definidas. Para usar este plugin deve definir pelo menos uma pergunta na idioma padrão. As perguntas devem ser de fácil resposta para o seu público alvo, mas excederem a capacidade de pesquisa do spambot no Google™. Serão obtidos melhores resultados se usar uma grande quantidade de perguntas e as alterar com regularidade. Ative a confirmação rigorosa se a sua pergunta se baseia em maiúsculas e minúsculas, pontuação ou espaços em branco.',
+    'QUESTIONS_EXPLAIN'			=> 'Para cada submissão ao formulário, onde ativou o plugin Q&amp;A, será feita uma das perguntas aqui definidas. Para usar este plugin deve definir pelo menos uma pergunta na idioma padrão. As perguntas devem ser de fácil resposta para o seu público alvo, mas sem excederem a capacidade de pesquisa do spambot no Google™. Serão obtidos melhores resultados se usar uma grande quantidade de perguntas e as alterar com regularidade. Ative a confirmação rigorosa se a sua pergunta se baseia em maiúsculas e minúsculas, pontuação ou espaços em branco.',
     'QUESTION_DELETED'			=> 'Pergunta excluída',
     'QUESTION_LANG'				=> 'Idioma',
     'QUESTION_LANG_EXPLAIN'		=> 'O idioma desta questão e das respostas é escrito em.',

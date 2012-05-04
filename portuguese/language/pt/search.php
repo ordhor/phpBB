@@ -4,7 +4,7 @@
 * search [Português]
 *
 * @package language
-* @version 1.0.2
+* @version 1.0.3
 * @Traduzido por: http://phpbbportugal.com - segundo as normas do Acordo Ortográfico
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
@@ -37,7 +37,7 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'ALL_AVAILABLE'				=> 'Tudo disponíveis',
+	'ALL_AVAILABLE'				=> 'Tudo disponível',
 	'ALL_RESULTS'				=> 'Todos os Resultados',
 
 	'DISPLAY_RESULTS'			=> 'Mostrar resultados ',
@@ -51,11 +51,11 @@ $lang = array_merge($lang, array(
 	'IGNORED_TERMS'				=> 'ignorado',
 	'IGNORED_TERMS_EXPLAIN'		=> 'As seguintes palavras foram ignoradas na procura: <b>%s</b>',
 
-	'JUMP_TO_POST'				=> 'Pular para a mensagem',
+	'JUMP_TO_POST'				=> 'Ir para a mensagem',
 
-	'LOGIN_EXPLAIN_EGOSEARCH'	=> 'Este forum obriga a que esteja registado para visualizar os Tópicos.',
-	'LOGIN_EXPLAIN_UNREADSEARCH'=> 'O administrador exige que esteja registado e autenticado para ver as suas mensagens lidas.',
-	'LOGIN_EXPLAIN_NEWPOSTS'	=> 'O administrador exige que esteja registado e autenticado para ver novas mensagens desde sua última visita.',
+	'LOGIN_EXPLAIN_EGOSEARCH'	=> 'É necessário que esteja registado para visualizar os Tópicos.',
+	'LOGIN_EXPLAIN_UNREADSEARCH'=> 'É necessário que esteja registado e autenticado para ver as suas mensagens lidas.',
+	'LOGIN_EXPLAIN_NEWPOSTS'	=> 'É necessário que esteja registado e autenticado para ver novas mensagens desde sua última visita.',
 	
 	'MAX_NUM_SEARCH_KEYWORDS_REFINE'	=> 'Introduziu demasiadas palavras para pesquisar. Por favor não introduza mais do que %1$d palavras.',
 
@@ -66,7 +66,7 @@ $lang = array_merge($lang, array(
 	'NO_SEARCH_TIME'			=> 'Neste momento não é possível usar a pesquisa. Por favor, tente novamente daqui a alguns minutos.',
 	'NO_SEARCH_UNREADS'			=> 'Desculpe, mas a pesquisa de novas mensagens foi desativada neste Fórum.',
 	'WORD_IN_NO_POST'			=> 'Não foi encontrado nenhum resultado para esta palavra: %s.',
-	'WORDS_IN_NO_POST'			=> 'Não foi encontrado nenhum resultado para esta palavras: %s.',
+	'WORDS_IN_NO_POST'			=> 'Não foi encontrado nenhum resultado para estas palavras: %s.',
 
 	'POST_CHARACTERS'			=> 'caracteres da Mensagem',
 

@@ -4,7 +4,7 @@
 * acp_common [Português]
 *
 * @package language
-* @version 1.0.2
+* @version 1.0.3
 * @Traduzido por: http://phpbbportugal.com - segundo as normas do Acordo Ortográfico
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
@@ -40,7 +40,7 @@ if (empty($lang) || !is_array($lang))
 $lang = array_merge($lang, array(
 	'ACP_ADMINISTRATORS'			=> 'Administradores',
 	'ACP_ADMIN_LOGS'				=> 'Registo do Administrador',
-	'ACP_ADMIN_ROLES'				=> 'Tarefas do Administrador',
+	'ACP_ADMIN_ROLES'				=> 'Categorias dos Administradores',
 	'ACP_ATTACHMENTS'				=> 'Anexos',
 	'ACP_ATTACHMENT_SETTINGS'		=> 'Configuração dos Anexos',
 	'ACP_AUTH_SETTINGS'				=> 'Autenticação',
@@ -53,9 +53,9 @@ $lang = array_merge($lang, array(
 	'ACP_BAN_IPS'					=> 'Expulsar IPs',
 	'ACP_BAN_USERNAMES'				=> 'Expulsar Nomes de Utilizadores',
 	'ACP_BBCODES'					=> 'BBCodes',
-	'ACP_BOARD_CONFIGURATION'		=> 'Configuração do Geral',
+	'ACP_BOARD_CONFIGURATION'		=> 'Configuração Geral',
 	'ACP_BOARD_FEATURES'			=> 'Ferramentas do Fórum',
-	'ACP_BOARD_MANAGEMENT'			=> 'Adminstração do Fórum',
+	'ACP_BOARD_MANAGEMENT'			=> 'Administração do Fórum',
 	'ACP_BOARD_SETTINGS'			=> 'Configuração do Fórum',
 	'ACP_BOTS'						=> 'Motores de Busca',
 
@@ -67,7 +67,7 @@ $lang = array_merge($lang, array(
 	'ACP_CAT_GENERAL'				=> 'Geral',
 	'ACP_CAT_MAINTENANCE'			=> 'Manutenção',
 	'ACP_CAT_PERMISSIONS'			=> 'Permissões',
-	'ACP_CAT_POSTING'				=> 'Mensagem',
+	'ACP_CAT_POSTING'				=> 'Mensagens',
 	'ACP_CAT_STYLES'				=> 'Estilos',
 	'ACP_CAT_SYSTEM'				=> 'Sistema',
 	'ACP_CAT_USERGROUP'				=> 'Utilizadores e Grupos',
@@ -77,7 +77,7 @@ $lang = array_merge($lang, array(
 	'ACP_CRITICAL_LOGS'				=> 'Registo de Erros',
 	'ACP_CUSTOM_PROFILE_FIELDS'		=> 'Personalizar o Perfil',
 
-	'ACP_DATABASE'					=> 'Adminstração da Base de Dados',
+	'ACP_DATABASE'					=> 'Administração da Base de Dados',
 	'ACP_DISALLOW'					=> 'Desativar',
 	'ACP_DISALLOW_USERNAMES'		=> 'Nomes Proibidos',
 
@@ -90,7 +90,7 @@ $lang = array_merge($lang, array(
 	'ACP_FORUM_MODERATORS'			=> 'Moderadores',
 	'ACP_FORUM_PERMISSIONS'			=> 'Permissões',
 	'ACP_FORUM_PERMISSIONS_COPY'	=> 'Copiar Permissões de Fóruns',
-	'ACP_FORUM_ROLES'				=> 'Tarefas do Fórum',
+	'ACP_FORUM_ROLES'				=> 'Categorias dos Fóruns',
 
 	'ACP_GENERAL_CONFIGURATION'		=> 'Configuração Geral',
 	'ACP_GENERAL_TASKS'				=> 'Tarefas Gerais',
@@ -99,7 +99,7 @@ $lang = array_merge($lang, array(
 	'ACP_GROUPS'					=> 'Grupos',
 	'ACP_GROUPS_FORUM_PERMISSIONS'	=> 'Permissões de Fóruns e Grupos',
 	'ACP_GROUPS_MANAGE'				=> 'Administrar Grupos',
-	'ACP_GROUPS_MANAGEMENT'			=> 'Adminstração de Grupos',
+	'ACP_GROUPS_MANAGEMENT'			=> 'Administração de Grupos',
 	'ACP_GROUPS_PERMISSIONS'		=> 'Permissões do Grupo',
 
 	'ACP_ICONS'						=> 'Ícones',
@@ -110,7 +110,7 @@ $lang = array_merge($lang, array(
 
 	'ACP_JABBER_SETTINGS'			=> 'Configurações de Jabber',
 
-	'ACP_LANGUAGE'					=> 'Adminstração de Idiomas',
+	'ACP_LANGUAGE'					=> 'Administração de Idiomas',
 	'ACP_LANGUAGE_PACKS'			=> 'Pacotes de Idiomas',
 	'ACP_LOAD_SETTINGS'				=> 'Configurações de Carga',
 	'ACP_LOGGING'					=> 'Ligando',
@@ -124,9 +124,9 @@ $lang = array_merge($lang, array(
 	'ACP_MASS_EMAIL'				=> 'Email em Massa',
 	'ACP_MESSAGES'					=> 'Mensagens',
 	'ACP_MESSAGE_SETTINGS'			=> 'Configuração das Mensagens Privadas',
-	'ACP_MODULE_MANAGEMENT'			=> 'Adminstração de Módulos',
+	'ACP_MODULE_MANAGEMENT'			=> 'Administração de Módulos',
 	'ACP_MOD_LOGS'					=> 'Registo do Moderador',
-	'ACP_MOD_ROLES'					=> 'Tarefas do Moderador',
+	'ACP_MOD_ROLES'					=> 'Categorias dos Moderadores',
 
 	'ACP_NO_ITEMS'					=> 'Não há itens ainda.',
 
@@ -134,7 +134,7 @@ $lang = array_merge($lang, array(
 
 	'ACP_PERMISSIONS'				=> 'Permissões',
 	'ACP_PERMISSION_MASKS'			=> 'Máscaras de Permissões',
-	'ACP_PERMISSION_ROLES'			=> 'Tarefas de Permissão',
+	'ACP_PERMISSION_ROLES'			=> 'Categorias das Permissões',
 	'ACP_PERMISSION_TRACE'			=> 'Traçar Permissão',
 	'ACP_PHP_INFO'					=> 'Informação PHP',
 	'ACP_POST_SETTINGS'				=> 'Configuração das Mensagens',
@@ -164,7 +164,7 @@ $lang = array_merge($lang, array(
 	'ACP_SIGNATURE_SETTINGS'		=> 'Configuração da Assinatura',
 	'ACP_SMILIES'					=> 'Emoções',
 	'ACP_STYLE_COMPONENTS'			=> 'Componentes do Estilo',
-	'ACP_STYLE_MANAGEMENT'			=> 'Adminstração de Estilo',
+	'ACP_STYLE_MANAGEMENT'			=> 'Administração de Estilo',
 	'ACP_STYLES'					=> 'Estilos',
 
 	'ACP_SUBMIT_CHANGES'			=> 'Submeter alterações',
@@ -186,7 +186,7 @@ $lang = array_merge($lang, array(
 	'ACP_USER_PREFS'				=> 'Preferências',
 	'ACP_USER_PROFILE'				=> 'Perfil',
 	'ACP_USER_RANK'					=> 'Rank',
-	'ACP_USER_ROLES'				=> 'Tarefas do Utilizador',
+	'ACP_USER_ROLES'				=> 'Categorias dos Utilizadores',
 	'ACP_USER_SECURITY'				=> 'Segurança do Utilizador',
 	'ACP_USER_SIG'					=> 'Assinatura',
 	'ACP_USER_WARNINGS'				=> 'Avisos',
@@ -329,14 +329,14 @@ $lang = array_merge($lang, array(
 	'DATABASE_SIZE'					=> 'Tamanho da Base de Dados',
 
 	// Enviroment configuration checks, mbstring related
-	'ERROR_MBSTRING_FUNC_OVERLOAD'					=> 'A função de sobrecarga está configurada incorretamente',
-	'ERROR_MBSTRING_FUNC_OVERLOAD_EXPLAIN'			=> '<var>mbstring.func_overload</var> deve ser definido para 0 ou 4. Pode verificar o valor atual em <samp>informação PHP</samp> page.',
-	'ERROR_MBSTRING_ENCODING_TRANSLATION'			=> 'Transparent character encoding is improperly configured',
-	'ERROR_MBSTRING_ENCODING_TRANSLATION_EXPLAIN'	=> '<var>mbstring.encoding_translation</var> must be set to 0. Pode verificar o valor atual em <samp>informação PHP</samp> page.',
-	'ERROR_MBSTRING_HTTP_INPUT'						=> 'HTTP input character conversion is improperly configured',
-	'ERROR_MBSTRING_HTTP_INPUT_EXPLAIN'				=> '<var>mbstring.http_input</var> must be set to <samp>pass</samp>. Pode verificar o valor atual em the <samp>informação PHP</samp> page.',
-	'ERROR_MBSTRING_HTTP_OUTPUT'					=> 'HTTP output character conversion is improperly configured',
-	'ERROR_MBSTRING_HTTP_OUTPUT_EXPLAIN'			=> '<var>mbstring.http_output</var> must be set to <samp>pass</samp>. Pode verificar o valor atual em <samp>informação PHP</samp> page.',
+	'ERROR_MBSTRING_FUNC_OVERLOAD'					=> 'A função de sobrecarga não se encontra configurada corretamente',
+	'ERROR_MBSTRING_FUNC_OVERLOAD_EXPLAIN'			=> '<var>mbstring.func_overload</var> deve ser definido para 0 ou 4. Pode verificar o valor atual em <samp>informação PHP</samp>.',
+	'ERROR_MBSTRING_ENCODING_TRANSLATION'			=> 'A codificação de caracteres transparentes não se encontra configurada corretamente',
+	'ERROR_MBSTRING_ENCODING_TRANSLATION_EXPLAIN'	=> '<var>mbstring.encoding_translation</var> deve ser definido para 0. Pode verificar o valor atual em <samp>informação PHP</samp>.',
+	'ERROR_MBSTRING_HTTP_INPUT'						=> 'A conversão de entrada de caracteres via HTTP não se encontra configurada corretamente',
+	'ERROR_MBSTRING_HTTP_INPUT_EXPLAIN'				=> '<var>mbstring.http_input</var> tem de estar configurado como <samp>pass</samp>. Pode verificar o valor atual em <samp>informação PHP</samp>.',
+	'ERROR_MBSTRING_HTTP_OUTPUT'					=> 'A conversão de saída de caracteres via HTTP não se encontra configurada corretamente',
+	'ERROR_MBSTRING_HTTP_OUTPUT_EXPLAIN'			=> '<var>mbstring.http_output</var> tem de estar configurado como <samp>pass</samp>. Pode verificar o valor actual em <samp>informação PHP</samp>.',
 
 	'FILES_PER_DAY'					=> 'Média de Anexos diários',
 	'FORUM_STATS'					=> 'Estatísticas do Fórum',
@@ -350,7 +350,7 @@ $lang = array_merge($lang, array(
 	'NUMBER_USERS'					=> 'Número de Utilizadores',
 	'NUMBER_ORPHAN'					=> 'Número de Anexos Órfãos',
 
-	'PHP_VERSION_OLD'				=> 'A versão do PHP no servidor deixará de ser suportada em versões futuras do phpBB. %sDetails%s',
+	'PHP_VERSION_OLD'				=> 'A versão do PHP no servidor deixará de ser suportada em versões futuras do phpBB. %sDetalhes%s',
 
 	'POSTS_PER_DAY'					=> 'Média de Mensagens diárias',
 
@@ -474,9 +474,9 @@ $lang = array_merge($lang, array(
 	'LOG_ATTACH_FILEUPLOAD'					=> '<strong>Ficheiro Órfão anexo a Mensagem</strong><br />» ID %1$d - %2$s',
 	'LOG_ATTACH_ORPHAN_DEL'					=> '<strong>Ficheiro Órfão Apagado</strong><br />» %s',
 
-	'LOG_BAN_EXCLUDE_USER'					=> '<strong>Utilizador Apagado por Expulsão</strong> for reason "<em>%1$s</em>"<br />» %2$s ',
-	'LOG_BAN_EXCLUDE_IP'					=> '<strong>Endereço de IP Apagado por Expulsão</strong> for reason "<em>%1$s</em>"<br />» %2$s ',
-	'LOG_BAN_EXCLUDE_EMAIL'					=> '<strong>Endereço de Email Apagado por Expulsão</strong> for reason "<em>%1$s</em>"<br />» %2$s ',
+	'LOG_BAN_EXCLUDE_USER'					=> '<strong>Utilizador Apagado por Expulsão</strong> porque "<em>%1$s</em>"<br />» %2$s ',
+	'LOG_BAN_EXCLUDE_IP'					=> '<strong>Endereço de IP Apagado por Expulsão</strong> porque "<em>%1$s</em>"<br />» %2$s ',
+	'LOG_BAN_EXCLUDE_EMAIL'					=> '<strong>Endereço de Email Apagado por Expulsão</strong> porque "<em>%1$s</em>"<br />» %2$s ',
 	'LOG_BAN_USER'							=> '<strong>Utilizador Expulso</strong> por "<em>%1$s</em>"<br />» %2$s ',
 	'LOG_BAN_IP'							=> '<strong>Endereço de IP Banido</strong> por "<em>%1$s</em>"<br />» %2$s',
 	'LOG_BAN_EMAIL'							=> '<strong>Endereço de email Banido</strong> por "<em>%1$s</em>"<br />» %2$s',
@@ -488,9 +488,9 @@ $lang = array_merge($lang, array(
 	'LOG_BBCODE_EDIT'						=> '<strong>BBCode Editado</strong><br />» %s',
 	'LOG_BBCODE_DELETE'						=> '<strong>BBCode Apagado</strong><br />» %s',
 
-	'LOG_BOT_ADDED'							=> '<strong>BOT Adicionado</strong><br />» %s',
-	'LOG_BOT_DELETE'						=> '<strong>BOT Apagado</strong><br />» %s',
-	'LOG_BOT_UPDATED'						=> '<strong>BOT Atualizado</strong><br />» %s',
+	'LOG_BOT_ADDED'							=> '<strong>Motor de Busca Adicionado</strong><br />» %s',
+	'LOG_BOT_DELETE'						=> '<strong>Motor de Busca Apagado</strong><br />» %s',
+	'LOG_BOT_UPDATED'						=> '<strong>Motor de Busca Atualizado</strong><br />» %s',
 
 	'LOG_CLEAR_ADMIN'						=> '<strong>Registo Administrativo Limpo</strong>',
 	'LOG_CLEAR_CRITICAL'					=> '<strong>Registo de Erro Limpo</strong>',
@@ -636,9 +636,9 @@ $lang = array_merge($lang, array(
 	'LOG_F_ROLE_ADD'						=> '<strong>Tarefa do Fórum Adicionada</strong><br />» %s',
 	'LOG_F_ROLE_EDIT'						=> '<strong>Tarefa do Fórum Editada</strong><br />» %s',
 	'LOG_F_ROLE_REMOVED'					=> '<strong>Tarefa do Fórum Apagada</strong><br />» %s',
-	'LOG_M_ROLE_ADD'						=> '<strong>Tarefa Moderativa Adicionada</strong><br />» %s',
-	'LOG_M_ROLE_EDIT'						=> '<strong>Tarefa Moderativa Editada</strong><br />» %s',
-	'LOG_M_ROLE_REMOVED'					=> '<strong>Tarefa Moderativa Apagada</strong><br />» %s',
+	'LOG_M_ROLE_ADD'						=> '<strong>Tarefa de Moderação Adicionada</strong><br />» %s',
+	'LOG_M_ROLE_EDIT'						=> '<strong>Tarefa de Moderação Editada</strong><br />» %s',
+	'LOG_M_ROLE_REMOVED'					=> '<strong>Tarefa de Moderação Apagada</strong><br />» %s',
 	'LOG_U_ROLE_ADD'						=> '<strong>Tarefa do Utilizador Adicionada</strong><br />» %s',
 	'LOG_U_ROLE_EDIT'						=> '<strong>Tarefa do Utilizador Editada</strong><br />» %s',
 	'LOG_U_ROLE_REMOVED'					=> '<strong>Tarefa do Utilizador Apagada</strong><br />» %s',
@@ -655,7 +655,7 @@ $lang = array_merge($lang, array(
 	'LOG_PRUNE_USER_DEL_DEL'				=> '<strong>Utilizadores Limpos e Mensagens Apagadas</strong><br />» %s',
 	'LOG_PRUNE_USER_DEL_ANON'				=> '<strong>Utilizadores Limpos e Mensagens Guardadas</strong><br />» %s',
 
-	'LOG_PURGE_CACHE'						=> '<strong>Cache Depurado</strong>',
+	'LOG_PURGE_CACHE'						=> '<strong>Cache Removido</strong>',
 	'LOG_PURGE_SESSIONS'					=> '<strong>Sessões terminadas</strong>',
 
 

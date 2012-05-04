@@ -4,7 +4,7 @@
 * search_ignore_words [Português]
 *
 * @package language
-* @version 1.0.2
+* @version 1.0.3
 * @Traduzido por: http://phpbbportugal.com - segundo as normas do Acordo Ortográfico
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
@@ -161,7 +161,7 @@ $words = array(
    'nossos', 
    'fora', 
    'acima', 
-   'pgina', 
+   'página', 
    'por favor', 
    'colocar', 
    'pergunta', 

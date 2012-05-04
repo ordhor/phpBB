@@ -4,7 +4,7 @@
 * help_faq [Português]
 *
 * @package language
-* @version 1.0.2
+* @version 1.0.3
 * @Traduzido por: http://phpbbportugal.com - segundo as normas do Acordo Ortográfico
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
@@ -57,7 +57,7 @@ $help = array(
 	),
 	array(
 		0	=> 'Registei-me mas não consigo entrar!',
-		1	=> 'Verifique se escreve corretamente o <b>Nome de Utilizador</b> e a <b>Senha</b>.  Se tem a certeza de que estão corretos tenha em atenção um de dois fatores. Se a função <a href="http://www.coppa.org/coppa.htm" target="_blank";" title="Abrir numa janela nova"><i><b>COPPA</b> (Childrens Online Privacy Protetion At)</i></a> estiver ativa no <b>Fórum</b> e assinalou a uma <b>idade inferior a 13 anos</b> durante o <b>Registo</b>, então tem que seguir as instruções que recebeu. Se não é este o seu caso, então o seu <b>Registo</b> ainda não se encontra-se ativado. Alguns <b>Fóruns</b> obrigam à ativação dos novos <b>Registos</b>. A Ativação tanto pode ser feita pelo <b>Administrador</b> como pelo próprio <b>Utilizador</b>, que neste último caso receberá um email para esse efeito. Esta informação é fornecida aos novos <b>Utilizadores</b> durante o <b>Registo</b>. Se recebeu um email, siga as suas instruções. Se não recebeu nenhum email pode ter escrito incorretamente o endereço de email ou então está considerado como spam pelo seu cliente de email. Se tem certeza que o endereço de email que forneceu é válido e correto, tente contatar o <b>Administrador do Fórum</b>.',
+		1	=> 'Verifique se escreve corretamente o <b>Nome de Utilizador</b> e a <b>Senha</b>.  Se tem a certeza de que estão corretos tenha em atenção um de dois fatores. Se a função <a href="http://www.coppa.org/coppa.htm" target="_blank";" title="Abrir numa janela nova"><i><b>COPPA</b> (Childrens Online Privacy Protection Act)</i></a> estiver ativa no <b>Fórum</b> e assinalou a uma <b>idade inferior a 13 anos</b> durante o <b>Registo</b>, então tem que seguir as instruções que recebeu. Se não é este o seu caso, então o seu <b>Registo</b> ainda não se encontra-se ativado. Alguns <b>Fóruns</b> obrigam à ativação dos novos <b>Registos</b>. A Ativação tanto pode ser feita pelo <b>Administrador</b> como pelo próprio <b>Utilizador</b>, que neste último caso receberá um email para esse efeito. Esta informação é fornecida aos novos <b>Utilizadores</b> durante o <b>Registo</b>. Se recebeu um email, siga as suas instruções. Se não recebeu nenhum email pode ter escrito incorretamente o endereço de email ou então está considerado como spam pelo seu cliente de email. Se tem certeza que o endereço de email que forneceu é válido e correto, tente contatar o <b>Administrador do Fórum</b>.',
 	),
 	array(
 		0	=> 'Registei-me e já entrei anteriormente mas agora não!',
@@ -65,7 +65,7 @@ $help = array(
 	),
 	array(
 		0	=> 'O que é <b>COPPA</b>?',
-		1	=> 'A <a href="http://www.coppa.org/coppa.htm" target="_blank";" title="Abrir numa janela nova"><i><b>COPPA</b> (Childrens Online Privacy Protetion At)</i></a> é uma Lei de 1998 dos EUA que exige uma autorização para guardar as informações relativas a menores de 13 anos de idade.',
+		1	=> 'A <a href="http://www.coppa.org/coppa.htm" target="_blank";" title="Abrir numa janela nova"><i><b>COPPA</b> (Childrens Online Privacy Protection Act)</i></a> é uma Lei de 1998 dos EUA que exige uma autorização para guardar as informações relativas a menores de 13 anos de idade.',
 	),
 	array(
 		0	=> 'Por que não consigo Registar-me?',
@@ -104,7 +104,7 @@ $help = array(
 		1	=> 'De uma forma geral, o <b>Utilizador</b> Normal não pode alterar diretamente o seu Rank (os Ranks aparecem por debaixo do Nome de Utilizador nos Tópicos e no Perfil, dependendo do Template em uso). A maior parte dos Ranks existentes, indicam o Número de Mensagens enviadas ou indicam certo tipo de <b>Utilizadores</b>, ou seja, Moderadores e Administradores poderão ter um Rank Especial. Por Favor, não abuse do Fórum enviando Mensagens desnecessárias apenas para aumentar o Nível do seu Rank, pois os Administradores ou Moderadores podem tomar alguma atitude contra si, se considerarem que está a ter atitudes abusivas.',
 	),
 	array(
-		0	=> 'Quando clico no email de um <b>Utilizador</b>, aparece uma página de acesse?!',
+		0	=> 'Quando clico no email de um <b>Utilizador</b>, pede-me para ligar no fórum?!',
 		1	=> 'Só os <b>Utilizadores Registados</b> podem enviar <b>emails</b> através do formulário exclusivo do Fórum (se esta função se encontrar ativada). Isso evita o uso malicioso do sistema de email por <b>Visitantes</b>.',
 	),
 	array(
@@ -193,7 +193,7 @@ $help = array(
 	),
 	array(
 		0	=> 'O que são Anúncios?',
-		1	=> 'Os <b>Anúncios</b> contêm normalmente informações importantes e devem ser lidos logo que forem publicados. Os Anúncios são automaticamente colocados no topo de cada página de cada secção onde são postados. Se pode ou não utilizar essa função, depende das permissões que lhe foram dadas e configuradas pelo <b>Administrador</b>.',
+		1	=> 'Os <b>Anúncios</b> contêm normalmente informações importantes e devem ser lidos logo que forem publicados. Os Anúncios são automaticamente colocados no topo de cada página de cada secção. Se pode ou não utilizar essa função, depende das permissões que lhe foram dadas e configuradas pelo <b>Administrador</b>.',
 	),
 	array(
 		0	=> 'O que são Tópicos Fixos?',
@@ -322,7 +322,7 @@ $help = array(
 	),
 	array(
 		0	=> 'Quais os Anexos que são permitidos no Fórum?',
-		1	=> 'Cada <b>Administrador</b> pode ativar ou desativar os tipos de anexos que desejar. Se não tem certeza sobre o que pode ser enviado, contate o <b>Administrador</b> para maiores informações.',
+		1	=> 'Cada <b>Administrador</b> pode ativar ou desativar os tipos de anexos que desejar. Se não tem certeza sobre o que pode ser enviado, contate o <b>Administrador</b> para mais informações.',
 	),
 	array(
 		0	=> 'Como posso encontrar Anexos que enviei?',
