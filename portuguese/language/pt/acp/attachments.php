@@ -4,8 +4,8 @@
 * acp_attachments [Português]
 *
 * @package language
-* @version 1.0.2
-* @Traduzido por: http://phpbbportugal.com - segundo as normas do Acordo Ortográfico
+* @version 1.0.3
+* @Traduzido por: http://phpbbportugal.com | pré-Acordo Ortográfico
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 * 
@@ -38,21 +38,21 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'ACP_ATTACHMENT_SETTINGS_EXPLAIN'	=> 'Aqui pode configurar as Opções Principais para os Anexos e Categorias Especiais associadas.',
-	'ACP_EXTENSION_GROUPS_EXPLAIN'		=> 'Aqui pode adicionar, excluir, modificar e desativar as Extensões. Consulte o Painel Gestor de Grupos de Extensões.<br >Recomenda-se que não permita extensões de scripts (tipo: php, php3, php4, phtml, pl, cgi, py, rb, asp, aspx, entre outras…), por serem potencialmente perigosas.',
-	'ACP_MANAGE_EXTENSIONS_EXPLAIN'		=> 'Aqui pode controlar as Extensões permitidas. Para ativar as suas Extensões, consulte por favor o Painel de Gestão dos Grupos das Extensões.<br > Recomenda-se que não permita extensões de scripts (tipo: php, php3, php4, phtml, pl, cgi, py, rb, asp, aspx, entre outras…), por serem potencialmente perigosas.',
+	'ACP_EXTENSION_GROUPS_EXPLAIN'		=> 'Aqui pode adicionar, excluir, modificar e desactivar as Extensões. Consulte o Painel Gestor de Grupos de Extensões.<br >Recomenda-se que não permita extensões de scripts (tipo: php, php3, php4, phtml, pl, cgi, py, rb, asp, aspx, entre outras…), por serem potencialmente perigosas.',
+	'ACP_MANAGE_EXTENSIONS_EXPLAIN'		=> 'Aqui pode controlar as Extensões permitidas. Para activar as suas Extensões, consulte por favor o Painel de Gestão dos Grupos das Extensões.<br > Recomenda-se que não permita extensões de scripts (tipo: php, php3, php4, phtml, pl, cgi, py, rb, asp, aspx, entre outras…), por serem potencialmente perigosas.',
 	'ACP_ORPHAN_ATTACHMENTS_EXPLAIN'	=> 'Estes são os Ficheiros que não estão associados a uma Mensagem.',
 	'ADD_EXTENSION'						=> 'Adicionar Extensão',
 	'ADD_EXTENSION_GROUP'				=> 'Adicionar Grupo de Extensões',
 	'ADMIN_UPLOAD_ERROR'				=> 'Erros enquanto tentava anexar o Ficheiro: "%s".',
 	'ALLOWED_FORUMS'					=> 'Fóruns autorizados',
-	'ALLOWED_FORUMS_EXPLAIN'			=> 'Apto enviar as extensões atribuídas aos Fóruns selecionados (ou a todos se selecionado).',
+	'ALLOWED_FORUMS_EXPLAIN'			=> 'Apto enviar as extensões atribuídas aos Fóruns seleccionados (ou a todos se seleccionado).',
 	'ALLOWED_IN_PM_POST'				=> 'Autorizado',
 	'ALLOW_ATTACHMENTS'					=> 'Permitir Anexos',
 	'ALLOW_ALL_FORUMS'					=> 'Permitir todos os Fóruns',
 	'ALLOW_IN_PM'						=> 'Permitir nas Mensagens Privadas',
 	'ALLOW_PM_ATTACHMENTS'				=> 'Permitir Anexos nas Mensagens Privadas',
-	'ALLOW_SELECTED_FORUMS'				=> 'Apenas os Fóruns selecionados abaixo',
-	'ASSIGNED_EXTENSIONS'				=> 'Extensões Ativadas',
+	'ALLOW_SELECTED_FORUMS'				=> 'Apenas os Fóruns seleccionados abaixo',
+	'ASSIGNED_EXTENSIONS'				=> 'Extensões Activadas',
 	'ASSIGNED_GROUP'					=> 'Grupo Atribuído',
 	'ATTACH_EXTENSIONS_URL'				=> 'Extensões',
 	'ATTACH_EXT_GROUPS_URL'				=> 'Grupos de Extensões',
@@ -73,25 +73,25 @@ $lang = array_merge($lang, array(
 	'CAT_RM_FILES'						=> 'Real Media Streams',
 	'CAT_WM_FILES'						=> 'Win Media Streams',
 	'CHECK_CONTENT'						=> 'Verificar ficheiros anexados',
-	'CHECK_CONTENT_EXPLAIN'				=> 'Alguns Ficheiros podem obrigar os navegadores e executar funções incorretas. Esta opção permite recusar esses Ficheiros.',
+	'CHECK_CONTENT_EXPLAIN'				=> 'Alguns Ficheiros podem obrigar os navegadores e executar funções incorrectas. Esta opção permite recusar esses Ficheiros.',
 	'CREATE_GROUP'						=> 'Criar um novo Grupo',
 	'CREATE_THUMBNAIL'					=> 'Criar uma Imagem reduzida',
-	'CREATE_THUMBNAIL_EXPLAIN'			=> 'Criar uma Imagem reduzida em todas as situções possíveis.',
+	'CREATE_THUMBNAIL_EXPLAIN'			=> 'Criar uma Imagem reduzida em todas as situações possíveis.',
 
 	'DEFINE_ALLOWED_IPS'				=> 'Definir IPs/Servidores autorizados',
 	'DEFINE_DISALLOWED_IPS'				=> 'Definir IPs/Servidores proibidos',
-	'DOWNLOAD_ADD_IPS_EXPLAIN'			=> 'Para definir vários IPs ou Servidores diferentes, introduza cada um numa nova linha. Para definir uma faixa de endereços de IP separe o início e o fim com um hífen (-). Pode utilizar asteríscos (*)',
-	'DOWNLOAD_REMOVE_IPS_EXPLAIN'		=> 'Pode remover (ou não-excluir) múltiplos endereços de IPs de uma única vez usando a combinação apropriada de mouse e teclado para seu computador e navegador. IPs apagados têm um fundo em azul.',
+	'DOWNLOAD_ADD_IPS_EXPLAIN'			=> 'Para definir vários IPs ou Servidores diferentes, introduza cada um numa nova linha. Para definir uma faixa de endereços de IP separe o início e o fim com um hífen (-). Pode utilizar asteriscos (*)',
+	'DOWNLOAD_REMOVE_IPS_EXPLAIN'		=> 'Pode remover (ou não-excluir) múltiplos endereços de IPs de uma única vez usando a combinação apropriada de rato e teclado para seu computador e navegador. IPs apagados têm um fundo em azul.',
 	'DISPLAY_INLINED'					=> 'Mostrar Imagens',
 	'DISPLAY_INLINED_EXPLAIN'			=> 'Se escolher <b>Não</b> as imagens anexadas serão mostradas como atalhos.',
 	'DISPLAY_ORDER'						=> 'Ordem de visualização dos Anexos',
 	'DISPLAY_ORDER_EXPLAIN'				=> 'Os anexos são ordenados pela hora de envio.',
 
 	'EDIT_EXTENSION_GROUP'				=> 'Editar Grupo de Extensões',
-	'EXCLUDE_ENTERED_IP'				=> 'Ative para excluir o IP/Servidor digitado.',
+	'EXCLUDE_ENTERED_IP'				=> 'Active para excluir o IP/Servidor digitado.',
 	'EXCLUDE_FROM_ALLOWED_IP'			=> 'Excluir IP dos IPs/Servidores autorizados',
-	'EXCLUDE_FROM_DISALLOWED_IP'		=> 'Excluir IP dos IPs/Servidores proibídos',
-	'EXTENSIONS_UPDATED'				=> 'Extensões atualizadas com sucesso.',
+	'EXCLUDE_FROM_DISALLOWED_IP'		=> 'Excluir IP dos IPs/Servidores proibidos',
+	'EXTENSIONS_UPDATED'				=> 'Extensões actualizadas com sucesso.',
 	'EXTENSION_EXIST'					=> 'A Extensão %s já existe.',
 	'EXTENSION_GROUP'					=> 'Grupo de Extensão',
 	'EXTENSION_GROUPS'					=> 'Grupos de Extensões',
@@ -112,7 +112,7 @@ $lang = array_merge($lang, array(
 	'GROUP_NAME'						=> 'Nome do Grupo',
 
 	'IMAGE_LINK_SIZE'					=> 'Dimensões para o atalho de Imagem',
-	'IMAGE_LINK_SIZE_EXPLAIN'			=> 'Mostra o anexo da imagem como um atalho se a imagem for maior que o selecionado, introduza 0 px por 0 px para desativar.',
+	'IMAGE_LINK_SIZE_EXPLAIN'			=> 'Mostra o anexo da imagem como um atalho se a imagem for maior que o seleccionado, introduza 0 px por 0 px para desactivar.',
 	'IMAGICK_PATH'						=> 'Local do Imagemagick',
 	'IMAGICK_PATH_EXPLAIN'				=> 'Caminho completo para o programa Imagemagick, p.exemplo: /usr/bin/.',
 
@@ -121,10 +121,10 @@ $lang = array_merge($lang, array(
 	'MAX_EXTGROUP_FILESIZE'				=> 'Tamanho Máximo dos Ficheiros',
 	'MAX_IMAGE_SIZE'					=> 'Dimensão Máxima das Imagens',
 	'MAX_IMAGE_SIZE_EXPLAIN'			=> 'Tamanho Máximo das imagens anexadas, 0 px por 0 px impede anexo de imagens.',
-	'MAX_THUMB_WIDTH'					=> 'Largura máxima das imagens em miniaturas em pixels',
-	'MAX_THUMB_WIDTH_EXPLAIN'			=> 'A largura das miniaturas geradas não ultrapassará a selecionada.',
+	'MAX_THUMB_WIDTH'					=> 'Largura máxima das imagens em miniaturas em pixeis',
+	'MAX_THUMB_WIDTH_EXPLAIN'			=> 'A largura das miniaturas geradas não ultrapassará a seleccionada.',
 	'MIN_THUMB_FILESIZE'				=> 'Tamanho Mínimo de imagem reduzida',
-	'MIN_THUMB_FILESIZE_EXPLAIN'		=> 'Não criar imagem reduzida para imagens menores do que o selecionado.',
+	'MIN_THUMB_FILESIZE_EXPLAIN'		=> 'Não criar imagem reduzida para imagens menores do que o seleccionado.',
 	'MODE_INLINE'						=> 'Na linha',
 	'MODE_PHYSICAL'						=> 'Físico',
 
@@ -132,13 +132,13 @@ $lang = array_merge($lang, array(
 	'NOT_ALLOWED_IN_PM_POST'			=> 'Negado',
 	'NOT_ASSIGNED'						=> 'Não atribuído',
 	'NO_EXT_GROUP'						=> 'Nenhum',
-	'NO_EXT_GROUP_NAME'					=> 'Nome do Grupo não foi selecionado',
+	'NO_EXT_GROUP_NAME'					=> 'Nome do Grupo não foi seleccionado',
 	'NO_EXT_GROUP_SPECIFIED'			=> 'Grupo de Extensão não especificado.',
 	'NO_FILE_CAT'						=> 'Nenhum',
 	'NO_IMAGE'							=> 'Sem imagem',
-	'NO_THUMBNAIL_SUPPORT'				=> 'O suporte às miniaturas (imagem reduzida) foi desabilitado. Para ativar esta funcionalidade é nexessario a extensão GD ou imagemagick instalado. Nenhum dos dois foi encontrado.',
-	'NO_UPLOAD_DIR'						=> 'A diretoria de envio (upload) que indicou não existe.',
-	'NO_WRITE_UPLOAD'					=> 'A diretoria que indicou não permite gravação. Por favor, altere as permissões para permitir a escrita nele.',
+	'NO_THUMBNAIL_SUPPORT'				=> 'O suporte às miniaturas (imagem reduzida) encontra-se desactivado. Para activar esta funcionalidade é necessário a extensão GD ou imagemagick instalado. Nenhum dos dois foi encontrado.',
+	'NO_UPLOAD_DIR'						=> 'A directoria de envio (upload) que indicou não existe.',
+	'NO_WRITE_UPLOAD'					=> 'A directoria que indicou não permite gravação. Por favor, altere as permissões para permitir a escrita nele.',
 
 	'ONLY_ALLOWED_IN_PM'				=> 'Apenas autorizar nas Mensagens Privadas',
 	'ORDER_ALLOW_DENY'					=> 'Permitir',
@@ -150,10 +150,10 @@ $lang = array_merge($lang, array(
 	'SEARCH_IMAGICK'					=> 'Localizar Imagemagick',
 	'SECURE_ALLOW_DENY'					=> 'Permitir/Negar lista',
 	'SECURE_ALLOW_DENY_EXPLAIN'			=> 'Permite ou nega a lista de endereços. Esta configuração aplica-se apenas aos Ficheiros para transferência.',
-	'SECURE_DOWNLOADS'					=> 'Ativar transferências seguras',
-	'SECURE_DOWNLOADS_EXPLAIN'			=> 'Com esta opção ativada, as transferências são autorizadas apenas para os IPs/Servidores por si definidos.',
-	'SECURE_DOWNLOAD_NOTICE'			=> 'As transferências seguras estão desativadas. A execução das opções abaixo depende da sua ativação.',
-	'SECURE_DOWNLOAD_UPDATE_SUCCESS'	=> 'A lista de IPs foi atualizada com sucesso.',
+	'SECURE_DOWNLOADS'					=> 'Activar transferências seguras',
+	'SECURE_DOWNLOADS_EXPLAIN'			=> 'Com esta opção activada, as transferências são autorizadas apenas para os IPs/Servidores por si definidos.',
+	'SECURE_DOWNLOAD_NOTICE'			=> 'As transferências seguras estão desactivadas. A execução das opções abaixo depende da sua activação.',
+	'SECURE_DOWNLOAD_UPDATE_SUCCESS'	=> 'A lista de IPs foi actualizada com sucesso.',
 	'SECURE_EMPTY_REFERRER'				=> 'Permitir origem em branco',
 	'SECURE_EMPTY_REFERRER_EXPLAIN'		=> 'A segurança das transferências é baseada na origem. Deseja permitir transferências que escondem a origem?',
 	'SETTINGS_CAT_IMAGES'				=> 'Configuração de Categorias de Imagens',
@@ -161,15 +161,15 @@ $lang = array_merge($lang, array(
 	'SPECIAL_CATEGORY_EXPLAIN'			=> 'Categorias Especiais diferenciam-se  na forma como são apresentadas dentro da Mensagem.',
 	'SUCCESSFULLY_UPLOADED'				=> 'Enviado com sucesso.',
 	'SUCCESS_EXTENSION_GROUP_ADD'		=> 'O Grupo de Extensão foi adicionado com sucesso.',
-	'SUCCESS_EXTENSION_GROUP_EDIT'		=> 'O Grupo de Extensão foi atualizado com sucesso.',
+	'SUCCESS_EXTENSION_GROUP_EDIT'		=> 'O Grupo de Extensão foi actualizado com sucesso.',
 
 	'UPLOADING_FILES'					=> 'A Enviar Ficheiros',
 	'UPLOADING_FILE_TO'					=> 'A Enviar Ficheiro "%1$s" à Mensagem Nº %2$d...',
 	'UPLOAD_DENIED_FORUM'				=> 'Não tem Permissão para enviar Ficheiros para o Fórum "%s".',
-	'UPLOAD_DIR'						=> 'Diretoria de Anexos',
-	'UPLOAD_DIR_EXPLAIN'				=> 'Diretoria de arquivo dos anexos.<br /> Se algum anexo for enviado enquanto esta alteração é feita, deve mudar manualmente esse anexo para o novo local.',
+	'UPLOAD_DIR'						=> 'Directoria de Anexos',
+	'UPLOAD_DIR_EXPLAIN'				=> 'Directoria de arquivo dos anexos.<br /> Se mudar esta directoria tendo já anexos nela, deve mudar manualmente esses anexos para o novo local.',
 	'UPLOAD_ICON'						=> 'Ícone de envio',
-	'UPLOAD_NOT_DIR'					=> 'O local para envio de Ficheiros que indicou não parece ser uma diretoria.',
+	'UPLOAD_NOT_DIR'					=> 'O local para envio de Ficheiros que indicou não parece ser uma directoria.',
 ));
 
 ?>

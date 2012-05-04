@@ -4,8 +4,8 @@
 * search_synonyms [Português]
 *
 * @package language
-* @version 1.0.2
-* @Traduzido por: http://phpbbportugal.com - segundo as normas do Acordo Ortográfico
+* @version 1.0.3
+* @Traduzido por: http://phpbbportugal.com | pré-Acordo Ortográfico
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 * 
@@ -33,7 +33,7 @@ $synonyms = array(
 	'arqueiro'				=> 'guerreiro', 
 	'arqueologia'			=> 'antiguidade', 
 	'arqueozologia'			=> 'arqueológico', 
-	'ártico'				=> 'do norte', 
+	'árctico'				=> 'do norte', 
 	'atendimento'			=> 'recepção', 
 	'ausência'				=> 'falta', 
 	'avião'					=> 'aeronave', 
@@ -57,9 +57,9 @@ $synonyms = array(
 	'criar'					=> 'gerar', 
 	'curriculum'			=> 'currículo',
 
-	'defesa'				=> 'proteção', 
+	'defesa'				=> 'protecção', 
 	'desconhecido' 			=> 'ignorado', 
-	'descrição'				=> 'caraterísticas', 
+	'descrição'				=> 'características', 
 	'desculpas'				=> 'perdão', 
 	'desenvolver'			=> 'progredir', 
 	'disciplina'	 		=> 'comportamento', 
@@ -69,15 +69,15 @@ $synonyms = array(
 	'escritos'				=> 'textos', 
 	'estético'				=> 'visual', 
 	'estrangeiro'			=> 'externo', 
-	'etimologia'			=> 'etimolgico', 
+	'etimologia'			=> 'etimológico', 
 	'executando'			=> 'rodando', 
 	'existência'			=> 'vida', 
 	'exorbitante'			=> 'exagero', 
 	'exuberante'	 		=> 'abundante', 
 
-	'favorito'				=> 'predileto', 
+	'favorito'				=> 'predilecto', 
 	'feto'					=> 'ser vivo', 
-	'fição'					=> 'efeitos', 
+	'ficção'					=> 'efeitos', 
 	'flores'				=> 'florescente', 
 
 	'galera'				=> 'pessoal', 
@@ -105,7 +105,7 @@ $synonyms = array(
 
 	'km'					=> 'quilómetro', 
 
-	'lazer'					=> 'descanço', 
+	'lazer'					=> 'descanso', 
 	'licença'				=> 'autorização', 
 	'limite'				=> 'fronteira', 
 	'liquificar'			=> 'líquido', 
@@ -145,7 +145,7 @@ $synonyms = array(
 	'porto'					=> 'parada', 
 	'possuir'				=> 'ter', 
 	'praticar'				=> 'desempenhar', 
-	'projeto'				=> 'programa',
+	'projecto'				=> 'programa',
 	'vc'					=> 'você',
 	'tb'					=> 'também',
 	'tbr'					=> 'trabalhar',
@@ -168,7 +168,7 @@ $synonyms = array(
 	'sabor'					=> 'gosto', 
 	'salvador'				=> 'herói', 
 	'separar'				=> 'dividir', 
-	'set'					=> 'setembro', 
+	'set'					=> 'Setembro', 
 	'sincero'				=> 'verdadeiro', 
 	'sincronizar'			=> 'ajustar', 
 	'substituído'			=> 'trocado', 

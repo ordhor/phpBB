@@ -4,8 +4,8 @@
 * acp_database [Português]
 *
 * @package language
-* @version 1.0.2
-* @Traduzido por: http://phpbbportugal.com - segundo as normas do Acordo Ortográfico
+* @version 1.0.3
+* @Traduzido por: http://phpbbportugal.com | pré-Acordo Ortográfico
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 * 
@@ -38,11 +38,11 @@ if (empty($lang) || !is_array($lang))
 
 // Database Backup/Restore
 $lang = array_merge($lang, array(
-	'ACP_BACKUP_EXPLAIN'		=> 'Aqui pode fazer <b>Cópias de Segurança</b> da Base de Dados do Fórum. Os ficheiros podem ser guardados na diretoria <b>/store</b>, ou pode transferi-los para o seu computador. Dependendo das configurações do Servidor, o ficheiro poderá ser comprimido em diversos formatos.',
-	'ACP_RESTORE_EXPLAIN'		=> 'Esta operação recuperará todas as Tabelas da Base de Dados do phpBB incluídas no Ficheiro.<br /> Se o Servidor suportar compressão de Ficheiros de texto gzip ou bzpi2 a descompressão será automática.<br /> <strong>ATENÇÃO</strong> A Base da Dados atual, e toda a informação nela contida, será substituída. A reposição dos dados poderá demorar, aguarde até que o processo esteja concluído.',
+	'ACP_BACKUP_EXPLAIN'		=> 'Aqui pode fazer <b>Cópias de Segurança</b> da Base de Dados do Fórum. Os ficheiros podem ser guardados na directoria <b>/store</b>, ou pode transferi-los para o seu computador. Dependendo das configurações do Servidor, o ficheiro poderá ser comprimido em diversos formatos.',
+	'ACP_RESTORE_EXPLAIN'		=> 'Esta operação recuperará todas as Tabelas da Base de Dados do phpBB incluídas no Ficheiro.<br /> Se o Servidor suportar compressão de Ficheiros de texto gzip ou bzpi2 a descompressão será automática.<br /> <strong>ATENÇÃO</strong> A Base da Dados actual, e toda a informação nela contida, será substituída. A reposição dos dados poderá demorar, aguarde até que o processo esteja concluído.',
 
 	'BACKUP_DELETE'				=> 'O Ficheiro da Cópia de Segurança foi apagado com sucesso.',
-	'BACKUP_INVALID'			=> 'O Ficheiro selecionado para a Cópia de Segurança é inválido.',
+	'BACKUP_INVALID'			=> 'O Ficheiro seleccionado para a Cópia de Segurança é inválido.',
 	'BACKUP_OPTIONS'			=> 'Opções da Cópia de Segurança',
 	'BACKUP_SUCCESS'			=> 'O Ficheiro da Cópia de Segurança foi criado com sucesso.',
 	'BACKUP_TYPE'				=> 'Tipo de Cópia de Segurança',
@@ -50,7 +50,7 @@ $lang = array_merge($lang, array(
 	'DATABASE'					=> 'Ferramentas da Base de Dados',
 	'DATA_ONLY'					=> 'Só Dados',
 	'DELETE_BACKUP'				=> 'Apagar Cópia de Segurança',
-	'DELETE_SELECTED_BACKUP'	=> 'Tem a certeza de que deseja apagar a Cópia de Segurança da Base de Dados selecionada?',
+	'DELETE_SELECTED_BACKUP'	=> 'Tem a certeza de que deseja apagar a Cópia de Segurança da Base de Dados seleccionada?',
 	'DESELECT_ALL'				=> 'Desmarcar todas',
 	'DOWNLOAD_BACKUP'			=> 'Transferir Cópia de Segurança',
 
@@ -60,19 +60,19 @@ $lang = array_merge($lang, array(
 
 	'RESTORE_FAILURE'			=> 'O Ficheiro da Cópia de Segurança deve estar corrompido.',
 	'RESTORE_OPTIONS'			=> 'Opções de restauração',
-	'RESTORE_SELECTED_BACKUP'	=> 'Tem certeza que deseja restaurar a Cópia de Segurança selecionada?',
+	'RESTORE_SELECTED_BACKUP'	=> 'Tem certeza que deseja restaurar a Cópia de Segurança seleccionada?',
 	'RESTORE_SUCCESS'			=> 'A Base de Dados foi restaurada com sucesso.<br /><br />O Fórum deverá estar de acordo com o momento em que a cópia de segurança foi feita.',
 
 	'SELECT_ALL'				=> 'Marcar todas',
-	'SELECT_FILE'				=> 'Selecionar o Ficheiro',
+	'SELECT_FILE'				=> 'Seleccionar o Ficheiro',
 	'START_BACKUP'				=> 'Iniciar a Cópia de Segurança',
 	'START_RESTORE'				=> 'Iniciar restauração',
 	'STORE_AND_DOWNLOAD'		=> 'Armazenar e descarregar',
-	'STORE_LOCAL'				=> 'Guardar na diretoria <strong>/store</strong> do Fórum',
+	'STORE_LOCAL'				=> 'Guardar na directoria <strong>/store</strong> do Fórum',
 	'STRUCTURE_ONLY'			=> 'Só estrutura',
 
-	'TABLE_SELECT'				=> 'Seleção de Tabelas',
-	'TABLE_SELECT_ERROR'		=> 'Deve selecionar pelo menos uma Tabela.',
+	'TABLE_SELECT'				=> 'Selecção de Tabelas',
+	'TABLE_SELECT_ERROR'		=> 'Deve seleccionar pelo menos uma Tabela.',
 ));
 
 ?>

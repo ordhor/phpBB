@@ -1,15 +1,15 @@
-Subject: Aviso de registo inativo
+Subject: Aviso de registo inactivo
 
 Olá {USERNAME};
 
-Esta notificação é um aviso de que a sua conta em "{SITENAME}", criada em {REGISTER_DATE}, permanece inativa. Se quiser ativar essa conta, visite o seguinte link:
+Esta notificação é um aviso de que a sua conta em "{SITENAME}", criada em {REGISTER_DATE}, permanece inactiva. Se quiser activar essa conta, visite o seguinte link:
 
-Para sua comodidade reenviamos o endereço de ativação:
+Para sua comodidade reenviamos o endereço de activação:
 {U_ACTIVATE}
 
 
 {USERNAME}, obrigado pelo seu registo em "{SITENAME}".
-Participe ativamente. A sua colaboração é fundamental para todos nós.
+Participe activamente. A sua colaboração é fundamental para todos nós.
 
 
 {EMAIL_SIG}

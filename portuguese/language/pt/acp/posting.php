@@ -4,8 +4,8 @@
 * acp_posting [Português]
 *
 * @package language
-* @version 1.0.2
-* @Traduzido por: http://phpbbportugal.com - segundo as normas do Acordo Ortográfico
+* @version 1.0.3
+* @Traduzido por: http://phpbbportugal.com | pré-Acordo Ortográfico
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 * 
@@ -46,17 +46,17 @@ $lang = array_merge($lang, array(
 
 	'BBCODE_ADDED'					=> 'O BBCode foi adicionado com sucesso.',
 	'BBCODE_EDITED'					=> 'O BBCode foi editado com sucesso.',
-	'BBCODE_NOT_EXIST'				=> 'O BBCode que selecionou não existe.',
+	'BBCODE_NOT_EXIST'				=> 'O BBCode que seleccionou não existe.',
 	'BBCODE_HELPLINE'				=> 'Linha de Ajuda',
 	'BBCODE_HELPLINE_EXPLAIN'		=> 'Neste Campo deve ser inserido o texto mostrado quando se coloca o cursor sobre o BBCode.',
 	'BBCODE_HELPLINE_TEXT'			=> 'Texto da Linha de Ajuda',
 	'BBCODE_HELPLINE_TOO_LONG'		=> 'A linha de ajuda que escreveu é muito longa.',	
 
-	'BBCODE_INVALID_TAG_NAME'		=> 'O Nome da TAG de BBCode selecionado já existe.',
+	'BBCODE_INVALID_TAG_NAME'		=> 'O Nome da TAG de BBCode seleccionado já existe.',
 	'BBCODE_INVALID'				=> 'A construção do seu BBCode é invalido.',
 	'BBCODE_OPEN_ENDED_TAG'			=> 'O BBCode customizado deve conter uma TAG de início e outra de fim.',
 	'BBCODE_TAG'					=> 'TAG',
-	'BBCODE_TAG_TOO_LONG'			=> 'O Nome da TAG selecionado é muito grande.',
+	'BBCODE_TAG_TOO_LONG'			=> 'O Nome da TAG seleccionado é muito grande.',
 	'BBCODE_TAG_DEF_TOO_LONG'		=> 'A Definição da TAG escrita é muito grande. Por Favor, reescreva de forma mais curta.',
 	'BBCODE_USAGE'					=> 'Uso do BBCode',
 	'BBCODE_USAGE_EXAMPLE'			=> '[highlight={COLOR}]{TEXT}[/highlight]<br /><br />[font={SIMPLETEXT1}]{SIMPLETEXT2}[/font]',
@@ -71,7 +71,7 @@ $lang = array_merge($lang, array(
 
 	'TOKEN'							=> 'Símbolo',
 	'TOKENS'						=> 'Símbolos',
-	'TOKENS_EXPLAIN'		=> 'Os Símbolos são campos especiais a serem adicionados pelos Utilizadores. Mas estes apenas serão válidos se tiverem as definições correspondentes. Se necessário, pode numerá-los adicionando um número como o último caracter: Exemplo: {Utilizador}, {Utilizador1}.<br /> <br />Pode ainda utilizar estes Símbolos com qualquer sequência de linguagem presente na diretoria /language como esta: {L_<em>&lt;STRINGNAME&gt;</em>} onde <em>&lt;STRINGNAME&gt;</em> é o nome da sequência traduzida que deseja adicionar. Por exemplo, {L_WROTE} será exibido como “wrote” ou traduzido de acordo com a localidade do Utilizador.<br /><br /><strong>Tenha em atenção que apenas os Símbolos listados abaixo podem ser utilizados com os BBCodes personalizados.</strong>',
+	'TOKENS_EXPLAIN'				=> 'Os Símbolos são campos especiais a serem adicionados pelos Utilizadores. Mas estes apenas serão válidos se tiverem as definições correspondentes. Se necessário, pode numerá-los adicionando um número como o último carácter: Exemplo: {Utilizador}, {Utilizador1}.<br /> <br />Pode ainda utilizar estes Símbolos com qualquer sequência de linguagem presente na directoria /language como esta: {L_<em>&lt;STRINGNAME&gt;</em>} onde <em>&lt;STRINGNAME&gt;</em> é o nome da sequência traduzida que deseja adicionar. Por exemplo, {L_WROTE} será exibido como “Escreveu” ou traduzido de acordo com a localidade do Utilizador.<br /><br /><strong>Tenha em atenção que apenas os Símbolos listados abaixo podem ser utilizados com os BBCodes personalizados.</strong>',
 
 	'TOKEN_DEFINITION'				=> 'O que é que isto pode ser?',
 	'TOO_MANY_BBCODES'				=> 'Não pode criar mais BBCodes. Elimine alguns BBCodes para poder criar outros.',
@@ -100,10 +100,10 @@ $lang = array_merge($lang, array(
 	'AFTER_SMILIES'					=> 'Depois %s',
 
 	'CODE'							=> 'Código',
-	'CURRENT_ICONS'					=> 'Ícones Atuais',
-	'CURRENT_ICONS_EXPLAIN'			=> 'Escolha o que fazer com os ícones atualmente instalados.',
-	'CURRENT_SMILIES'				=> 'Emoções atuais',
-	'CURRENT_SMILIES_EXPLAIN'		=> 'Escolha o que fazer com as Emoções atualmente instaladas.',
+	'CURRENT_ICONS'					=> 'Ícones Actuais',
+	'CURRENT_ICONS_EXPLAIN'			=> 'Escolha o que fazer com os ícones actualmente instalados.',
+	'CURRENT_SMILIES'				=> 'Emoções actuais',
+	'CURRENT_SMILIES_EXPLAIN'		=> 'Escolha o que fazer com as Emoções actualmente instaladas.',
 
 	'DISPLAY_ON_POSTING'			=> 'Exibir na Mensagem',
 	'DISPLAY_POSTING'				=> 'Na Mensagem',
@@ -115,22 +115,22 @@ $lang = array_merge($lang, array(
 	'EDIT_SMILIES'					=> 'Editar Emoções',
 	'EMOTION'						=> 'Emoção',
 	'EXPORT_ICONS'					=> 'Exportar e descarregar Pacote de ícones (smilies.pak)',
-	'EXPORT_ICONS_EXPLAIN'			=> '%sClicando neste atalho, as configurações para os seus ícones instalados serão compatadas para <samp>icons.pak</samp> que uma vez descarregado pode ser utilizado para criar um ficheiro <samp>.zip</samp> ou <samp>.tgz</samp> contendo todos os seus ícones mais este ficheiro de configuração<samp>icons.pak</samp>%s.',
+	'EXPORT_ICONS_EXPLAIN'			=> '%sClicando neste atalho, as configurações para os seus ícones instalados serão compactadas para <samp>icons.pak</samp> que uma vez descarregado pode ser utilizado para criar um ficheiro <samp>.zip</samp> ou <samp>.tgz</samp> contendo todos os seus ícones mais este ficheiro de configuração<samp>icons.pak</samp>%s.',
 	'EXPORT_SMILIES'				=> 'Exportar e descarregar um pack de Emoções',
-	'EXPORT_SMILIES_EXPLAIN'		=> '%sClicando neste atalho, os icones de emoções instalados será compatado para <samp>smilies.pak</samp> que uma vez descarregado pode ser utilizado para criar um ficheiro <samp>.zip</samp> ou <samp>.tgz</samp> contendo todas as suas emoções mais este ficheiro de configuração<samp>smilies.pak</samp>%s.',
+	'EXPORT_SMILIES_EXPLAIN'		=> '%sClicando neste atalho, os icones de emoções instalados será compactado para <samp>smilies.pak</samp> que uma vez descarregado pode ser utilizado para criar um ficheiro <samp>.zip</samp> ou <samp>.tgz</samp> contendo todas as suas emoções mais este ficheiro de configuração<samp>smilies.pak</samp>%s.',
 
 	'FIRST'							=> 'Primeiro',
 
 	'ICONS_ADD'						=> 'Adicionar novo ícone',
 	'ICONS_NONE_ADDED'				=> 'Não foram adicionados ícones.',
-	'ICONS_ONE_ADDED'				=> 'O ícone foi atualizado com sucesso.',
+	'ICONS_ONE_ADDED'				=> 'O ícone foi actualizado com sucesso.',
 	'ICONS_ADDED'					=> 'Os ícones foram adicionados com sucesso..',
 	'ICONS_CONFIG'					=> 'Configuração de Ícones',
 	'ICONS_DELETED'					=> 'O Ícone foi apagado com sucesso.',
 	'ICONS_ONE_EDITED'				=> 'O ícone foi editado com sucesso.',
 	'ICONS_EDIT'					=> 'Editar ícone',
-	'ICONS_NONE_EDITED'				=> 'Não foram atualizados ícones.',
-	'ICONS_EDITED'					=> 'O ícone foi atualizado com sucesso.',
+	'ICONS_NONE_EDITED'				=> 'Não foram actualizados ícones.',
+	'ICONS_EDITED'					=> 'O ícone foi actualizado com sucesso.',
 	'ICONS_HEIGHT'					=> 'Altura do ícone',
 	'ICONS_IMAGE'					=> 'Imagem do ícone',
 	'ICONS_IMPORTED'				=> 'O Pacote de ícones foi instalado com sucesso.',
@@ -160,7 +160,7 @@ $lang = array_merge($lang, array(
 
 	'REPLACE_MATCHES'				=> 'Substituir entradas',
 
-	'SELECT_PACKAGE'				=> 'Selecionar o Ficheiro do Pacote',
+	'SELECT_PACKAGE'				=> 'Seleccionar o Ficheiro do Pacote',
 	'SMILIES_ADD'					=> 'Adicionar nova Emoção',
 	'SMILIES_NONE_ADDED'			=> 'Não há Emoções disponíveis para adicionar.',
 	'SMILIES_ONE_ADDED'				=> 'A Emoção foi adicionada com sucesso.',
@@ -173,8 +173,8 @@ $lang = array_merge($lang, array(
 	'SMILIE_NO_EMOTION'				=> 'A Emoção "%s" foi ignorada, como se nenhuma emoção tivesse sido escrita.',
 	'SMILIE_NO_FILE'				=> 'A Emoção “%s” foi ignorada, porque falta o ficheiro.',
 	'SMILIES_NONE_EDITED'			=> 'Não há Emoções disponíveis para modificar.',
-	'SMILIES_ONE_EDITED'			=> 'A Emoção foi atualizada com sucesso.',	
-	'SMILIES_EDITED'				=> 'As Emoções foram atualizadas com sucesso.',
+	'SMILIES_ONE_EDITED'			=> 'A Emoção foi actualizada com sucesso.',	
+	'SMILIES_EDITED'				=> 'As Emoções foram actualizadas com sucesso.',
 	'SMILIES_EMOTION'				=> 'Emoção',
 	'SMILIES_HEIGHT'				=> 'Altura da Emoção',
 	'SMILIES_IMAGE'					=> 'Imagem da Emoção',
@@ -188,39 +188,39 @@ $lang = array_merge($lang, array(
 
 	'TOO_MANY_SMILIES'				=> 'O limite de %d emoções foi atingido.',
 
-	'WRONG_PAK_TYPE'				=> 'O Pacote selecionado não tem as informações necessárias',
+	'WRONG_PAK_TYPE'				=> 'O Pacote seleccionado não tem as informações necessárias',
 )); 
 
 // Word censors 
 $lang = array_merge($lang, array( 
-	'ACP_WORDS_EXPLAIN'				=> 'Aqui pode adicionar, editar e apagar palavras que serão automaticamente censuradas no Fórum. Adicionando esta opção, os visitantes continuarão a poder registra-se com Nomes de utilizadores contendo estas palavras. Podem ser utilizados asteriscos (*) aumentando as possibilidades de abranger variações de uma mesma palavra. Por exemplo, testa* abrangerá testar e detesta.',
+	'ACP_WORDS_EXPLAIN'				=> 'Aqui pode adicionar, editar e apagar palavras que serão automaticamente censuradas no Fórum. Adicionando esta opção, os visitantes continuarão a poder registar-se com Nomes de utilizadores contendo estas palavras. Podem ser utilizados asteriscos (*) aumentando as possibilidades de abranger variações de uma mesma palavra. Por exemplo, testa* abrangerá testar e detesta.',
 	'ADD_WORD'						=> 'Adicionar nova Palavra',
 
  	'EDIT_WORD'						=> 'Editar Palavra Censurada',
 	'ENTER_WORD'					=> 'Tem que escrever uma palavra e a sua substituição.',
 
-	'NO_WORD'						=> 'Não foi selecionada nenhuma palavra para poder ser editada.',
+	'NO_WORD'						=> 'Não foi seleccionada nenhuma palavra para poder ser editada.',
 
 	'REPLACEMENT'					=> 'Substituição',
 
-	'UPDATE_WORD'					=> 'Atualizar Palavra Censurada',
+	'UPDATE_WORD'					=> 'Actualizar Palavra Censurada',
 
 	'WORD'							=> 'Palavra',
 	'WORD_ADDED'					=> 'A Palavra Censurada foi adicionada com sucesso.',
 	'WORD_REMOVED'					=> 'A Palavra Censurada foi apagada com sucesso.',
-	'WORD_UPDATED'					=> 'A Palavra Censurada foi atualizada com sucesso.',
+	'WORD_UPDATED'					=> 'A Palavra Censurada foi actualizada com sucesso.',
 )); 
 
 // Ranks 
 $lang = array_merge($lang, array( 
-	'ACP_RANKS_EXPLAIN'				=> 'Aqui poderá adicionar, editar, visualizar e apagar ranks. Pode também criar ranks Personalizados que podem ser aplicados a um Utilizador Ferramentas de Administração de Utilizadores.',
+	'ACP_RANKS_EXPLAIN'				=> 'Aqui poderá adicionar, editar, visualizar e apagar ranks. Pode também criar ranks Personalizados que podem ser aplicados a um Utilizador nas Ferramentas de Administração de Utilizadores.',
 	'ADD_RANK'						=> 'Adicionar novo Rank',
 
-	'MUST_SELECT_RANK'				=> 'Tem de selecionar um Rank.',
+	'MUST_SELECT_RANK'				=> 'Tem de seleccionar um Rank.',
 
 	'NO_ASSIGNED_RANK'				=> 'Nenhum Rank Especial existente.',
 	'NO_RANK_TITLE'					=> 'Te, que escrever o Título do Rank.',
-	'NO_UPDATE_RANKS'				=> 'O Rank foi apagado com sucesso. De qualquer modo, os registos que utilizavam este rank não foram atualizados. Tem que atualizar os ranks nestes registos manualmente.',
+	'NO_UPDATE_RANKS'				=> 'O Rank foi apagado com sucesso. De qualquer modo, os registos que utilizavam este rank não foram actualizados. Tem que actualizar os ranks nestes registos manualmente.',
 
 	'RANK_ADDED'					=> 'O Rank foi adicionado com sucesso.',
 	'RANK_IMAGE'					=> 'Imagem do Rank',
@@ -230,7 +230,7 @@ $lang = array_merge($lang, array(
 	'RANK_REMOVED'					=> 'O Rank foi apagado com sucesso.',
 	'RANK_SPECIAL'					=> 'Escreva um Rank Especial',
 	'RANK_TITLE'					=> 'Título do Rank',
-	'RANK_UPDATED'					=> 'O Rank foi atualizado com sucesso.',
+	'RANK_UPDATED'					=> 'O Rank foi actualizado com sucesso.',
 )); 
 
 // Disallow Usernames 
@@ -239,21 +239,21 @@ $lang = array_merge($lang, array(
 	'ADD_DISALLOW_EXPLAIN'			=> 'Introduza o nome que deseja proibir. <br />Use os asteriscos (*) cuidadosamente.',
 	'ADD_DISALLOW_TITLE'			=> 'Adicionar um Nome Proibido',
 
-	'DELETE_DISALLOW_EXPLAIN'		=> 'Aqui pode eliminar uma proibição, selecionando na lista o nome cuja proibição pretende anular, clicando de seguida em enviar.',
+	'DELETE_DISALLOW_EXPLAIN'		=> 'Aqui pode eliminar uma proibição, seleccionando na lista o nome cuja proibição pretende anular, clicando de seguida em enviar.',
 	'DELETE_DISALLOW_TITLE'			=> 'Apagar um Nome Proibido',
 	'DISALLOWED_ALREADY'			=> 'O Nome especificado já está proibido.',
 	'DISALLOWED_DELETED'			=> 'O Nome Proibido foi apagado com sucesso.',
 	'DISALLOW_SUCCESSFUL'			=> 'O Nome Proibido foi adicionado com sucesso.',
 
 	'NO_DISALLOWED'					=> 'Não há Nomes Proibidos',
-	'NO_USERNAME_SPECIFIED'			=> 'O Nome Proibido não foi selecionado.',
+	'NO_USERNAME_SPECIFIED'			=> 'O Nome Proibido não foi seleccionado.',
 )); 
 
 // Reasons 
 $lang = array_merge($lang, array( 
 	'ACP_REASONS_EXPLAIN'			=> 'Aqui pode gerir as razões utilizadas em denúncias e mensagens negativas quando desaprovando mensagens. Existe uma razão padrão (marcada com um (*)) em que não pode apagar, esta razão é normalmente utilizada para mensagens Personalizadas se não possuírem motivos plausíveis.',
 	'ADD_NEW_REASON'				=> 'Adicionar nova Razão',
-	'AVAILABLE_TITLES'				=> 'Titulos de Razões Locais Disponveis',
+	'AVAILABLE_TITLES'				=> 'Títulos de Razões Locais Disponíveis',
 
 	'IS_NOT_TRANSLATED'				=> 'A Razão <strong>não</strong> foi encontrada.',
 	'IS_NOT_TRANSLATED_EXPLAIN'		=> 'A Razão <strong>não</strong> foi encontrada. Se deseja estabelecer a forma local, especifique a chave correta através dos ficheiros de linguagem do Fórum de razões para denúncias.',
@@ -274,7 +274,7 @@ $lang = array_merge($lang, array(
 	'REASON_REMOVED'				=> 'A razão foi apagada por sucesso.',
 	'REASON_TITLE'					=> 'Título da Razão',
 	'REASON_TITLE_TRANSLATED'		=> 'Título da Razão exibida',
-	'REASON_UPDATED'				=> 'A Razão para Denúncia/Negação foi atualizada com sucesso.',
+	'REASON_UPDATED'				=> 'A Razão para Denúncia/Negação foi actualizada com sucesso.',
 
 	'USED_IN_REPORTS'				=> 'Utilizado em Denúncias',
 ));

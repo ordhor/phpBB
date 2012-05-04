@@ -15,7 +15,7 @@ A sua senha foi armazenada na nossa Base de Dados de forma segura e não pode se
 
 
 {USERNAME}, obrigado pelo seu registo em "{SITENAME}".
-Participe ativamente. A sua colaboração é fundamental para todos nós.
+Participe activamente. A sua colaboração é fundamental para todos nós.
 
 
 {EMAIL_SIG}

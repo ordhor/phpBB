@@ -2,8 +2,8 @@ Subject: Novo utilizador registado
 
 Olá;
 
-Uma conta em nome de "{USERNAME}" foi desativada ou criada de novo.
-Deverá verificar os seus dados (se necessário) e ativá-la.
+Uma conta em nome de "{USERNAME}" foi desactivada ou criada de novo.
+Deverá verificar os seus dados (se necessário) e activá-la.
 
 
 Pode ver o Perfil do Utilizador no seguinte endereço:

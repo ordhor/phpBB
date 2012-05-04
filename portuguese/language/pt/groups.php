@@ -4,8 +4,8 @@
 * groups [Português]
 *
 * @package language
-* @version 1.0.2
-* @Traduzido por: http://phpbbportugal.com - segundo as normas do Acordo Ortográfico
+* @version 1.0.3
+* @Traduzido por: http://phpbbportugal.com | pré-Acordo Ortográfico
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 * 
@@ -37,9 +37,9 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'ALREADY_DEFAULT_GROUP'				=> 'O Grupo selecionado já é o seu Grupo Padrão.',
-	'ALREADY_IN_GROUP'					=> 'Já é Utilizador do Grupo selecionado.',
-	'ALREADY_IN_GROUP_PENDING'			=> 'Já pediu para entrar no Grupo selecionado.',
+	'ALREADY_DEFAULT_GROUP'				=> 'O Grupo seleccionado já é o seu Grupo Padrão.',
+	'ALREADY_IN_GROUP'					=> 'Já é Utilizador do Grupo seleccionado.',
+	'ALREADY_IN_GROUP_PENDING'			=> 'Já pediu para entrar no Grupo seleccionado.',
 
 	'CANNOT_JOIN_GROUP'					=> 'Não pode inscrever-se neste Grupo. Apenas o pode fazer em Grupos abertos.',
 	'CANNOT_RESIGN_GROUP'				=> 'Não pode demitir-se deste Grupo. Apenas o pode fazer em Grupos abertos.',
@@ -57,20 +57,20 @@ $lang = array_merge($lang, array(
 	'GROUP_IS_OPEN'						=> 'Este é um Grupo aberto, podem entrar novos Utilizadores.',
 	'GROUP_IS_SPECIAL'					=> 'Este é um Grupo especial, só o Administrador pode adicionar novos Utilizadores.',
 	'GROUP_JOIN'						=> 'Entrar no Grupo',
-	'GROUP_JOIN_CONFIRM'				=> 'Tem certeza que deseja entrar no Grupo selecionado?',
+	'GROUP_JOIN_CONFIRM'				=> 'Tem certeza que deseja entrar no Grupo seleccionado?',
 	'GROUP_JOIN_PENDING'				=> 'Pedir para entrar no Grupo',
 	'GROUP_JOIN_PENDING_CONFIRM'		=> 'Tem certeza que deseja pedir para entrar no Grupo?',
 	'GROUP_JOINED'						=> 'Entrou no Grupo',
-	'GROUP_JOINED_PENDING'				=> 'Pediu para entrar no Grupo. Espere que o Lider aprove a sua entrada.',
+	'GROUP_JOINED_PENDING'				=> 'Pediu para entrar no Grupo. Espere que o Líder aprove a sua entrada.',
 	'GROUP_LIST'						=> 'Gerir Utilizadores',
 	'GROUP_MEMBERS'						=> 'Utilizadores do Grupo',
 	'GROUP_NAME'						=> 'Nome do Grupo',
 	'GROUP_OPEN'						=> 'Aberto',
 	'GROUP_RANK'						=> 'Rank do Grupo',
 	'GROUP_RESIGN_MEMBERSHIP'			=> 'Remover Utilizadores do Grupo',
-	'GROUP_RESIGN_MEMBERSHIP_CONFIRM'	=> 'Tem a certeza de que deseja remover o Utilizador pendente do Grupo selecionado?',
+	'GROUP_RESIGN_MEMBERSHIP_CONFIRM'	=> 'Tem a certeza de que deseja remover o Utilizador pendente do Grupo seleccionado?',
 	'GROUP_RESIGN_PENDING'				=> 'Remover um Utilizador pendente',
-	'GROUP_RESIGN_PENDING_CONFIRM'		=> 'Tem a certeza de que deseja remover a sua inscrição do Grupo selecionado?',
+	'GROUP_RESIGN_PENDING_CONFIRM'		=> 'Tem a certeza de que deseja remover a sua inscrição do Grupo seleccionado?',
 	'GROUP_RESIGNED_MEMBERSHIP'			=> 'Foi removido do Grupo',
 	'GROUP_RESIGNED_PENDING'			=> 'Sua inscrição pendente para entrar no Grupo foi excluída com sucesso.',
 	'GROUP_TYPE'						=> 'Tipo do Grupo',
@@ -80,17 +80,17 @@ $lang = array_merge($lang, array(
 	'LOGIN_EXPLAIN_GROUP'				=> 'Tem que entrar para ver detalhes deste Grupo',
 
 	'NO_LEADERS'						=> 'Não é Líder de nenhum Grupo.',
-	'NOT_LEADER_OF_GROUP'				=> 'A ação selecionada não pode ser realizada porque não é Líder do Grupo selecionado.',
+	'NOT_LEADER_OF_GROUP'				=> 'A acção seleccionada não pode ser realizada porque não é Líder do Grupo seleccionado.',
 	'NOT_MEMBER_OF_GROUP'				=> 'A operação desejada não pode ser feita porque não é Utilizador deste Grupo.',
 	'NOT_RESIGN_FROM_DEFAULT_GROUP'		=> 'Não está autorizado a sair de seu Grupo Padrão.',
 
 	'PRIMARY_GROUP'						=> 'Grupo Primário',
 
-	'REMOVE_SELECTED'					=> 'Remover Selecionado',
+	'REMOVE_SELECTED'					=> 'Remover Seleccionado',
 	
 	'USER_GROUP_CHANGE'					=> 'Do grupo “%1$s” para “%2$s”',
-	'USER_GROUP_DEMOTE'					=> 'Lider do Grupo',
-	'USER_GROUP_DEMOTE_CONFIRM'			=> 'Tem a certeza de que deseja tornar-se Líder do Grupo Selecionado?',
+	'USER_GROUP_DEMOTE'					=> 'Líder do Grupo',
+	'USER_GROUP_DEMOTE_CONFIRM'			=> 'Tem a certeza de que deseja tornar-se Líder do Grupo Seleccionado?',
 	'USER_GROUP_DEMOTED'				=> 'Tornou-se Líder do Grupo com sucesso.',
 ));
 

@@ -4,8 +4,8 @@
 * viewtopic [Português]
 *
 * @package language
-* @version 1.0.2
-* @Traduzido por: http://phpbbportugal.com - segundo as normas do Acordo Ortográfico
+* @version 1.0.3
+* @Traduzido por: http://phpbbportugal.com | pré-Acordo Ortográfico
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 * 
@@ -38,7 +38,7 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'ATTACHMENT'						=> 'Anexo',
-	'ATTACHMENT_FUNCTIONALITY_DISABLED'	=> 'Anexos foram desativados',
+	'ATTACHMENT_FUNCTIONALITY_DISABLED'	=> 'Anexos foram desactivados',
 
 	'BOOKMARK_ADDED'					=> 'Tópico adicionado aos Favoritos.',
 	'BOOKMARK_ERR'						=> 'Erro ao adicionar o Tópico aos favoritos. Por favor, tente novamente.',
@@ -57,7 +57,7 @@ $lang = array_merge($lang, array(
 	'EDITED_TIMES_TOTAL'				=> 'Editado pela última vez por %1$s em %2$s, num total de %3$d vezes.',
 	'EDITED_TIME_TOTAL'					=> 'Editado pela última vez por %1$s em %2$s, num total de %3$d vez.',
 	'EMAIL_TOPIC'						=> 'Enviar a um amigo',
-	'ERROR_NO_ATTACHMENT'				=> 'O anexo selecionado não existe',
+	'ERROR_NO_ATTACHMENT'				=> 'O anexo seleccionado não existe',
 
 	'FILE_NOT_FOUND_404'				=> 'O Ficheiro <strong>%s</strong> não existe.',
 	'FORK_TOPIC'						=> 'Copiar Tópico',
@@ -71,16 +71,16 @@ $lang = array_merge($lang, array(
 	'MAKE_GLOBAL'						=> 'Alterar para “Global”',
 	'MAKE_NORMAL'						=> 'Alterar para “Tópico Normal”',
 	'MAKE_STICKY'						=> 'Alterar para “Fixo”',
-	'MAX_OPTIONS_SELECT'				=> 'Pode selecionar até <strong>%d</strong> opções',
-	'MAX_OPTION_SELECT'					=> 'Pode selecionar só <strong>1</strong> opção',
+	'MAX_OPTIONS_SELECT'				=> 'Pode seleccionar até <strong>%d</strong> opções',
+	'MAX_OPTION_SELECT'					=> 'Pode seleccionar só <strong>1</strong> opção',
 	'MISSING_INLINE_ATTACHMENT'			=> 'O Ficheiro <strong>%s</strong> não está disponível',
 	'MOVE_TOPIC'						=> 'Mover Tópico',
 
-	'NO_ATTACHMENT_SELECTED'			=> 'Não selecionou nenhum Ficheiro para transferência.',
+	'NO_ATTACHMENT_SELECTED'			=> 'Não seleccionou nenhum Ficheiro para transferência.',
 	'NO_NEWER_TOPICS'					=> 'Não há Tópicos novos neste Fórum.',
 	'NO_OLDER_TOPICS'					=> 'Não há Tópicos antigos neste Fórum.',
 	'NO_UNREAD_POSTS'					=> 'Não há Mensagens novas não lidas neste Tópico.',
-	'NO_VOTE_OPTION'					=> 'Deve selecionar uma opção para votar.',
+	'NO_VOTE_OPTION'					=> 'Deve seleccionar uma opção para votar.',
 	'NO_VOTES'							=> 'Sem votos',
 
 	'POLL_ENDED_AT'						=> 'Votação encerrada em %s',
@@ -108,7 +108,7 @@ $lang = array_merge($lang, array(
 	'VIEW_RESULTS'						=> 'Ver Resultado',
 	'VIEW_TOPIC_POST'					=> '1 Mensagem',
 	'VIEW_TOPIC_POSTS'					=> '%d mensagens',
-	'VIEW_UNREAD_POST'					=> 'Primeira Mensagem não lida',
+	'VIEW_UNREAD_POST'					=> 'Mensagens por ler',
 	'VISIT_WEBSITE'						=> 'Visitar o sítio web do Utilizador',
 	'VOTE_SUBMITTED'					=> 'O seu voto foi registado.',
 	'VOTE_CONVERTED'					=> 'Não é possível alterar votos .',

@@ -8,7 +8,7 @@ Pode ver mais informações sobre o "{GROUP_NAME}" no seguinte endereço:
 
 
 Obrigado {USERNAME}.
-Continue a participar ativamente.
+Continue a participar activamente.
 A sua colaboração é fundamental para todos nós.
 
 

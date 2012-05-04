@@ -4,8 +4,8 @@
 * viewforum [Português]
 *
 * @package language
-* @version 1.0.2
-* @Traduzido por: http://phpbbportugal.com - segundo as normas do Acordo Ortográfico
+* @version 1.0.3
+* @Traduzido por: http://phpbbportugal.com | pré-Acordo Ortográfico
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 * 
@@ -37,7 +37,7 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'ACTIVE_TOPICS'					=> 'Tópicos ativos',
+	'ACTIVE_TOPICS'					=> 'Tópicos activos',
 	'ANNOUNCEMENTS'					=> 'Anúncios',
 
 	'FORUM_PERMISSIONS'				=> 'Permissões do Fórum',
@@ -54,19 +54,19 @@ $lang = array_merge($lang, array(
 	'NO_NEW_POSTS_HOT'				=> 'Sem novas Mensagens [ Popular ]',   // Not used anymore
 	'NO_NEW_POSTS_LOCKED'			=> 'Sem novas Mensagens [ Fechado ]',   // Not used anymore
 	'NO_READ_ACCESS'				=> 'Não tem as Permissões para ler Tópicos neste Fórum.',
-    'NO_UNREAD_POSTS_HOT'			=> 'No unread posts [ Popular ]',
-    'NO_UNREAD_POSTS_LOCKED'		=> 'No unread posts [ Bloqueado ]',
+    'NO_UNREAD_POSTS_HOT'			=> 'Sem mensagens por ler [ Popular ]',
+    'NO_UNREAD_POSTS_LOCKED'		=> 'Sem mensagens por ler [ Bloqueado ]',
 
 	'POST_FORUM_LOCKED'				=> 'Fórum fechado',
 
 	'TOPICS_MARKED'					=> 'Todos os Tópicos foram sinalizados como lidos.',
 
-    'UNREAD_POSTS_HOT'				=> 'Mensagens não lidas [ Popular ]',
-    'UNREAD_POSTS_LOCKED'			=> 'Mensagens não lidas [ Bloqueado ]',
+    'UNREAD_POSTS_HOT'				=> 'Mensagens por ler [ Popular ]',
+    'UNREAD_POSTS_LOCKED'			=> 'Mensagens por ler [ Bloqueado ]',
 
 	'VIEW_FORUM'					=> 'Ver Fórum',
 	'VIEW_FORUM_TOPIC'				=> '1 Tópico',
-	'VIEW_FORUM_TOPICS'				=> '%d Tópico',
+	'VIEW_FORUM_TOPICS'				=> '%d Tópicos',
 ));
 
 ?>

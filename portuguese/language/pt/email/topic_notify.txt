@@ -2,7 +2,7 @@ Subject: Notificação de Resposta ao Tópico {TOPIC_TITLE}
 
 Olá {USERNAME};
 
-Está a observar o Tópico "{TOPIC_TITLE}" em "{SITENAME}", onde há uma nova Mensagem que pode ver no seguinte endereço:
+Tem em observação o Tópico "{TOPIC_TITLE}" em "{SITENAME}", onde há uma nova Mensagem que pode ver no seguinte endereço:
 {U_NEWEST_POST}
 Não receberá mais notificações enquanto não visitar o Tópico.
 

@@ -4,8 +4,8 @@
 * captcha_qa [Português]
 *
 * @package language
-* @version 1.0.2
-* @Traduzido por: http://phpbbportugal.com - segundo as normas do Acordo Ortográfico
+* @version 1.0.3
+* @Traduzido por: http://phpbbportugal.com | pré-Acordo Ortográfico
 * @copyright (c) 2009 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -38,28 +38,28 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
     'CAPTCHA_QA'				=> 'Q&amp;A',
-    'CONFIRM_QUESTION_EXPLAIN'	=> 'Esta pergunta destina-se a prevenir submissões automaticas por spambots.',
+    'CONFIRM_QUESTION_EXPLAIN'	=> 'Esta pergunta destina-se a prevenir submissões automáticas por spambots.',
     'CONFIRM_QUESTION_WRONG'	=> 'A sua resposta à questão está errada.',
 
 	'QUESTION_ANSWERS'			=> 'Respostas',
-	'ANSWERS_EXPLAIN'			=> 'Introduza respostas corretas, uma por linha.',
+	'ANSWERS_EXPLAIN'			=> 'Introduza respostas correctas, uma por linha.',
 	'CONFIRM_QUESTION'			=> 'Pergunta',
 
 	'ANSWER'					=> 'Resposta',
 	'EDIT_QUESTION'				=> 'Editar Pergunta',
 	'QUESTIONS'					=> 'Perguntas',
-    'QUESTIONS_EXPLAIN'			=> 'Para cada submissão ao formulário, onde ativou o plugin Q&amp;A, será feita uma das perguntas aqui definidas. Para usar este plugin deve definir pelo menos uma pergunta na idioma padrão. As perguntas devem ser de fácil resposta para o seu público alvo, mas excederem a capacidade de pesquisa do spambot no Google™. Serão obtidos melhores resultados se usar uma grande quantidade de perguntas e as alterar com regularidade. Ative a confirmação rigorosa se a sua pergunta se baseia em maiúsculas e minúsculas, pontuação ou espaços em branco.',
+    'QUESTIONS_EXPLAIN'			=> 'Para cada submissão ao formulário, onde activou o plugin Q&amp;A, será feita uma das perguntas aqui definidas. Para usar este plugin deve definir pelo menos uma pergunta na idioma padrão. As perguntas devem ser de fácil resposta para o seu público alvo, mas sem excederem a capacidade de pesquisa do spambot no Google™. Serão obtidos melhores resultados se usar uma grande quantidade de perguntas e as alterar com regularidade. Active a confirmação rigorosa se a sua pergunta se baseia em maiúsculas e minúsculas, pontuação ou espaços em branco.',
     'QUESTION_DELETED'			=> 'Pergunta excluída',
     'QUESTION_LANG'				=> 'Idioma',
     'QUESTION_LANG_EXPLAIN'		=> 'O idioma desta questão e das respostas é escrito em.',
-    'QUESTION_STRICT'			=> 'Seleção rigorosa',
-    'QUESTION_STRICT_EXPLAIN'	=> 'Ativar imposição de maiúsculas e minúsculas, pontuação e espaços em branco.',
+    'QUESTION_STRICT'			=> 'Selecção rigorosa',
+    'QUESTION_STRICT_EXPLAIN'	=> 'Activar imposição de maiúsculas e minúsculas, pontuação e espaços em branco.',
 
     'QUESTION_TEXT'				=> 'Pergunta',
     'QUESTION_TEXT_EXPLAIN'		=> 'A pergunta feita ao utilizador.',
 
 	'QA_ERROR_MSG'				=> 'Preencha todos os campos e pelo menos uma resposta.',
-	'QA_LAST_QUESTION'			=> 'Não pode apagar todas as perguntas, enquanto o plugin estiver ativo.',
+	'QA_LAST_QUESTION'			=> 'Não pode apagar todas as perguntas, enquanto o plugin estiver activo.',
 ));
 
 ?>

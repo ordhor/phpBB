@@ -1,14 +1,14 @@
 
-Olá {USERNAME};
+Olá {TO_USERNAME},
 
 
-O email que se segue foi enviado por um Administrador de {SITENAME}.
-Se há material abusivo, "spam", ou comentários que considera ofensivos contate o seguinte endereço:
+O email que se segue foi enviado por {FROM_USERNAME} utilizando a sua conta em {SITENAME}.
+Se há material abusivo, "spam", ou comentários que considera ofensivos contacte o seguinte endereço:
 {BOARD_CONTACT}
 enviando este email completo, particularmente os cabeçalhos.
-Por favor, note que o remetente desta mensagem é o Fórum (pela conta de IM do mesmo).
+Por favor, note que o remetente desta mensagem foi definido como sendo a conta IM do Forum.
 
-A Mensagem que lhe foi enviada é a seguinte:
+A mensagem que lhe foi enviada é a seguinte:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 

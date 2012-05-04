@@ -4,8 +4,8 @@
 * search [Português]
 *
 * @package language
-* @version 1.0.2
-* @Traduzido por: http://phpbbportugal.com - segundo as normas do Acordo Ortográfico
+* @version 1.0.3
+* @Traduzido por: http://phpbbportugal.com | pré-Acordo Ortográfico
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 * 
@@ -37,7 +37,7 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'ALL_AVAILABLE'				=> 'Tudo disponíveis',
+	'ALL_AVAILABLE'				=> 'Tudo disponível',
 	'ALL_RESULTS'				=> 'Todos os Resultados',
 
 	'DISPLAY_RESULTS'			=> 'Mostrar resultados ',
@@ -51,11 +51,11 @@ $lang = array_merge($lang, array(
 	'IGNORED_TERMS'				=> 'ignorado',
 	'IGNORED_TERMS_EXPLAIN'		=> 'As seguintes palavras foram ignoradas na procura: <b>%s</b>',
 
-	'JUMP_TO_POST'				=> 'Pular para a mensagem',
+	'JUMP_TO_POST'				=> 'Ir para a mensagem',
 
-	'LOGIN_EXPLAIN_EGOSEARCH'	=> 'Este forum obriga a que esteja registado para visualizar os Tópicos.',
-	'LOGIN_EXPLAIN_UNREADSEARCH'=> 'O administrador exige que esteja registado e autenticado para ver as suas mensagens lidas.',
-	'LOGIN_EXPLAIN_NEWPOSTS'	=> 'O administrador exige que esteja registado e autenticado para ver novas mensagens desde sua última visita.',
+	'LOGIN_EXPLAIN_EGOSEARCH'	=> 'É necessário que esteja registado para visualizar os Tópicos.',
+	'LOGIN_EXPLAIN_UNREADSEARCH'=> 'É necessário que esteja registado e autenticado para ver as suas mensagens lidas.',
+	'LOGIN_EXPLAIN_NEWPOSTS'	=> 'É necessário que esteja registado e autenticado para ver novas mensagens desde sua última visita.',
 	
 	'MAX_NUM_SEARCH_KEYWORDS_REFINE'	=> 'Introduziu demasiadas palavras para pesquisar. Por favor não introduza mais do que %1$d palavras.',
 
@@ -64,9 +64,9 @@ $lang = array_merge($lang, array(
 	'NO_SEARCH'					=> 'Não está autorizado usar a pesquisa.',
 	'NO_SEARCH_RESULTS'			=> 'Não foi encontrado nenhum resultado.',
 	'NO_SEARCH_TIME'			=> 'Neste momento não é possível usar a pesquisa. Por favor, tente novamente daqui a alguns minutos.',
-	'NO_SEARCH_UNREADS'			=> 'Desculpe, mas a pesquisa de novas mensagens foi desativada neste Fórum.',
+	'NO_SEARCH_UNREADS'			=> 'Desculpe, mas a pesquisa de novas mensagens foi desactivada neste Fórum.',
 	'WORD_IN_NO_POST'			=> 'Não foi encontrado nenhum resultado para esta palavra: %s.',
-	'WORDS_IN_NO_POST'			=> 'Não foi encontrado nenhum resultado para esta palavras: %s.',
+	'WORDS_IN_NO_POST'			=> 'Não foi encontrado nenhum resultado para estas palavras: %s.',
 
 	'POST_CHARACTERS'			=> 'caracteres da Mensagem',
 
@@ -84,13 +84,13 @@ $lang = array_merge($lang, array(
 	'SEARCH_AUTHOR_EXPLAIN'		=> 'Use <strong>*</strong> para resultados parciais',
 	'SEARCH_FIRST_POST'			=> 'Apenas a primeira Mensagem dos Tópicos',
 	'SEARCH_FORUMS'				=> 'Pesquisar nos Fóruns',
-	'SEARCH_FORUMS_EXPLAIN'		=> 'Selecione o Fórum ou os Fóruns em que deseja procurar. Para ser mais rápido na pesquisa selecione o Fórum principal do Subfórum e marque a opção de pesquisar em Subfórum.',
+	'SEARCH_FORUMS_EXPLAIN'		=> 'Seleccione o Fórum ou os Fóruns em que deseja procurar. Para ser mais rápido na pesquisa seleccione o Fórum principal do Sub-fórum e marque a opção de pesquisar em Sub-fórum.',
 	'SEARCH_IN_RESULTS'			=> 'Procurar estes resultados',
 	'SEARCH_KEYWORDS_EXPLAIN'	=> 'Coloque <strong>+</strong> na frente das palavras que têm que ser encontradas e coloque <strong>-</strong> nas palavras que <strong>não</strong> têm que ser encontradas. Faça uma lista de palavras separadas por <strong>|</strong> Use o <strong>*</strong> para resultados parciais.',
 	'SEARCH_MSG_ONLY'			=> 'Apenas Mensagens de texto',
 	'SEARCH_OPTIONS'			=> 'Opções de pesquisa',
 	'SEARCH_QUERY'				=> 'Procurar',
-	'SEARCH_SUBFORUMS'			=> 'Procurar nos Subfóruns',
+	'SEARCH_SUBFORUMS'			=> 'Procurar nos Sub-fóruns',
 	'SEARCH_TITLE_MSG'			=> 'Procurar Títulos e texto dos Tópicos',
 	'SEARCH_TITLE_ONLY'			=> 'Procurar só nos Títulos dos Tópicos',
 	'SEARCH_WITHIN'				=> 'Procurar com',

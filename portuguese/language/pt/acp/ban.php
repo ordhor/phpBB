@@ -4,8 +4,8 @@
 * acp_ban [Português]
 *
 * @package language
-* @version 1.0.2
-* @Traduzido por: http://phpbbportugal.com - segundo as normas do Acordo Ortográfico
+* @version 1.0.3
+* @Traduzido por: http://phpbbportugal.com | pré-Acordo Ortográfico
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 * 
@@ -42,25 +42,25 @@ $lang = array_merge($lang, array(
 	'30_MINS'					=> '30 Minutos',
 	'6_HOURS'					=> '6 Horas',
 
-	'ACP_BAN_EXPLAIN'			=> 'Aqui pode fazer a Gestão dos Utilizadores expulsos por nome, endereço de IP, ou endereço de email. A expulsão impede o Utilizador de entrar no Fórum. Se desejar pode explicar o motivo da expulsão (3.000 caracteres). O motivo da expulsão será mostrado no registo do Administrador. A duração da expulsão também pode ser especificada. Se quiser que a expulsão termine numa data específica depois de outra especificação de tempo selecione <u><STRONG>Até -></STRONG></u> para a longevidade da expulsão e insira a data em ano-mês-dia.',
+	'ACP_BAN_EXPLAIN'			=> 'Aqui pode fazer a Gestão dos Utilizadores expulsos por nome, endereço de IP, ou endereço de email. A expulsão impede o Utilizador de entrar no Fórum. Se desejar pode explicar o motivo da expulsão (3.000 caracteres). O motivo da expulsão será mostrado no registo do Administrador. A duração da expulsão também pode ser especificada. Se quiser que a expulsão termine numa data específica depois de outra especificação de tempo seleccione <u><STRONG>Até -></STRONG></u> para a longevidade da expulsão e insira a data em ano-mês-dia.',
 
 	'BAN_EXCLUDE'				=> 'Apagar Expulsão',
 	'BAN_LENGTH'				=> 'Duração da Expulsão',
 	'BAN_REASON'				=> 'Razão da Expulsão',
 	'BAN_GIVE_REASON'			=> 'Descrição do motivo da expulsão',
-	'BAN_UPDATE_SUCCESSFUL'		=> 'A Lista de Expulsões foi atualizada com sucesso.',
+	'BAN_UPDATE_SUCCESSFUL'		=> 'A Lista de Expulsões foi actualizada com sucesso.',
 	'BANNED_UNTIL_DATE'			=> 'até %s', // Exemplo: "até Seg 13.Jul.2009, 14:44"
 	'BANNED_UNTIL_DURATION'		=> '%1$s (até %2$s)', // Exemplo: "7 dias (até Ter 14.Jul.2009, 14:44)"
 	
 	'EMAIL_BAN'					=> 'Expulsar um ou mais endereços de email',
-	'EMAIL_BAN_EXCLUDE_EXPLAIN'	=> 'Ative esta opção para excluir emails da expulsão.',
-	'EMAIL_BAN_EXPLAIN'			=> 'Quando utilizar mais do que um endereço de email, separe-os por linha. Para selecionar endereços de email parciais, utilize asteriscos (*), como por exemplo, <samp>*@hotmail.com</samp>, <samp>*@*.domain.tld</samp>, etc.',
+	'EMAIL_BAN_EXCLUDE_EXPLAIN'	=> 'Active esta opção para excluir emails da expulsão.',
+	'EMAIL_BAN_EXPLAIN'			=> 'Quando utilizar mais do que um endereço de email, separe-os por linha. Para seleccionar endereços de email parciais, utilize asteriscos (*), como por exemplo, <samp>*@hotmail.com</samp>, <samp>*@*.domain.tld</samp>, etc.',
 	'EMAIL_NO_BANNED'			=> 'Não há emails expulsos',
 	'EMAIL_UNBAN'				=> 'Desbloquear um ou mais endereços de email',
 	'EMAIL_UNBAN_EXPLAIN'		=> 'Pode desbloquear múltiplos emails de uma só vez, usando a combinação apropriada do rato e teclado do seu computador. Emails excluídos têm uma marcação no fundo.',
 
 	'IP_BAN'					=> 'Expulsar um ou mais IPs',
-	'IP_BAN_EXCLUDE_EXPLAIN'	=> 'Ative esta opção para excluir IPs da expulsão.',
+	'IP_BAN_EXCLUDE_EXPLAIN'	=> 'Active esta opção para excluir IPs da expulsão.',
 	'IP_BAN_EXPLAIN'			=> 'Para especificar diferentes IPs ou hostnames digite cada um numa nova linha. Para especificar uma range de endereços de IP separe o inicio e o fim com um hifen (-), para especificar uma wildcard use asterisco *.',
 	'IP_HOSTNAME'				=> 'Endereços IP ou hostnames',
 	'IP_NO_BANNED'				=> 'Não há endereços de IP expulsos',
@@ -76,7 +76,7 @@ $lang = array_merge($lang, array(
 
 	'UNTIL'						=> 'Até',
 	'USER_BAN'					=> 'Expulsar um ou mais utilizadores',
-	'USER_BAN_EXCLUDE_EXPLAIN'	=> 'Ative esta opção para excluir Utilizadores da expulsão.',
+	'USER_BAN_EXCLUDE_EXPLAIN'	=> 'Active esta opção para excluir Utilizadores da expulsão.',
 	'USER_BAN_EXPLAIN'			=> 'Pode expulsar múltiplos Utilizadores de uma só vez, escrevendo um nome por linha. <br />Use <b>Procurar Utilizador</b> para adicionar automaticamente um ou mais Utilizadores.',
 	'USER_NO_BANNED'			=> 'Não há utilizadores expulsos',
 	'USER_UNBAN'				=> 'Desbloquear ou retirar expulsão a utilizadores',

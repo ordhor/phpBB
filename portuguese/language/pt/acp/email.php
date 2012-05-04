@@ -4,8 +4,8 @@
 * acp_email [Português]
 *
 * @package language
-* @version 1.0.2
-* @Traduzido por: http://phpbbportugal.com - segundo as normas do Acordo Ortográfico
+* @version 1.0.3
+* @Traduzido por: http://phpbbportugal.com | pré-Acordo Ortográfico
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 * 
@@ -38,7 +38,7 @@ if (empty($lang) || !is_array($lang))
 
 // Email settings
 $lang = array_merge($lang, array(
-	'ACP_MASS_EMAIL_EXPLAIN'	=> 'Aqui pode enviar um email a todos os seus Utilizadores ou a todos os Utilizadores de um determinado Grupo, <strong>se tiver a opção de receber emails ativada</strong>. Para isso, uma mensagem será enviada ao endereço de email do administrador a informar, com uma cópia a todos membros. A configuração padrão apenas inclui 50 destinatários por mensagem, sendo que para mais destinatários mais emails serão enviados. Se está a enviar mensagens a um grande grupo de Utilizadores, por favor, seja paciente e não feche a página durante o envio. É normal que o envio em massa de mensagens leve algum tempo: Será avisado quando o processo terminar.',
+	'ACP_MASS_EMAIL_EXPLAIN'	=> 'Aqui pode enviar um email a todos os seus Utilizadores ou a todos os Utilizadores de um determinado Grupo, <strong>se tiver a opção de receber emails activada</strong>. Para isso, uma mensagem será enviada ao endereço de email do administrador a informar, com uma cópia a todos membros. A configuração padrão apenas inclui 50 destinatários por mensagem, sendo que para mais destinatários mais emails serão enviados. Se está a enviar mensagens a um grande grupo de Utilizadores, por favor, seja paciente e não feche a página durante o envio. É normal que o envio em massa de mensagens leve algum tempo: Será avisado quando o processo terminar.',
 	'ALL_USERS'					=> 'Todos os Utilizadores',
 
 	'COMPOSE'					=> 'Compor',
@@ -47,15 +47,15 @@ $lang = array_merge($lang, array(
 	'EMAIL_SENT'				=> 'O seu email foi enviado com sucesso.',
 	'EMAIL_SENT_QUEUE'			=> 'O seu email foi guardado na lista de envios pendentes.',
 
-	'LOG_SESSION'				=> 'Ativa o registo dos envios',
+	'LOG_SESSION'				=> 'Activa o registo dos envios',
 
 	'SEND_IMMEDIATELY'			=> 'Enviar imediatamente',
 	'SEND_TO_GROUP'				=> 'Enviar para Grupo',
 	'SEND_TO_USERS'				=> 'Enviar para Utilizadores',
-	'SEND_TO_USERS_EXPLAIN'		=> 'Escrevendo nomes aqui, sobrescreve qualquer grupo selecionado acima. Escreva apenas um nome de Utilizador por linha.',
+	'SEND_TO_USERS_EXPLAIN'		=> 'Escrevendo nomes aqui, sobrescreve qualquer grupo seleccionado acima. Escreva apenas um nome de Utilizador por linha.',
 
-	'MAIL_BANNED'				=> 'Mail banned users',
-	'MAIL_BANNED_EXPLAIN'		=> 'When sending a mass e-mail to a group you can select here whether banned users will also receive the e-mail.',
+	'MAIL_BANNED'				=> 'Utilizadores Banidos',
+	'MAIL_BANNED_EXPLAIN'		=> 'Quando envia um email em massa, pode optar por enviar ou não, aos Utilizadores Banidos.',
 	'MAIL_HIGH_PRIORITY'		=> 'Alta',
 	'MAIL_LOW_PRIORITY'			=> 'Baixa',
 	'MAIL_NORMAL_PRIORITY'		=> 'Normal',

@@ -4,8 +4,8 @@
 * help_faq [Português]
 *
 * @package language
-* @version 1.0.2
-* @Traduzido por: http://phpbbportugal.com - segundo as normas do Acordo Ortográfico
+* @version 1.0.3
+* @Traduzido por: http://phpbbportugal.com | pré-Acordo Ortográfico
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 * 
@@ -37,7 +37,7 @@ $help = array(
 	),
 	array(
 		0	=> 'Por que é que não consigo entrar no Fórum?',
-		1	=> 'Já se <b>Registou</b>? Deve <b>Registar-se</b> para poder <b>Entrar</b> no <b>Fórum</b>. Foi expulso? Se foi expulso deverá receber uma <b>Mensagem</b> a informá-lo da ocorrência. Se discordar das razões apontadas contate o <b>Administrador</b>. Se está <b>registado</b>, não se encontra expulso e mesmo assim não conseguir entrar, verifique se o seu <b>Nome de Utilizador</b> e <b>Senha</b> estão corretos. Normalmente é esse o problema. Se mesmo assim, não encontra uma explicação para a situação, contate o <b>Administrador</b> porque pode haver alguma configuração errada no Sistema.',
+		1	=> 'Já se <b>Registou</b>? Deve <b>Registar-se</b> para poder <b>Entrar</b> no <b>Fórum</b>. Foi expulso? Se foi expulso deverá receber uma <b>Mensagem</b> a informá-lo da ocorrência. Se discordar das razões apontadas contacte o <b>Administrador</b>. Se está <b>registado</b>, não se encontra expulso e mesmo assim não conseguir entrar, verifique se o seu <b>Nome de Utilizador</b> e <b>Senha</b> estão correctos. Normalmente é esse o problema. Se mesmo assim, não encontra uma explicação para a situação, contacte o <b>Administrador</b> porque pode haver alguma configuração errada no Sistema.',
 	),
 	array(
 		0	=> 'O Registo é obrigatório?',
@@ -49,7 +49,7 @@ $help = array(
 	),
 	array(
 		0	=> 'Posso ocultar o meu Nome de <b>Utilizador</b> da Lista de <b>Utilizadores</b> Online?',
-		1	=> 'No <b>Painel de Controlo do Utilizador [UCP]</b>, aba <b>Preferências</b>, opção <b>Configurações Pessoais</b>, selecione <b>Sim</b> em <b>Ocultar o meu Status Online</b>. Desta forma só o <b>Administrador</b> e os <b>Moderadores</b> poderão vê-lo Online. Passará a ser considerado <b>Utilizador</b> invisível pelo Sistema.',
+		1	=> 'No <b>Painel de Controlo do Utilizador [UCP]</b>, aba <b>Preferências</b>, opção <b>Configurações Pessoais</b>, seleccione <b>Sim</b> em <b>Ocultar o meu Status Online</b>. Desta forma só o <b>Administrador</b> e os <b>Moderadores</b> poderão vê-lo Online. Passará a ser considerado <b>Utilizador</b> invisível pelo Sistema.',
 	),
 	array(
 		0	=> 'Esqueci-me da minha Senha, e agora?',
@@ -57,7 +57,7 @@ $help = array(
 	),
 	array(
 		0	=> 'Registei-me mas não consigo entrar!',
-		1	=> 'Verifique se escreve corretamente o <b>Nome de Utilizador</b> e a <b>Senha</b>.  Se tem a certeza de que estão corretos tenha em atenção um de dois fatores. Se a função <a href="http://www.coppa.org/coppa.htm" target="_blank";" title="Abrir numa janela nova"><i><b>COPPA</b> (Childrens Online Privacy Protetion At)</i></a> estiver ativa no <b>Fórum</b> e assinalou a uma <b>idade inferior a 13 anos</b> durante o <b>Registo</b>, então tem que seguir as instruções que recebeu. Se não é este o seu caso, então o seu <b>Registo</b> ainda não se encontra-se ativado. Alguns <b>Fóruns</b> obrigam à ativação dos novos <b>Registos</b>. A Ativação tanto pode ser feita pelo <b>Administrador</b> como pelo próprio <b>Utilizador</b>, que neste último caso receberá um email para esse efeito. Esta informação é fornecida aos novos <b>Utilizadores</b> durante o <b>Registo</b>. Se recebeu um email, siga as suas instruções. Se não recebeu nenhum email pode ter escrito incorretamente o endereço de email ou então está considerado como spam pelo seu cliente de email. Se tem certeza que o endereço de email que forneceu é válido e correto, tente contatar o <b>Administrador do Fórum</b>.',
+		1	=> 'Verifique se escreve correctamente o <b>Nome de Utilizador</b> e a <b>Senha</b>.  Se tem a certeza de que estão correctos tenha em atenção um de dois factores. Se a função <a href="http://www.coppa.org/coppa.htm" target="_blank";" title="Abrir numa janela nova"><i><b>COPPA</b> (Childrens Online Privacy Protection Act)</i></a> estiver activa no <b>Fórum</b> e assinalou a uma <b>idade inferior a 13 anos</b> durante o <b>Registo</b>, então tem que seguir as instruções que recebeu. Se não é este o seu caso, então o seu <b>Registo</b> ainda não se encontra-se activado. Alguns <b>Fóruns</b> obrigam à activação dos novos <b>Registos</b>. A Activação tanto pode ser feita pelo <b>Administrador</b> como pelo próprio <b>Utilizador</b>, que neste último caso receberá um email para esse efeito. Esta informação é fornecida aos novos <b>Utilizadores</b> durante o <b>Registo</b>. Se recebeu um email, siga as suas instruções. Se não recebeu nenhum email pode ter escrito incorrectamente o endereço de email ou então está considerado como spam pelo seu cliente de email. Se tem certeza que o endereço de email que forneceu é válido e correto, tente contactar o <b>Administrador do Fórum</b>.',
 	),
 	array(
 		0	=> 'Registei-me e já entrei anteriormente mas agora não!',
@@ -65,15 +65,15 @@ $help = array(
 	),
 	array(
 		0	=> 'O que é <b>COPPA</b>?',
-		1	=> 'A <a href="http://www.coppa.org/coppa.htm" target="_blank";" title="Abrir numa janela nova"><i><b>COPPA</b> (Childrens Online Privacy Protetion At)</i></a> é uma Lei de 1998 dos EUA que exige uma autorização para guardar as informações relativas a menores de 13 anos de idade.',
+		1	=> 'A <a href="http://www.coppa.org/coppa.htm" target="_blank";" title="Abrir numa janela nova"><i><b>COPPA</b> (Childrens Online Privacy Protection Act)</i></a> é uma Lei de 1998 dos EUA que exige uma autorização para guardar as informações relativas a menores de 13 anos de idade.',
 	),
 	array(
 		0	=> 'Por que não consigo Registar-me?',
-		1	=> 'É possível que o <b>Administrador</b> tenha expulso o seu <b>Endereço de IP</b> ou adicionado como <b>Nome Proibido</b> o <b>Nome de Utilizador</b> que deseja usar. Os <b>Registos</b> também podem encontrar-se temporariamente desativados, por razões não especificadas.',
+		1	=> 'É possível que o <b>Administrador</b> tenha expulso o seu <b>Endereço de IP</b> ou adicionado como <b>Nome Proibido</b> o <b>Nome de Utilizador</b> que deseja usar. Os <b>Registos</b> também podem encontrar-se temporariamente desactivados, por razões não especificadas.',
 	),
 	array(
 		0	=> 'Para que serve a opção <b>Apagar cookies</b>?',
-		1	=> 'Apaga do seu PC todos os <b>Cookies</b> criados pelo phpBB3 e que servem para o manter ligado e autenticado, e permitem o pleno funcionamento das opções ativadas pelo <b>Administrador</b>.',
+		1	=> 'Apaga do seu PC todos os <b>Cookies</b> criados pelo phpBB3 e que servem para o manter ligado e autenticado, e permitem o pleno funcionamento das opções activadas pelo <b>Administrador</b>.',
 	),
 	array(
 		0	=> '--',
@@ -85,7 +85,7 @@ $help = array(
 	),
 	array(
 		0	=> 'A Data e Hora estão erradas!',
-		1	=> 'Provavelmente as datas estão corretas, pode acontecer que esteja a visualizar as horas de um Fuso Horário diferente do seu. Pode alterar o Fuso Horário do Fórum no seu Perfil na opção <b>Fuso Horário</b> Selecione <b>[GMT] Dublin, Edinburgh, Iceland, Lisboa, London, Casablanca</b>. A mudança do Fuso Horário só é permitida aos <b>Utilizadores Registados</b>.',
+		1	=> 'Provavelmente as datas estão correctas, pode acontecer que esteja a visualizar as horas de um Fuso Horário diferente do seu. Pode alterar o Fuso Horário do Fórum no seu Perfil na opção <b>Fuso Horário</b> Seleccione <b>[GMT] Dublin, Edinburgh, Iceland, Lisboa, London, Casablanca</b>. A mudança do Fuso Horário só é permitida aos <b>Utilizadores Registados</b>.',
 	),
 	array(
 		0	=> 'Alterei o Fuso Horário, mas a Data e Hora continuam erradas!',
@@ -97,15 +97,15 @@ $help = array(
 	),
 	array(
 		0	=> 'Como posso exibir uma Imagem junto ao meu Nome de <b>Utilizador</b>?',
-		1	=> 'Há duas imagens que podem aparecer junto com um nome de <b>Utilizador</b> quando se veem as Mensagens. Uma delas pode ser uma imagem associada à sua classificação, geralmente na forma de blocos, estrelas ou pontos, indicando a quantidade de mensagens que tenha feito ou o seu estatuto no Fórum. Outra, geralmente uma imagem maior, é conhecida como um <b>Avatar</b>, que é normalmente única ou pertencente a cada <b>Utilizador</b>. Cabe ao Administrador permitir ou não o uso de <b>Avatar</b> e definir como podem ser usados. Se não conseguir utilizar <b>Avatares</b>, contate o Administrador do Fórum.',
+		1	=> 'Há duas imagens que podem aparecer junto com um nome de <b>Utilizador</b> quando se vêem as Mensagens. Uma delas pode ser uma imagem associada à sua classificação, geralmente na forma de blocos, estrelas ou pontos, indicando a quantidade de mensagens que tenha feito ou o seu estatuto no Fórum. Outra, geralmente uma imagem maior, é conhecida como um <b>Avatar</b>, que é normalmente única ou pertencente a cada <b>Utilizador</b>. Cabe ao Administrador permitir ou não o uso de <b>Avatar</b> e definir como podem ser usados. Se não conseguir utilizar <b>Avatares</b>, contacte o Administrador do Fórum.',
 	),
 	array(
 		0	=> 'Como posso alterar o meu Rank?',
-		1	=> 'De uma forma geral, o <b>Utilizador</b> Normal não pode alterar diretamente o seu Rank (os Ranks aparecem por debaixo do Nome de Utilizador nos Tópicos e no Perfil, dependendo do Template em uso). A maior parte dos Ranks existentes, indicam o Número de Mensagens enviadas ou indicam certo tipo de <b>Utilizadores</b>, ou seja, Moderadores e Administradores poderão ter um Rank Especial. Por Favor, não abuse do Fórum enviando Mensagens desnecessárias apenas para aumentar o Nível do seu Rank, pois os Administradores ou Moderadores podem tomar alguma atitude contra si, se considerarem que está a ter atitudes abusivas.',
+		1	=> 'De uma forma geral, o <b>Utilizador</b> Normal não pode alterar directamente o seu Rank (os Ranks aparecem por debaixo do Nome de Utilizador nos Tópicos e no Perfil, dependendo do Template em uso). A maior parte dos Ranks existentes, indicam o Número de Mensagens enviadas ou indicam certo tipo de <b>Utilizadores</b>, ou seja, Moderadores e Administradores poderão ter um Rank Especial. Por Favor, não abuse do Fórum enviando Mensagens desnecessárias apenas para aumentar o Nível do seu Rank, pois os Administradores ou Moderadores podem tomar alguma atitude contra si, se considerarem que está a ter atitudes abusivas.',
 	),
 	array(
-		0	=> 'Quando clico no email de um <b>Utilizador</b>, aparece uma página de acesse?!',
-		1	=> 'Só os <b>Utilizadores Registados</b> podem enviar <b>emails</b> através do formulário exclusivo do Fórum (se esta função se encontrar ativada). Isso evita o uso malicioso do sistema de email por <b>Visitantes</b>.',
+		0	=> 'Quando clico no email de um <b>Utilizador</b>, pede-me para ligar no fórum?!',
+		1	=> 'Só os <b>Utilizadores Registados</b> podem enviar <b>emails</b> através do formulário exclusivo do Fórum (se esta função se encontrar activada). Isso evita o uso malicioso do sistema de email por <b>Visitantes</b>.',
 	),
 	array(
 		0	=> '--',
@@ -125,7 +125,7 @@ $help = array(
 	),
 	array(
 		0	=> 'Como posso adicionar uma assinatura às minhas Mensagens?',
-		1	=> 'Vá ao <b>Painel de Controlo do Utilizador [UCP]</b> aba <b>Perfil</b> opção <b>A sua assinatura</b>, e adicione a assinatura pretendida. Ainda no <b>[UCP]</b>, mas aba <b>Preferências</b> opção <b>Mensagens enviadas</b> selecione <b>Ativar sempre a Minha Assinatura</b>. Nas suas <b>Mensagens</b> pode, se assim o desejar, desativar caso a caso a opção <b>Anexar assinatura</b>.',
+		1	=> 'Vá ao <b>Painel de Controlo do Utilizador [UCP]</b> aba <b>Perfil</b> opção <b>A sua assinatura</b>, e adicione a assinatura pretendida. Ainda no <b>[UCP]</b>, mas aba <b>Preferências</b> opção <b>Mensagens enviadas</b> seleccione <b>Activar sempre a Minha Assinatura</b>. Nas suas <b>Mensagens</b> pode, se assim o desejar, desactivar caso a caso a opção <b>Anexar assinatura</b>.',
 	),
 	array(
 		0	=> 'Como posso criar uma votação?',
@@ -137,7 +137,7 @@ $help = array(
 	),
 	array(
 		0	=> 'Por que não consigo entrar num Fórum?',
-		1	=> 'O acesso a algumas seções poderá estar limitado apenas a determinados <b>Utilizadores</b> ou Grupos. Para ver, ler, enviar Mensagens, etc., tem que ter de uma autorização especial. Apenas o Moderador dessa secção e um <b>Administrador</b> podem permitir esse acesso. Entre em contato, caso ache necessário.',
+		1	=> 'O acesso a algumas secções poderá estar limitado apenas a determinados <b>Utilizadores</b> ou Grupos. Para ver, ler, enviar Mensagens, etc., tem que ter de uma autorização especial. Apenas o Moderador dessa secção e um <b>Administrador</b> podem permitir esse acesso. Entre em contacto, caso ache necessário.',
 	),
 	array(
 		0	=> 'Por que não posso Votar?',
@@ -145,7 +145,7 @@ $help = array(
 	),
 	array(
 		0	=> 'Por que não consigo anexar ficheiros?',
-		1	=> 'Em algumas seções, anexar ficheiros pode estar restrito a alguns <b>Utilizadores</b> ou Grupos. Para anexar um arquivo, tem que ter de uma autorização especial. Apenas o Moderador do Fórum e os Administradores podem lhe dar esse acesso. Por Favor, contate-os.',
+		1	=> 'Em algumas secções, anexar ficheiros pode estar restrito a alguns <b>Utilizadores</b> ou Grupos. Para anexar um arquivo, tem que ter de uma autorização especial. Apenas o Moderador do Fórum e os Administradores podem lhe dar esse acesso. Por Favor, contacte-os.',
 	),
 	array(
 		0	=> 'Por que recebi uma Advertência?',
@@ -153,7 +153,7 @@ $help = array(
 	),
 	array(
 		0	=> 'Como posso Denunciar Mensagens?',
-		1	=> 'Se o <b>Administrador</b> tiver ativado esta opção, vá até à mensagem que deseja denunciar e verá um botão que serve para denunciar Mensagens. Clicando ali, será encaminhado às etapas necessárias para denunciar a mensagem.',
+		1	=> 'Se o <b>Administrador</b> tiver activado esta opção, vá até à mensagem que deseja denunciar e verá um botão que serve para denunciar Mensagens. Clicando ali, será encaminhado às etapas necessárias para denunciar a mensagem.',
 	),
 	array(
 		0	=> 'Para que serve o botão <b>Guardar</b> no <b>Painel de Mensagens</b>?',
@@ -161,11 +161,11 @@ $help = array(
 	),
 	array(
 		0	=> 'Do que necessita a minha Mensagem para ser Aprovada?',
-		1	=> 'O <b>Administrador</b> pode decidir se na secção em que está postando, as Mensagens precisem ser revisadas ou não. E também é possível que o <b>Administrador</b> O tenha adicionado a um Grupo de <b>Utilizadores</b> que precise ter suas Mensagens aprovadas antes de enviá-las ao Fórum. Por Favor, contate o <b>Administrador</b> para maiores informações.',
+		1	=> 'O <b>Administrador</b> pode decidir se na secção em que está postando, as Mensagens precisem ser revisadas ou não. E também é possível que o <b>Administrador</b> O tenha adicionado a um Grupo de <b>Utilizadores</b> que precise ter suas Mensagens aprovadas antes de enviá-las ao Fórum. Por Favor, contacte o <b>Administrador</b> para maiores informações.',
 	),
 	array(
 		0	=> 'Como posso ressuscitar os meus Tópicos?',
-		1	=> 'Clicando em <b>Ressuscitar Tópico</b>, quando estiver a visualizar o mesmo, pode ressuscitar o Tópico para o topo do Fórum na primeira página. Porém, se não vir esta opção, então esta ferramenta encontra-se desativada. Também o pode fazer simplesmente respondendo ao Tópico. Entretanto, fique atento às regras do sítio web.',
+		1	=> 'Clicando em <b>Ressuscitar Tópico</b>, quando estiver a visualizar o mesmo, pode ressuscitar o Tópico para o topo do Fórum na primeira página. Porém, se não vir esta opção, então esta ferramenta encontra-se desactivada. Também o pode fazer simplesmente respondendo ao Tópico. Entretanto, fique atento às regras do sítio web.',
 	),
 	array(
 		0	=> '--',
@@ -173,7 +173,7 @@ $help = array(
 	),
 	array(
 		0	=> 'O que é BBCode?',
-		1	=> 'O <b>BBCode</b> é uma implementação especial do HTML. A possibilidade usar BBCode nas mensagens é determinada pelo <b>Administrador</b> do Fórum. Adicionalmente, pode poderá desativar o BBCode em cada mensagem, selecionando <b>Desativar BBCode nesta Mensagem</b> abaixo da caixa principal de cada mensagem. BBCode por si mesmo é similar em estilo ao HTML, as Etiquetas (TAGs) são incluídas entre parênteses retos, como por <b>[exemplo]</b>, em vez de <b>&lt;exemplo&gt</b>; proporcionando uma maior facilidade na formatação dos textos e mensagens dentro do Fórum. Para mais informações, consulte o <b>Guia BBCode</b>, acessível através de um atalho no Painel de Mensagens.',
+		1	=> 'O <b>BBCode</b> é uma implementação especial do HTML. A possibilidade usar BBCode nas mensagens é determinada pelo <b>Administrador</b> do Fórum. Adicionalmente, pode poderá desactivar o BBCode em cada mensagem, seleccionando <b>Desactivar BBCode nesta Mensagem</b> abaixo da caixa principal de cada mensagem. BBCode por si mesmo é similar em estilo ao HTML, as Etiquetas (TAGs) são incluídas entre parênteses rectos, como por <b>[exemplo]</b>, em vez de <b>&lt;exemplo&gt</b>; proporcionando uma maior facilidade na formatação dos textos e mensagens dentro do Fórum. Para mais informações, consulte o <b>Guia BBCode</b>, acessível através de um atalho no Painel de Mensagens.',
 	),
 	array(
 		0	=> 'Posso usar HTML?',
@@ -189,11 +189,11 @@ $help = array(
 	),
 	array(
 		0	=> 'O que são Anúncios Globais?',
-		1	=> 'Os <b>Anúncios Globais</b> contêm normalmente informações importantes e devem ser lidos logo que forem publicados. Eles irão aparecer no topo de todas as seções e também com o seu Painel de <b>Utilizadores</b>. Se pode ou não utilizar essa função, depende das permissões que lhe foram dadas e configuradas pelo <b>Administrador</b>.',
+		1	=> 'Os <b>Anúncios Globais</b> contêm normalmente informações importantes e devem ser lidos logo que forem publicados. Eles irão aparecer no topo de todas as secções e também com o seu Painel de <b>Utilizadores</b>. Se pode ou não utilizar essa função, depende das permissões que lhe foram dadas e configuradas pelo <b>Administrador</b>.',
 	),
 	array(
 		0	=> 'O que são Anúncios?',
-		1	=> 'Os <b>Anúncios</b> contêm normalmente informações importantes e devem ser lidos logo que forem publicados. Os Anúncios são automaticamente colocados no topo de cada página de cada secção onde são postados. Se pode ou não utilizar essa função, depende das permissões que lhe foram dadas e configuradas pelo <b>Administrador</b>.',
+		1	=> 'Os <b>Anúncios</b> contêm normalmente informações importantes e devem ser lidos logo que forem publicados. Os Anúncios são automaticamente colocados no topo de cada página de cada secção. Se pode ou não utilizar essa função, depende das permissões que lhe foram dadas e configuradas pelo <b>Administrador</b>.',
 	),
 	array(
 		0	=> 'O que são Tópicos Fixos?',
@@ -218,11 +218,11 @@ $help = array(
 	),
 	array(
 		0	=> 'O que são Administradores?',
-		1	=> '<b>Administradores</b> são os <b>Utilizadores</b> que possuem o Nível Máximo de controlo sobre todos os aspetos do Fórum. Podem controlar toda a operação das seções, incluindo criar, editar ou apagar seções, determinar permissões, expulsar <b>Utilizadores</b>, criar Grupos de <b>Utilizadores</b> ou Moderadores, etc. E ainda possuem todos os poderes de Moderador em todas as seções existentes.',
+		1	=> '<b>Administradores</b> são os <b>Utilizadores</b> que possuem o Nível Máximo de controlo sobre todos os aspectos do Fórum. Podem controlar toda a operação das secções, incluindo criar, editar ou apagar secções, determinar permissões, expulsar <b>Utilizadores</b>, criar Grupos de <b>Utilizadores</b> ou Moderadores, etc. E ainda possuem todos os poderes de Moderador em todas as secções existentes.',
 	),
 	array(
 		0	=> 'O que são Moderadores?',
-		1	=> '<b>Moderadores</b> são os <b>Utilizadores</b> (ou Grupos de Utilizadores) em que seu trabalho é supervisionar diariamente o andamento das seções que lhes estejam designadas. Eles possuem o poder de editar ou apagar Mensagens, trancar, destrancar, mover e subdividir Tópicos nas seções onde são Moderadores. Geralmente os Moderadores fiscalizam Mensagens que possam ir <b>Além do Assunto em Discussão</b> ou o uso de material abusivo ou ofensivo.',
+		1	=> '<b>Moderadores</b> são os <b>Utilizadores</b> (ou Grupos de Utilizadores) em que seu trabalho é supervisionar diariamente o andamento das secções que lhes estejam designadas. Eles possuem o poder de editar ou apagar Mensagens, trancar, destrancar, mover e subdividir Tópicos nas secções onde são Moderadores. Geralmente os Moderadores fiscalizam Mensagens que possam ir <b>Além do Assunto em Discussão</b> ou o uso de material abusivo ou ofensivo.',
 	),
 	array(
 		0	=> 'O que são Grupos de <b>Utilizadores</b>?',
@@ -234,7 +234,7 @@ $help = array(
 	),
 	array(
 		0	=> 'Como posso ser Líder de um Grupo?',
-		1	=> 'Os Grupos de <b>Utilizadores</b> são inicialmente criados pelo <b>Administrador</b> do Fórum o qual encarrega alguém de ser responsável pelo mesmo, no caso, o Líder do Grupo. Se está interessado em Criar um Grupo de <b>Utilizadores</b>, deverá primeiramente contatar o <b>Administrador</b>, ao qual deverá contatar com uma <b>Mensagem Privada</b> circunstanciada.',
+		1	=> 'Os Grupos de <b>Utilizadores</b> são inicialmente criados pelo <b>Administrador</b> do Fórum o qual encarrega alguém de ser responsável pelo mesmo, no caso, o Líder do Grupo. Se está interessado em Criar um Grupo de <b>Utilizadores</b>, deverá primeiramente contactar o <b>Administrador</b>, ao qual deverá contactar com uma <b>Mensagem Privada</b> circunstanciada.',
 	),
 	array(
 		0	=> 'Por que alguns Grupos aparecem em diferentes cores?',
@@ -254,15 +254,15 @@ $help = array(
 	),
 	array(
 		0	=> 'Não consigo enviar Mensagens Privadas!',
-		1	=> 'Existem três razões para que tal possa acontecer: Não está Registado no Fórum e/ou não se encontra Online, o <b>Administrador</b> terá desativado a opção de Mensagens Privadas em todo o Fórum ou o impede por algum motivo de enviar Mensagens. Se este último é o seu caso, pergunte ao <b>Administrador</b> qual o motivo, caso realmente não saiba.',
+		1	=> 'Existem três razões para que tal possa acontecer: Não está Registado no Fórum e/ou não se encontra Online, o <b>Administrador</b> terá desactivado a opção de Mensagens Privadas em todo o Fórum ou o impede por algum motivo de enviar Mensagens. Se este último é o seu caso, pergunte ao <b>Administrador</b> qual o motivo, caso realmente não saiba.',
 	),
 	array(
 		0	=> 'Recebo Mensagens Privadas indesejáveis!',
-		1	=> 'Pode bloquear as Mensagens Privadas enviadas por um <b>Utilizador</b> em específico utilizando o seu Painel de <b>Utilizadores</b>. Se estiver recebendo Mensagens indesejáveis por parte de algum <b>Utilizador</b>, contate o <b>Administrador</b> do Fórum para que possa proibir o determinado utilizador de enviar este tipo de Mensagens.',
+		1	=> 'Pode bloquear as Mensagens Privadas enviadas por um <b>Utilizador</b> em específico utilizando o seu Painel de <b>Utilizadores</b>. Se estiver recebendo Mensagens indesejáveis por parte de algum <b>Utilizador</b>, contacte o <b>Administrador</b> do Fórum para que possa proibir o determinado utilizador de enviar este tipo de Mensagens.',
 	),
 	array(
 		0	=> 'Recebi de alguém neste Fórum um email com assuntos irrelevantes ou abusivos!',
-		1	=> 'Embora o sistema de emails deste Fórum tenha funções de segurança que tentam detetar <b>Utilizadores</b> que enviam este tipo de Mensagens, lamentamos que tal tenha acontecido. Informe o <b>Administrador</b> do Fórum enviando uma cópia completa do email recebido, sendo muito importante que inclua os cabeçalhos (é onde se encontram os detalhes do Utilizador que enviou o email). O <b>Administrador</b> poderá então agir em conformidade.',
+		1	=> 'Embora o sistema de emails deste Fórum tenha funções de segurança que tentam detectar <b>Utilizadores</b> que enviam este tipo de Mensagens, lamentamos que tal tenha acontecido. Informe o <b>Administrador</b> do Fórum enviando uma cópia completa do email recebido, sendo muito importante que inclua os cabeçalhos (é onde se encontram os detalhes do Utilizador que enviou o email). O <b>Administrador</b> poderá então agir em conformidade.',
 	),
 	array(
 		0	=> '--',
@@ -274,7 +274,7 @@ $help = array(
 	),
 	array(
 		0	=> 'Como posso Adicionar/apagar de minha Lista de Amigos e Inimigos?',
-		1	=> 'Pode adicionar <b>Utilizadores</b> na sua lista de duas formas. Através do Perfil de cada <b>Utilizador</b>, existe um atalho para adicioná-los à sua lista. De maneira alternativa, pode adicionar <b>Utilizadores</b> diretamente escrevendo os seus Nomes de <b>Utilizadores</b>. Pode também apagar <b>Utilizadores</b> de sua lista utilizando a mesma página.',
+		1	=> 'Pode adicionar <b>Utilizadores</b> na sua lista de duas formas. Através do Perfil de cada <b>Utilizador</b>, existe um atalho para adicioná-los à sua lista. De maneira alternativa, pode adicionar <b>Utilizadores</b> directamente escrevendo os seus Nomes de <b>Utilizadores</b>. Pode também apagar <b>Utilizadores</b> de sua lista utilizando a mesma página.',
 	),
 	array(
 		0	=> '--',
@@ -282,7 +282,7 @@ $help = array(
 	),
 	array(
 		0	=> 'Como posso Pesquisar?',
-		1	=> 'Escrevendo um Termo de Pesquisa na respetiva página localizada no Índice do Fórum, Visualizando Tópicos ou Seções. Pode aceder à Pesquisa Avançada clicando no atalho <b>Pesquisar</b> que encontra-se disponível em todas as páginas do Fórum.',
+		1	=> 'Escrevendo um Termo de Pesquisa na respectiva página localizada no Índice do Fórum, Visualizando Tópicos ou Secções. Pode aceder à Pesquisa Avançada clicando no atalho <b>Pesquisar</b> que encontra-se disponível em todas as páginas do Fórum.',
 	),
 	array(
 		0	=> 'Por que a minha Pesquisa resultou em nenhuma ocorrência?',
@@ -290,15 +290,15 @@ $help = array(
 	),
 	array(
 		0	=> 'Por que a minha Pesquisa resultou em uma página em branco!?',
-		1	=> 'A sua Pesquisa resultou em inúmeras ocorrências. Use a Pesquisa Avançada e seja mais específico nos termos escritos e selecione seções onde possam ser pesquisados.',
+		1	=> 'A sua Pesquisa resultou em inúmeras ocorrências. Use a Pesquisa Avançada e seja mais específico nos termos escritos e seleccione secções onde possam ser pesquisados.',
 	),
 	array(
 		0	=> 'Como posso Pesquisar por <b>Utilizadores</b>?',
-		1	=> 'Entre na Página dos <b>Utilizadores</b> e clique no atalho Pesquisar um <b>Utilizador</b>. Ao selecionar, siga restritamente às opções descritas na página.',
+		1	=> 'Entre na Página dos <b>Utilizadores</b> e clique no atalho Pesquisar um <b>Utilizador</b>. Ao seleccionar, siga restritamente às opções descritas na página.',
 	),
 	array(
 		0	=> 'Como posso Pesquisar minhas Próprias Mensagens e Tópicos?',
-		1	=> 'As suas próprias Mensagens podem ser exibidas clicando em Mensagens do <b>Utilizador</b> através do Painel de <b>Utilizadores</b> ou apenas pelo seu próprio Perfil. Para encontrar os seus Tópicos, utilize a Pesquisa Avançada e preencha corretamente as opções.',
+		1	=> 'As suas próprias Mensagens podem ser exibidas clicando em Mensagens do <b>Utilizador</b> através do Painel de <b>Utilizadores</b> ou apenas pelo seu próprio Perfil. Para encontrar os seus Tópicos, utilize a Pesquisa Avançada e preencha correctamente as opções.',
 	),
 	array(
 		0	=> '--',
@@ -306,11 +306,11 @@ $help = array(
 	),
 	array(
 		0	=> 'Qual é a diferença existente entre Marcadores e Subscrição?',
-		1	=> 'Os Marcadores no phpBB3 são muito parecidos com os marcadores do navegador. Não será necessariamente alertado quando houver alguma atualização, mas pode depois voltar ao Tópico. Mas ao contrário disso, a Subscrição irá lhe avisar quando houver qualquer atualização ao Tópico ou secção no Fórum pelo seu método ou métodos selecionados.',
+		1	=> 'Os Marcadores no phpBB3 são muito parecidos com os marcadores do navegador. Não será necessariamente alertado quando houver alguma actualização, mas pode depois voltar ao Tópico. Mas ao contrário disso, a Subscrição irá lhe avisar quando houver qualquer actualização ao Tópico ou secção no Fórum pelo seu método ou métodos seleccionados.',
 	),
 	array(
 		0	=> 'Como posso Observar um <b>Tópico</b> ou <b>Fórum</b>?',
-		1	=> 'Em todos os <b>Fóruns</b> e <b>Tópicos</b> há um atalho chamado respetivamente <b>Observar Tópico / Observar Tópico</b>. Clicando sobre ele subscreverá o <b>Fórum</b> ou o <b>Tópico</b> respetivo. Sempre que responder a um <b>Tópico</b> pode selecionar a opção <b>Enviar-me um email quando houver uma resposta enviada</b>, desta forma ficará a <b>Observar o Tópico</b> em causa.',
+		1	=> 'Em todos os <b>Fóruns</b> e <b>Tópicos</b> há um atalho chamado respectivamente <b>Observar Tópico / Observar Tópico</b>. Clicando sobre ele subscreverá o <b>Fórum</b> ou o <b>Tópico</b> respectivo. Sempre que responder a um <b>Tópico</b> pode seleccionar a opção <b>Enviar-me um email quando houver uma resposta enviada</b>, desta forma ficará a <b>Observar o Tópico</b> em causa.',
 	),
 	array(
 		0	=> 'Como posso apagar as minhas Subscrições?',
@@ -322,7 +322,7 @@ $help = array(
 	),
 	array(
 		0	=> 'Quais os Anexos que são permitidos no Fórum?',
-		1	=> 'Cada <b>Administrador</b> pode ativar ou desativar os tipos de anexos que desejar. Se não tem certeza sobre o que pode ser enviado, contate o <b>Administrador</b> para maiores informações.',
+		1	=> 'Cada <b>Administrador</b> pode activar ou desactivar os tipos de anexos que desejar. Se não tem certeza sobre o que pode ser enviado, contacte o <b>Administrador</b> para mais informações.',
 	),
 	array(
 		0	=> 'Como posso encontrar Anexos que enviei?',
@@ -338,15 +338,15 @@ $help = array(
 	),
 	array(
 		0	=> 'Quem traduziu o phpBB3?',
-		1	=> 'O phpBB3 foi traduzido para a Língua Portuguesa por <a href="http://phpbbportugal.com" target="_blank"><b>phpBB Portugal</b></a>, sendo esta tradução de distribuição livre e gratuita. Se encontrar erros ou incorreções, ou ainda, se tiver alguma sugestão a fazer visite-nos em <a href="http://phpbbportugal.com" target="_blank"><b>phpBB Portugal</b></a>. Agradecemos antecipadamente a sua visita e as contribuições que entender dar-nos, prometendo analisá-las cuidadosamente e dar-lhe resposta tão breve quanto possível.',
+		1	=> 'O phpBB3 foi traduzido para a Língua Portuguesa por <a href="http://phpbbportugal.com" target="_blank"><b>phpBB Portugal</b></a>, sendo esta tradução de distribuição livre e gratuita. Se encontrar erros ou incorrecções, ou ainda, se tiver alguma sugestão a fazer visite-nos em <a href="http://phpbbportugal.com" target="_blank"><b>phpBB Portugal</b></a>. Agradecemos antecipadamente a sua visita e as contribuições que entender dar-nos, prometendo analisá-las cuidadosamente e dar-lhe resposta tão breve quanto possível.',
 	),
 	array(
 		0	=> 'Por que não existe a Função X?',
 		1	=> 'Este Software foi escrito e licenciado pelo <b>phpBB Group</b>. Se gostaria de ver alguma função adicionada, visite a <a href="http://www.phpbb.com/support/forums" target="_blank";" title="Abrir numa janela nova"><b>Página Oficial da Comunidade phpBB</b></a> e informe-se do que o <b>Grupo phpBB</b> tem a dizer sobre o assunto. Não envie <b>Mensagens</b> com pedidos de funções no <b>Fórum phpBB</b>. Este Grupo utiliza a Sourceforge para resolver situações relativas a novas funções. Leia cuidadosamente esse sistema para ver se já foi tomada alguma posição, relativa à função em questão, seguindo então o procedimento lá mencionado.',
 	),
 	array(
-		0	=> 'Contatos sobre questões abusivas e/ou ilegais relativas ao Fórum.',
-		1	=> 'Contate o <b>Administrador</b> deste Fórum. Veja no canto superior direito da imagem encontrará um atalho para a lista de <b>Utilizadores</b> onde está o <b>Administrador</b>. Envie-lhe uma <b>Mensagem Privada</b> a expor o assunto.',
+		0	=> 'Contactos sobre questões abusivas e/ou ilegais relativas ao Fórum.',
+		1	=> 'Contacte o <b>Administrador</b> deste Fórum. Veja no canto superior direito da imagem encontrará um atalho para a lista de <b>Utilizadores</b> onde está o <b>Administrador</b>. Envie-lhe uma <b>Mensagem Privada</b> a expor o assunto.',
 	),
 );
 
